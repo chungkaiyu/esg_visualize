@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>ESG_Step3</title>
+</head>
+
+<body>
+    <h2 class= "text-center">Result</h2>
+    <div class="row mx-4">
+        <div class = "col-10">
+            <!--<p>{{data}}</p>-->
+            {% set cur_flag = { 'flag': False } %}
+            {% set flag =  False  %}
+            <p class="text-justify">
+            {% for i in text %}
+                <!-- {% set cur_str = i ~' '~ loop.nextitem %}-->
+                {% set cur_str = i  %}
+                {% if cur_flag.flag %}
+                    {% if cur_flag.update({'flag':False}) %}{% endif %}
+                {% elif cur_str in data['Environment'] %}
+                    <span style = "background-color: #99EEC1;">{{cur_str}}</span>
+                    {% if cur_flag.update({'flag':True}) %}{% endif %}
+                {% elif cur_str in data['Social'] %}
+                    <span style = "background-color: #99B5EE;">{{cur_str}}</span>
+                    {% if cur_flag.update({'flag':True}) %}{% endif %}
+                {% elif cur_str in data['Governance'] %}
+                    <span style = "background-color: #EE9F99;">{{cur_str}}</span>
+                    {% if cur_flag.update({'flag':True}) %}{% endif %}
+                {% else %}
+                    {{i}}
+                {% endif %}
+            {% endfor %}
+            </p>
+        </div>
+        <div class = "col-2 text-center">
+            <div><h2>Overall Score</h2></div>
+            <div>
+                <h2>Pillars</h2>
+                {% set Env =  data['Environment']|length  %}
+                {% set Soc =  data['Social']|length  %}
+                {% set Gov =  data['Governance']|length  %}
+                {% for pillar, key_phrase in data.items()%}
+                    <h3> {{pillar}} </h3>
+                    <p>{{ '%.2f' | format( 100*(key_phrase | length / (Env + Soc + Gov)) | float) }}%</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+
+</html>
