@@ -15,12 +15,12 @@ configure_uploads(app, usr_doc)
 
 @app.route('/form')
 def formPage():
-    return render_template('tinymce.html')
+    return render_template('form.html')
 
 
 @app.route('/submit', methods=['POST', 'GET'])
 def submit():
-    if request.method == 'POST' and 'in_abc' in request.files:
+    if request.method == 'POST' and 'in_usr_doc' in request.files:
         filename = usr_doc.save(request.files['in_usr_doc'])
         print(filename)
         file_url = usr_doc.url(filename)
