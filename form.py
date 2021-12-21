@@ -21,11 +21,15 @@ def formPage():
 @app.route('/submit', methods=['POST', 'GET'])
 def submit():
     if request.method == 'POST' and 'in_usr_doc' in request.files:
-        filename = usr_doc.save(request.files['in_usr_doc'])
-        print(filename)
-        file_url = usr_doc.url(filename)
-        print(file_url)
-        return "Hello world!"
+        try:
+            filename = usr_doc.save(request.files['in_usr_doc'])
+            print(filename)
+            file_url = usr_doc.url(filename)
+            print(file_url)
+            return "Hello world!"
+        except:
+           # return "Whyyyyyyyyyyyyyyy"
+           return '<script>alert("TEST");window.location.href ="./form";</script>'
     if request.method == 'POST':
         text = request.form['text']
         text = re.sub(u"\\<.*?\\>", "", text)
