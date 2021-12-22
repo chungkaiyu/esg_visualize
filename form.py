@@ -1,14 +1,15 @@
 from flask import Flask, request, render_template, redirect, url_for
 from flask_uploads import UploadSet, TEXT, DOCUMENTS, configure_uploads
-from werkzeug.utils import secure_filename
+from pathlib import Path
 import os
 import re
 import json
 
+download_path = (Path.cwd() / 'static/input')
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'development'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB
-app.config['UPLOADED_DEF_DEST'] = os.getcwd() + '\\static\\input\\'
+app.config['UPLOADED_DEF_DEST'] = download_path
 
 usr_doc = UploadSet(name='def', extensions=TEXT + DOCUMENTS + tuple(['pdf']))
 configure_uploads(app, usr_doc)
