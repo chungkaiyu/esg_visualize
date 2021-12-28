@@ -18,19 +18,18 @@
             {% set flag =  False  %}
             <p class="text-justify">
             {% for i in text %}
-                <!-- {% set cur_str = i ~' '~ loop.nextitem %}-->
-                {% set cur_str = i  %}
+                {% set cur_str = i ~' '~ loop.nextitem %}
                 {% if cur_flag.flag %}
                     {% if cur_flag.update({'flag':False}) %}{% endif %}
-                {% elif cur_str in data['Environment'] or cur_str in data['Social'] or cur_str in data['Governance']%}
-                    {% if cur_str in data['Environment'] %}
-                        <span style = "background-color: #99EEC1;">{{cur_str}}</span>
-                    {% elif cur_str in data['Social'] %}
-                        <span style = "background-color: #99B5EE;">{{cur_str}}</span>
-                    {% elif cur_str in data['Governance'] %}
-                        <span style = "background-color: #EE9F99;">{{cur_str}}</span>
+                {% elif cur_str in data['Environment'] %}
+                    <span style = "background-color: #99EEC1;">{{cur_str}}</span>
                     {% if cur_flag.update({'flag':True}) %}{% endif %}
-                    {% endif %}
+                {% elif cur_str in data['Social'] %}
+                    <span style = "background-color: #99B5EE;">{{cur_str}}</span>
+                    {% if cur_flag.update({'flag':True}) %}{% endif %}
+                {% elif cur_str in data['Governance'] %}
+                    <span style = "background-color: #EE9F99;">{{cur_str}}</span>
+                    {% if cur_flag.update({'flag':True}) %}{% endif %}
                 {% else %}
                     {{i}}
                 {% endif %}
