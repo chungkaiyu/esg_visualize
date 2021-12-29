@@ -7,29 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESG_Step3</title>
 
+    
     <!-- TinyMCE v4.7.6 -->
     <script src="https://cdn.tiny.cloud/1/ta2u6gairrvj6sfnbb3lijsbizq1y08921b0o70omfllzaws/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 
 </head>
 
 <body>
-    <h2>To visualize the extracted key issues and provide explanation issues.</h2>
+    <h2>Our Result from Step2 ~ Step4</h2>
+    <!--
     <form action="/submit" method="post">
         <h3>Please Enter the text!</h3>
-        <!-- <p><input type="text" name="text" /></p> -->
+         <p><input type="text" name="text" /></p> 
         <textarea id="text" name="text"></textarea>
         <p><input type="submit" value="submit" /></p>
     </form>
-
-
+    -->
+    <h3> Upload Annual Report or which file you would like to generate a key phrase! (Qualified file type: .doc, .pdf, .txt、Maximum size:16MB)</h3>
     <form action="/submit" method="post" enctype="multipart/form-data">
         <input type="file" name="in_usr_doc">
         <input type="submit" value="Upload here!">
     </form>
 
+    <form action="" method="post" >
+        {{form.hidden_tag()}}
+        
+        <h3>{{form.text.label(class='form-label')}}</h3>
+        {{form.text(class='form-control')}}
+        <br>
+        <h3>{{form.analytics.label(class='form-label')}}</h3>
+        <div class="form-check form-check-inline">
+            {% for choice in form.analytics %}
+                {{choice.label(class='form-label')}} 
+                {{choice(class='form-control')}}
+            {% endfor %}
+        </div>
+        
+        <h3>{{form.annualReport.label(class='form-label')}}</h3>
+        {{form.annualReport(class='form-control')}}
+        <br><br>
+        {{form.submit(class='btn btn-primary')}}
+    </form>
+      
     <script>
         tinymce.init({
-            selector: 'textarea',
+            selector: '#text',
             plugins: 'a11ychecker advcode casechange export formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinymcespellchecker',
             toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter pageembed permanentpen table',
             toolbar_mode: 'floating',
