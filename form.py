@@ -22,8 +22,8 @@ configure_uploads(app, usr_doc)
 
 
 class CustomForm(FlaskForm):
-    text = TextAreaField('Please enter your text!', validators=[DataRequired()])
-    analytics = RadioField('Analysis Kernel Option', choices=[('wordLv','Word-level'),('sentLv','Sentence-level')])
+    text = TextAreaField('Text we could visualize the extracted key issues and provide explanation issues.', validators=[DataRequired()])
+    analytics = RadioField('Analysis Kernel Option', choices=[('wordLv','Word-level'),('sentLv','Sentence-level')], default = 'wordLv')
     annualReport = SelectField('Annual report', choices=[('Material2020','Applied Material 2020'),('Material2019','Applied Material 2019'),('Material2018','Applied Material 2018')])
     submit = SubmitField("Submit")
 
