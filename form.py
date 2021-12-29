@@ -1,33 +1,30 @@
 from flask_wtf import FlaskForm
-from wtforms import (StringField, BooleanField, DateTimeField,
-                     RadioField, SelectField,
-                     TextAreaField, SubmitField)
+from wtforms import StringField, BooleanField, DateTimeField,RadioField, SelectField,TextAreaField, SubmitField
 from wtforms.validators import DataRequired
 
 
 from flask import Flask, request, session, render_template, redirect, url_for
 from flask_uploads import UploadSet, TEXT, DOCUMENTS, configure_uploads
+from pathlib import Path
 from werkzeug.utils import secure_filename
 import os
 import re
 import json
 
+download_path = (Path.cwd() / 'static/input')
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'development'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB
-app.config['UPLOADED_DEF_DEST'] = os.getcwd() + '\\static\\input\\'
+app.config['UPLOADED_DEF_DEST'] = download_path
 
 usr_doc = UploadSet(name='def', extensions=TEXT + DOCUMENTS + tuple(['pdf']))
 configure_uploads(app, usr_doc)
 
 
 class CustomForm(FlaskForm):
-    text = StringField('Please enter your text!', validators=[
-        DataRequired()])
-    analytics = RadioField('Analysis Kernel Option', choices=[(
-        'wordLv', 'Word-level'), ('sentLv', 'Sentence-level')])
-    annualReport = SelectField('Annual report', choices=[('Material2020', 'Applied Material 2020'), (
-        'Material2019', 'Applied Material 2019'), ('Material2018', 'Applied Material 2018')])
+    text = TextAreaField('Please enter your text!', validators=[DataRequired()])
+    analytics = RadioField('Analysis Kernel Option', choices=[('wordLv','Word-level'),('sentLv','Sentence-level')])
+    annualReport = SelectField('Annual report', choices=[('Material2020','Applied Material 2020'),('Material2019','Applied Material 2019'),('Material2018','Applied Material 2018')])
     submit = SubmitField("Submit")
 
 
@@ -102,4 +99,4 @@ def present(text, action):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000,debug=True)
