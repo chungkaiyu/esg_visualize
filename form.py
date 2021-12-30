@@ -97,6 +97,12 @@ def present(text, action):
     data = file.read()
     return render_template('present.html', text=json.loads(text), action=action, data=json.loads(data))
 
+@app.route('/showReports')
+def showReports():
+    path = './static/input/'
+    files = os.listdir(path)
+    res = {'files':files}
+    return res
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000,debug=True)

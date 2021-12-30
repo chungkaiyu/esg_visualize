@@ -14,3 +14,7 @@ h2 {
 .file-section {
 	margin-top: 50px;
 }
+
+.select-row {
+	border-color: black;
+}
