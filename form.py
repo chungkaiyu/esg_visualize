@@ -10,6 +10,7 @@ from werkzeug.utils import secure_filename
 import os
 import re
 import json
+import bubble_plot
 
 download_path = (Path.cwd() / 'static/input')
 app = Flask(__name__)
@@ -97,6 +98,60 @@ def present(text, action):
     data = file.read()
     return render_template('present.html', text=json.loads(text), action=action, data=json.loads(data))
 
+#氣泡圖繪製相關(plot.html)
+@app.route('/check', methods=['POST','GET'])
+def check():
+    filename=request.args.get("company")
+    OUT=open('templates/plot.html','r',encoding='utf-8').read()
+    op='<select name="company">'
+    for i in list(sorted(os.listdir('static\input'))):
+        if(filename == i):
+            op+='<option value="'+i+'"selected>'+i+'</option>'
+        else:
+            op+='<option value="'+i+'">'+i+'</option>'
+    op+='</select>'
+    OUT=OUT.replace('<!--replace-->', op)
+    if filename != None:
+        BUBBLE=bubble_plot.bubble_plot()
+        E, S, G = BUBBLE.bubble_weight(filename)
+        OUT=OUT.replace('const E=[[]];', 'const E='+str(E)+';')
+        OUT=OUT.replace('const S=[[]];', 'const S='+str(S)+';')
+        OUT=OUT.replace('const G=[[]];', 'const G='+str(G)+';')
+    return OUT
+
+@app.route('/submit_in_plot_html', methods=['POST', 'GET'])
+def submit_in_plot_html():
+    if request.method == 'POST':
+        if 'in_usr_doc' in request.files:
+            try:
+                filename = usr_doc.save(request.files['in_usr_doc'])
+                print(filename)
+                file_url = usr_doc.url(filename)
+                print(file_url)
+                return '<script>alert("Upload done!");window.location.href ="./";</script>'
+            except:
+                return '<script>alert("We only accept the file type with document or .txt");window.location.href ="./";</script>'
+        text = request.form['text']
+        text = re.sub(u"\\<.*?\\>", "", text)
+        text = json.dumps(text.split(' '))
+        return redirect(url_for('present', text=text, action="post"))
+    return '<script>alert("We didn\'t design Get request.");window.location.href ="./";</script>'
+
+@app.route('/echarts.min.js', methods=['POST','GET'])
+def upload():
+    return render_template('/echarts.min.js')
+
+@app.route('/')
+def into_plot_html():
+    OUT=open('templates/plot.html','r',encoding='utf-8').read()
+    op='<select name="company">'
+    for i in list(sorted(os.listdir('static\input'))):
+        if('.DS_' in i):
+            op+='<option>'+'請選擇公司名稱'+'</option>'
+        else:
+            op+='<option value="'+i+'">'+i+'</option>'
+    op+='</select>'
+    return OUT.replace('<!--replace-->', op)
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000,debug=True)
