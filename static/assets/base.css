@@ -4,13 +4,13 @@
 }
 
 h2 {
-    margin-top: 50px;
+    margin: 50px;
+}
+
+.section {
+	margin: 50px
 }
 
 .file-section {
 	margin-top: 50px;
-}
-
-.file-section form {
-	display: inline;
 }

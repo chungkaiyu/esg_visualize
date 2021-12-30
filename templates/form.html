@@ -7,74 +7,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ url_for('static',     filename='assets/base.css') }}">
-    <title>ESG_Step3</title>
-
-    
-    <!-- TinyMCE v4.7.6 -->
-    <!-- <script src="https://cdn.tiny.cloud/1/ta2u6gairrvj6sfnbb3lijsbizq1y08921b0o70omfllzaws/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script> -->
-
+    <title>ESG_visualization</title>
 </head>
 
 <body>
     <div class="container">
-
+        <!-- 標題 -->
         <h2>Our Result from Step2 ~ Step4</h2>
-        <div class="text-section">
-            <h2>To visualize the extracted key issues and provide explanation issues.</h2>     
 
+        <!-- 上傳文字區塊 -->
+        <div class="text-section section">
+            <h3>Visualize extracted key-issues and provide explanation issues.</h3>     
             <form action="/submit" method="post" class="row g-3 needs-validation">
-                <label for="exampleFormControlTextarea1" class="form-label">Please enter your text</label>
-                <textarea id="text" name="text" class="form-control" rows="3"></textarea>
+                <textarea id="text" name="text" class="form-control" rows="5" placeholder="Please enter your text"></textarea>
+                
+                <!-- 選擇要哪個分析等級的 kernel -->
+                <div class="kernel-option">
+                    <label for="kernel-option">Please choose analysis kernel which you want</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Word-level
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Sentence-level
+                        </label>
+                      </div>
+                </div>
 
+                <!-- 選擇要哪一份報告 -->
+                <div class="report-option">
+                    <label for="report-option">Please choose one report which you want</label>
+                    <div class="col-6">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Annual report</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
                 <div class="col-12">
                     <button class="btn btn-primary" type="submit">Submit</button>
                 </div>
             </form>
         </div>
         
-        <div class="file-section">
+        <!-- 上傳報告區塊 -->
+        <div class="file-section section">
             <form action="/submit" method="post" enctype="multipart/form-data">
-                <!-- <input type="file" name="in_usr_doc"> -->
-                
-                <div class="col-6">
-                    <label for="formFile" class="form-label">Please upload your file</label>
-                    <input class="form-control " type="file" id="formFile" name="in_usr_doc">
-                </div>
-                <div class="col-12">
-                    <button class="btn btn-primary" type="submit">Upload</button>
+                <h3> Upload Annual Report</h3>    
+                <label for="formFile" class="form-label col-12">Qualified file type: .doc, .pdf, .txt<br>Maximum size: 16MB<br>You can also upload any files you would like to generate a key phrase!</label>
+                <div class="upload-row col-12">
+                    <div class="col-6">
+                        <input class="form-control" type="file" id="formFile" name="in_usr_doc">
+                    </div>
+                    <br>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Upload</button>
+                    </div>
                 </div>
             </form>
         </div>
 
-
-        <h3> Upload Annual Report or which file you would like to generate a key phrase! (Qualified file type: .doc, .pdf, .txt、Maximum size:16MB)</h3>
-        <form action="/submit" method="post" enctype="multipart/form-data">
-            <input type="file" name="in_usr_doc">
-            <input type="submit" value="Upload here!">
-        </form>
-
-        <form action="" method="post" >
-            {{form.hidden_tag()}}
-            
-            <h3>{{form.text.label(class='form-label')}}</h3>
-            {{form.text(class='form-control')}}
-            <br>
-            <h3>{{form.analytics.label(class='form-label')}}</h3>
-            <div class="form-check form-check-inline">
-                {% for choice in form.analytics %}
-                    {{choice.label(class='form-label')}} 
-                    {{choice(class='form-control')}}
-                {% endfor %}
-            </div>
-            
-            <h3>{{form.annualReport.label(class='form-label')}}</h3>
-            {{form.annualReport(class='form-control')}}
-            <br><br>
-            {{form.submit(class='btn btn-primary')}}
-        </form>
-
     </div>
-
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
