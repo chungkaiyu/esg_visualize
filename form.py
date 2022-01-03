@@ -10,6 +10,7 @@ from werkzeug.utils import secure_filename
 import os
 import re
 import json
+import time
 
 download_path = (Path.cwd() / 'static/input')
 app = Flask(__name__)
@@ -81,9 +82,15 @@ def submit():
                 file_url = usr_doc.url(filename)
                 print(file_url)
                 # return "Oh no, we didn't finish this route."
-                return '<script>alert("Upload done!");window.location.href ="./form";</script>'
+                # return '<script>alert("Upload done!");window.location.href ="./form";</script>'
+                redirect(url_for('alert', success='True'))
+                time.sleep(5)
+                return '<script>window.location.href ="./form";</script>'
             except:
-                return '<script>alert("We only accept the file type with document or .txt");window.location.href ="./form";</script>'
+                # return '<script>alert("We only accept the file type with document or .txt");window.location.href ="./form";</script>'
+                time.sleep(5)
+                redirect(url_for('alert', success='False'))
+                return '<script>window.location.href ="./form";</script>'
         text = request.form['text']
         text = re.sub(u"\\<.*?\\>", "", text)
         text = json.dumps(text.split(' '))
@@ -103,6 +110,13 @@ def showReports():
     files = os.listdir(path)
     res = {'files':files}
     return res
+
+@app.route('/alert/<success>')
+def alert(success):
+    if success=='True':
+        return "Upload done！"
+    else:
+        return "We only accept the file type with document or txt."
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000,debug=True)

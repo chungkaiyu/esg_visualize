@@ -30,6 +30,12 @@ function changeOptions(data) {
     $("#report-selector").selectpicker("refresh"); //用select變數不行
 }
 
+function alertBox(info){
+    $("#upload-alert p").val(info);
+    console.log("???")
+    $("#uploadModal").attr("aria-hidden", false);
+}
+
 // Let selectPicker can be dynamically changed
 $.ajax({
     url: "/showReports",
@@ -39,14 +45,9 @@ $.ajax({
 });
 
 // Alert funciton
-// $.ajax({
-//     url: "/submit",
-//     success: function(info){ 
-//         if (info=='success'){
-//             $("#upload-alert p").val("YES");
-//         }
-//         else{
-//             window.location.href ="./form";
-//         }
-//     }
-// });
+$.ajax({
+    url: "/alert",
+    success: function(info){ 
+        alertBox(info);
+    }
+});
