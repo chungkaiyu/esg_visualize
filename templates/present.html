@@ -45,7 +45,7 @@
                 {% set Gov =  data['Governance']|length  %}
                 {% for pillar, key_phrase in data.items()%}
                     <h3> {{pillar}} </h3>
-                    <p>{{ '%.2f' | format( 100*(key_phrase | length / (Env + Soc + Gov)) | float) }}%</p>
+                    <h4>{{ '%.2f' | format( 100*(key_phrase | length / (Env + Soc + Gov)) | float) }}%</h4>
                 {% endfor %}
             </div>
         </div>
