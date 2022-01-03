@@ -1,0 +1,734 @@
+Accelerating  Sustainability 
+2019 Sustainability Report 
+About This Report 
+Published in April 2019, this report covers Micron Technology, Inc. sustainability performance in fiscal year 2018, unless otherwise stated, and includes all of  Micron s controlled entities. 
+Our 2019 Sustainability Report has been prepared in accordance with Global Reporting Initiative (GRI) Standards: Core option. The GRI is the most widely accepted  global standard for sustainability reporting and allows companies to measure, evaluate and communicate corporate sustainability information in a consistent and  comparable manner. Additional information about Micron can be found in the About Micron page of our corporate website and in our 2018 Annual Report. 
+Today s astounding rate of  innovation is driven by memory  solutions that speed the storage  and processing of information.  As Micron continues to deliver  products that push technological  capabilities forward, we are also  fast-tracking progress within our  own business. We are moving  swiftly to invest in the best talent,  reduce the environmental impact  of our operations, source product  inputs responsibly and share our  success with communities. As  a company and as a corporate  citizen, Micron is keeping pace  with rapid change   finding more  ways to accelerate sustainability  and enrich life. 
+Sustainability at Micron   4 
+Products   Innovation   13 
+Environment   18 
+Responsible Sourcing   30 
+People   39 
+Communities   49 
+GRI Content Index   54 
+CEO Message   3 
+CEO Message 
+Our vision is to transform how the world uses information to enrich life, and we see  enormous opportunity for our innovative technology solutions to help drive dramatic  improvements worldwide in the years ahead   in medicine, agriculture, transportation, city  infrastructure, and many other fields. 
+While these technology breakthroughs promise to create sustained, long-term benefits,  we must also diligently focus on our own business practices today. I would like to highlight  several areas of progress in the past year: 
+Environmental leadership in new construction: Our newest facilities (from manufacturing to  design centers) have achieved LEED Gold status or better, saving water and energy and  reducing waste. 
+Responsible sourcing: We actively manage our suppliers and drive higher industry  standards through participation in multiple sustainability coalitions. With nearly 6,000  suppliers in 52 countries, careful sourcing management helps drive ethical business  practices and environmental stewardship that extend well beyond our own business. 
+Sustainability-centered enterprise risk management: This year, we began expanding our  risk analysis to get better insight into the climate-related risks and opportunities we face.  We plan to discuss our findings in next year s report. 
+Team member diversity and community: We believe innovation is driven by diverse and  engaged teams. We continue to work diligently to attract the broadest possible talent pool  and create an inclusive culture. We also engage employees to amplify our impact on our  communities. Our team volunteered more than 100,000 hours worldwide in 2018, and we  matched  2 million (USD) in team member-directed giving. 
+I am proud of our progress and believe the structural changes we are making create a  strong foundation for future growth. 
+Thank you for reading our report. I invite you to provide feedback about Micron s  sustainability efforts by emailing sustainability micron.com. 
+Sanjay Mehrotra President   CEO, Micron Technology  
+Welcome to our 2019 sustainability report. Micron continues to  make significant progress evolving our products and practices to  ensure our actions improve the lives of people around the world. 
+Awards   Recognitions 
+2019 Just 100  Forbes 
+2019 Best Companies   for Diversity  Forbes 
+2018   2019 Top 100 Global   Innovators  Clarivate Analytics  
+2019 Sustainability Report     3 
+How Micron   Solutions Can   Accelerate   Sustainability 
+The desktop computers of yesteryear might seem   to have little in common with the handheld and wearable  gadgets of today. But these and all other modern  computing devices depend on a shared underlying  technology   semiconductor memory and storage    to store and access data. And the pace of innovation  in these vital components sets the pace of technology  development at large. 
+As a leader in the semiconductor industry for more than 40  years, Micron has taken part in every stage of this evolution.  Rapid advancements in memory and storage have  unlocked the innovations that make our way of life possible,  from connecting individuals through mobile devices to  enabling computing in the cloud. Now, a new generation  of technologies has the potential to further enhance what s  possible for society and our planet. See how memory and  storage solutions like those built by Micron can accelerate  sustainable development around the globe.  
+Autonomous Vehicles  Self-driving vehicles require massive  bandwidth to make hundreds of calculations  per second. These smart vehicles could help  reduce traffic accidents and ease congestion.  
+Big Data  Researchers are using high-powered data  processing to find patterns in patient genomes,  which could lead to new cures for diseases like  cancer. 
+Artificial Intelligence  Neural networks can assess the energy  efficiency of a company s operations and  find ways for businesses to reduce their  environmental impact. 
+Internet of Things  Advanced sensors enable deeper insights for  better decision-making   such as allowing  farmers to precisely monitor and manage the  health of their fields. 
+Augmented Reality  By bringing digital objects into the physical  world, augmented reality is unlocking new  possibilities for education and job training. 
+Mobile Devices  Mobile devices are giving people access to the  internet   some for the first time   allowing  them to access services like banking and  participate in the global economy. 
+Core Technologies DRAM   NAND  NOR Flash   3D XPoint 
+About Micron 
+Micron is an industry leader in innovative memory and storage solutions. By  enabling faster and more efficient access to data, our products are fundamental  to technological advancements such as artificial intelligence, machine learning  and autonomous vehicles. We assist enterprise customers primarily through  a wide range of partnerships with leading technology companies that serve  worldwide markets.  
+Retail   E-Tail Brands Crucial    Ballistix 
+Market Segments Cloud    Data Center    Networking   Mobile 
+Sustainability at Micron 
+2019 Sustainability Report     6 
+Micron s Global Footprint 
+Bracknell, UK East Kilbride, UK Munich, Germany 
+United States 
+Allen, TX Austin, TX Boise, ID Detroit, MI Folsom, CA Lehi, UT 
+Arzano, Italy Avezzano, Italy Vimercate, Italy 
+India Bengaluru Hyderabad 
+Longmont, CO Manassas, VA Meridian, ID Minneapolis, MN San Jose, CA 
+Muar Penang 
+Micron s global footprint map highlights locations that include our manufacturing sites, centers of excellence, customer labs and large offces. 
+Beijing Shanghai Shenzhen Xi an 
+Taichung Taipei Taoyuan 
+South Korea Seoul 
+Hashimoto Hiroshima Tokyo 
+Sustainability at Micron 
+Founded 40 years ago   on October 5, 1978     Headquartered in   Boise, Idaho, USA  30.4B FY18 annual revenue 4th Largest semiconductor  company  in the world 105 On the 2019 Fortune 500 40,000 Patents granted and growing 18 Countries 13 Manufacturing sites and   13 customer labs 34,000 Team members 
+2019 Sustainability Report     7 
+Sustainability Strategy 
+Micron s products and technologies enable a wide range of applications that benefit  society in myriad ways, yet we are mindful that our business, operations and sourcing  practices impact our employees, the communities in which we operate and the planet,  as well as our customers  sustainability performance. We strive to make this impact as  positive as possible over time through a sustainability strategy that is focused on: 
+n  Operating thoughtfully 
+n  Empowering people  
+n  Sourcing responsibly 
+The execution of this strategy is centered around initiatives that drive stakeholder  value through enterprisewide goals and transparency.  
+Opportunity and Risk Integrating sustainability into our business is strategically important, helping Micron  to both capitalize on opportunities and better manage risks. Sustainability, for  example, can be a differentiator when recruiting potential employees in a highly  competitive talent market and can provide a platform for increasing engagement,  satisfaction and productivity among current employees. Natural resource  conservation and waste minimization make us a more disciplined and efficient  operation, which in turn can directly enhance our bottom line. And conducting our  business with integrity and in a socially responsible manner supports our license to  operate in the communities where we are located.  
+While working to realize these opportunities, we also are focused on assessing,  quantifying and managing sustainability risks. Climate change, extreme weather events  and natural disasters, as well as carbon pricing, pose risks to our supply chains,  operations and markets. We work to better understand and address these through  collaboration among our sustainability, enterprise risk management, environmental  health and safety, and responsible sourcing programs. Current efforts include improving  operational energy efficiency, reviewing our climate-related risks aligned with financial  disclosure standards and exploring additional science-based goals and targets. More  about how these efforts are being used to build resilience into our strategy, processes  and decisions can be found in the Enterprise Risk Management section below.  
+Sustainability at Micron 
+2019 Sustainability Report     8 
+n  Formulate sustainability strategy 
+n  Monitor performance 
+n  Serve as sustainability champions  
+and experts within their organizations 
+Customer Performance Our customers are increasingly focused on the  environmental, social and governance performance  of their suppliers, including Micron. Many customers  use sustainability as one of the criteria to evaluate  Micron s overall performance as part of their own  management of supply chain and reputation  risks, looking at transparency, risk management,  environmental and social performance, responsible  sourcing and other related topics. Customers  include this information in supplier performance  evaluations and purchasing decisions, alongside  quality, delivery, technology, service and price.  In 2018, sustainability became a fully integrated  sales performance metric at Micron. Our sales  team leaders, account managers and sustainability  leaders work closely with our customers to share  information about our sustainability efforts and  performance, drive action and build trust.  
+n  Facilitate corporate sustainability strategy 
+n  Drive transparency through public  
+reporting and other external and internal  communications 
+Sustainability Governance  Micron s sustainability program continues to  make significant strides in transparency and  accountability through a cross-functional  sustainability council composed of senior leaders  from across the company, as well as a dedicated  sustainability team. As the following diagram  illustrates, sustainability is managed throughout  the company with oversight extending to the  highest level, the Micron Board of Directors. 
+Enterprise Risk Management Our enterprise risk management (ERM) program  has a unified approach to identifying and  monitoring risks, opportunities and responses.  Micron s goal is to integrate ERM practices  companywide to improve decision-making in  governance, strategy, objective-setting and daily  operations. We do this by providing tools and  knowledge, facilitating open global communication  and continuously monitoring and reporting our  findings. Our risk committee is appointed by our  CEO and reports major findings to the Board of  Directors and the Board s audit committee. 
+When risks are identified, risk management  personnel conduct formal assessments and  analysis based on business intelligence and trends.  Risks are classified into four categories: strategic,  operational, internal and external compliance, and  financial. In each of these categories, there is a  defined tolerance range. We prioritize issues based  on the company s overall risk exposure. The risk  management team then recommends actions,  and Micron leaders are accountable for managing  risks affecting their areas of responsibility. As part  of our alignment of ERM and sustainability, we  have incorporated sustainability risks from our  materiality assessment, including climate, energy  and water, into our ERM portfolio.  
+Crisis and business continuity management  supports our ERM program by preparing our  critical operations to respond, recover and restore  operations if a disruption occurs. Business  continuity plans are in place for all critical  operations and take an all-hazards approach,  meaning we prepare for a disruption to all  elements of our value chain, such as workforce,  facilities, information technology or supply chain. 
+Sustainability at Micron 
+2019 Sustainability Report     9 
+Micron conducted our latest materiality assessment in FY18, and the priorities identified are:  
+Materiality Assessment  Underpinning our sustainability strategy, the  work of our sustainability council, and the topics  covered in this sustainability report are insights  from a materiality assessment. 
+Once every three years, Micron conducts  a materiality assessment, an exercise that  organizations use to ensure that the issues  customers, investors, employees, policymakers,  community members and other stakeholders  care about are reflected in sustainability  initiatives, goals and reporting (learn more  about our stakeholders on p. 12). A materiality  assessment begins with an extensive list of  sustainability issues that covers all aspects  of our business. Internal and external Micron  stakeholders review this list and then answer two  questions:  
+n  What s most important to Micron s business? 
+n  What s most important to you? 
+The results are calculated and plotted on a  matrix to visualize the relationship of the issues  most important to our stakeholders and most  important to our business success. We use this  map as a tool to identify those areas where we  have the greatest potential to drive meaningful  change and enhance transparency. 
+Most Material Issues 
+Employee Development     Engagement Responsible Sourcing Climate Change     Greenhouse Gases Data Protection   Privacy 
+Additional Significant issues 
+Workplace Health   Safety Product Use   Integrity Ethical Conduct Operations   Facility Management Diversity   Inclusion Energy Water 
+about Micron s materiality assessment process. Learn more 
+Sustainability at Micron 
+2019 Sustainability Report     10 
+Code of Conduct 
+Today s laws and standards of business conduct are complex, and our  Code of Business Conduct and Ethics is a practical resource that outlines  the basic rules that Micron applies to our business regarding risk, legal  and ethical issues. It also explains the personal responsibility of all Micron  employees to speak up if they see something that does not seem right.  The Code supports employees, organizations, contractors and suppliers  in conducting business with integrity   with one another, investors,  communities and the marketplace. 
+Micron s senior vice president of legal affairs and general counsel serves  as our chief compliance officer and is responsible for ongoing maintenance  of the Code, which is available to the public. In addition to the Code, we  have adopted global policies including those regarding conflict minerals   environment, health and safety (EHS)  human rights  slavery and human  trafficking and more.  
+Pursuant to our global policy framework, global policies are reviewed and  vetted by a policy council composed of director and vice president-level  executives, initially approved by a policy committee composed of senior and  executive vice presidents, and finally approved by our chief executive officer.  
+Employees receive regular online training and certify annually that they  have read, understand and will continue to comply with the Code. We also  provide frequent, targeted live group and one-on-one training. The Code  and all other global policies, including translations in seven languages, are  available to all employees on an internal SharePoint site. 
+We educate and encourage all employees, vendors and third parties to  speak up to their managers, Micron s Legal department or a compliance  hotline if they see a suspected violation of our Code. This hotline is third- party operated, available 24 hours of every day and accessible through all  commonly used languages. It provides anonymous reporting capability and  executes protocols designed to help avoid potential conflicts of interest. 
+Sustainability at Micron 
+2019 Sustainability Report     11 
+Stakeholder Engagement 
+Stakeholders, both internal and external, drive our business success. We take  measures to understand our local impacts and the effects our products have on  customers, consumers and the global economy. To do this, we partner with a wide  range of external parties to properly inform the decisions we make. 
+Throughout our global operations, we engage with key stakeholders based on  their material relationship to our operational success and our potential to impact  them through our operations. This outreach occurs at the local, subsidiary and  corporate levels. Following is a summary of channels through which we engage  with different stakeholders. 
+Employees  
+Customers  
+Governmental  Organizations 
+Shareholders 
+Communities 
+Who We Engage How We Engage Why It Matters 
+Ongoing supervisor interactions Meetings hosted by senior leaders Compliance hotline for reporting concerns  Intranet with global and local content where employees can share  sustainability-related suggestions 
+Regular meetings Customer scorecards Customer requirement documents  Membership in industry organizations  
+Membership in organizations where we operate, such as:  American Chamber of Commerce in Taipei European Automotive Technology Council European Research Platform Idaho Association of Commerce   Industry Italy Industry Trade Association Northern Virginia Technology Council Silicon Valley Leadership Group U.S. Chamber of Commerce U.S. Information Technology Office  U.S.-Taiwan Business Council Virginia Manufacturers Association 
+Annual shareholder meeting Quarterly earnings calls One-on-one analyst meetings Annual report and sustainability report  Email  
+Compliance hotline for reporting concerns  Reviews of supplier performance  Third-party audits  Responsible Business Alliance membership Supplier quality requirements document Trainings Contract terms Risk profiling 
+STEM education support Engagement in local, regional and national public policy dialogues Financial donations Employee volunteerism 
+To create a culture in which all employees  contribute to our success  
+To understand how we are performing from  customers  perspective and build industry  consensus on social and environmental issues 
+To help us understand and conform to the laws  that govern our business conduct 
+To foster transparency and ensure we are  meeting the needs of our shareholders and   the investor and analyst community  
+To maintain an open dialogue about our  expectations with respect to social and  environmental criteria 
+To build relationships and shared value among  Micron and organizations located where we  operate 
+Sustainability at Micron 
+2019 Sustainability Report     12 
+Products   Innovation 
+Micron s memory and storage solutions are at the core of countless digital  devices. We re constantly innovating to make them faster and more efficient.  
+Investing in  the Future  of Tech 
+As a global leader in memory and storage technology, Micron s solutions play  a vital role in some of today s most significant advances, including artificial  intelligence, industrial automation, the IoT (Internet of Things), autonomous  vehicles and cloud computing. And as innovations like these enter the  mainstream and demands for memory and storage increase, the need to  analyze, access and act on data has only grown.  
+Memory and storage were once standardized hardware components. Now,  diverse demands have led to a corresponding specialization of solutions,  requiring not just more memory, but new types of intelligent memory and  storage architectures. This creates opportunities for us to work with customers  to better understand their needs. 
+Memory and storage components affect the sustainability of a variety of end  products, from computer energy use to vehicle safety. This is why we strive  to consistently improve performance, investing in research to deliver higher  capacity, greater user privacy and data protection, faster data transfer rates,  lower power consumption, increased energy and material efficiency, and  improved reliability. Through supplier engagement, technology development  and legal compliance, we evaluate new materials to ensure the safety of our  employees and to ensure hazardous materials in our products.  
+In 2018, Micron held our inaugural Insight event, where the technology industry s top minds gathered  to discuss the future technology landscape and how memory and storage technologies bring it  to life. At the event, Micron Ventures announced it will invest up to  100 million in venture funding  targeted at technology startups focused on artificial intelligence (AI), with 20% aimed at startups  led by women and other underrepresented groups. Launched in 2006, Micron Ventures invests in  technology startups aligned with Micron s strategic interests. 
+During my career  I ve seen memory  technologies move  from lab projects to  consumer staples  that changed how  we interact with  the world, creating  more opportunities  to connect across  vast distances.  The next decade  will be filled with  technologies  that bring more  clarity to the  world immediately  around us   better  understanding  for how traffic  moves through  our cities, better  environmental  information and  better health  knowledge.  
+Products   Innovation 
+2019 Sustainability Report     14 
+Sanjay Mehrotra 
+Micron CEO  
+Product Efficiency The energy demand of our products  contributes to the global environmental  impact of technology. 
+This is why we partner with our customers to deliver memory and storage  solutions that meet tightening requirements and expectations for energy efficiency.  Micron s System Power Calculator is an online tool that helps customers  estimate memory power requirements when making system and architecture and  design decisions.  
+For example, as demand for ever-greater compute and data processing  capabilities on handheld devices grows, it is essential that these devices do not  trade energy efficiency for performance. In 2018, Micron began production of the  industry s highest-capacity and first monolithic 12-gigabyte, low-power, double- data-rate 4x (LPDDR4x) DRAM for mobile devices and applications. The LPDDR4x  DRAM is produced based on 1Y-nm (10-nanometer-class) process technology,  resulting in improved efficiency and reduced battery power consumption. It offers  similar data rates as previous-generation DRAM technology but uses up to 10%  less power.  
+Products   Innovation 
+2019 Sustainability Report     15 
+Data Protection     User Privacy We work closely with our customers to  understand their needs related to user  privacy and data protection, while also  looking at industry trends and potential  vulnerabilities. 
+A specific area of growth, and vulnerability, is the Internet of Things (IoT) and the  Industrial Internet of Things (IIoT). What began as a means of machine-to-machine  communication has evolved into a complex network of millions of connected  devices worldwide.  
+As a result of IoT growth, Micron s innovation focus today includes not only storage  solutions for vast amounts of new data, but also security for IoT devices. Global  research and advisory company Gartner estimates that by 2020, more than 25%  of identified enterprise attacks will involve IoT. The threat is far-reaching, given how  susceptible embedded systems, which are in everything from factory automation  equipment to automobiles to smart home devices, are to cyberattacks.  
+As everyday smart devices become high-risk entry points for cybercriminals,  Micron s Authenta  technology provides a layer of defensive hardware  reinforcements to our existing nonvolatile memory sockets, without adding new  components. This unique security solution has increased Micron s value as a  memory provider for IoT devices. In 2018, we introduced a new MT25Q NOR flash  enabled with Authenta technology. This memory solution introduces a new level  of hardware-based security that not only enhances the integrity of the connected  device itself, but also extends protection to the software that runs on the device. 
+Technologies like Authenta build upon Micron s market and industry leadership.  We are an active member of the Trusted Computing Group   an industry  standards body that develops and maintains the open standards and  specifications for self-encrypting drives (SEDs) and other trusted devices. A  decade ago, we launched one of the industry s first solid-state SEDs intended for  mobile computing and have since developed drives that meet the rigorous Federal  Information Processing Standards.  
+Products   Innovation 
+2019 Sustainability Report     16 
+It is estimated that   by 2020, more than 25 
+of identified enterprise  attacks will involve IoT 
+Hazardous Substances     Export Compliance Another sustainability focus area specific  to products is hazardous substances  that may pose risks to customers or the  environment. 
+Micron s EHS and Product Compliance experts collaborate to ensure product  compliance with legal and customer requirements related to hazardous  substances, such as the European Union directive on the restriction of the use of  certain hazardous substances (RoHS) and the registration, evaluation, authorisation  and restriction of chemicals (REACH). Today, these regulations focus on hazardous  materials. Ultimately, they may become part of a broader list of restricted  substances that includes substances known to be hazardous as well as those with  potential to be harmful. Proactive product compliance, validation and certification  processes allow us to deliver new products quickly while ensuring proper restricted  substance control and conformance with current and future requirements.  
+High-purity chemicals, some with hazardous properties, are also required in  Micron s manufacturing processes. See p. 26 for more information about how we  manage these substances during manufacturing.  
+Regular reviews of content and packaging needs help us to reduce the  environmental impact of our products. Our EHS organization, Product  Compliance group and Global Procurement teams work together to ensure that  Micron products and processes meet customer and legal product compliance  requirements. When new substances are added to relevant regulatory lists, our  procurement team communicates new requirements throughout our supply  chain, reminds suppliers of Micron s expectations and applicable documentation,  and requires a prompt response from each supplier regarding their use of any  regulated items.  
+We expect suppliers to monitor the development of the candidate list for potential  inclusions in the REACH regulation. All of these efforts provide our customers  with the knowledge that we are striving to provide products that meet quality,  technology, service, delivery and sustainability expectations.  
+In addition, Micron and all our subsidiaries comply with all applicable export and  economic sanctions laws and regulations. Compliance with export laws is vital  to protecting the safety and security of the countries in which we operate and  to ensuring our products, software and technology do not fall into the hands of  entities and persons that seek to do harm.  
+Products   Innovation 
+2019 Sustainability Report     17 
+Environment 
+When we use less energy and water to operate our  manufacturing facilities, it s not just our company  that benefits. Our customers, communities and the  environment do too.  
+To guide us in our efforts, Micron set  goals in 2017 to increase our water and  waste recycling and decrease energy use  and associated greenhouse gas (GHG)  emissions. 
+To understand the environmental impact of our operations, it is helpful to  understand our manufacturing processes. We manufacture memory chips (or die)  at our front-end facilities (fabs) in Singapore, Taiwan, Japan and the United States.  Using state-of-the-art processes, we add and subtract specialized materials to  silicon wafers to create our memory and storage solutions. 
+Micron s manufacturing takes place at the nanoscale in a cleanroom environment.  Each wafer goes through numerous manufacturing steps, where chemicals and  materials are precisely applied to develop the functionality of each chip. Airborne  particles, temperature and humidity are tightly controlled to ensure quality as the  wafer passes hundreds of times through up to 10 process areas, each with a  unique set of tools. From the moment a new wafer enters the fab until all steps  are finished, this process can take more than a month. Once complete, a wafer  is divided into its constituent die, which are then assembled into numerous  customized formats, designed to enable myriad technologies. This back-end  operation takes place at our facilities in Singapore, Taiwan, Malaysia and China. 
+These processes require energy to run the specialized equipment in the fab and  maintain the cleanroom environment, use water to ensure the cleanliness and  quality of the wafer, and involve potentially hazardous chemicals. We strive to  minimize the impact of these operations by improving energy efficiency, recycling  and reusing water, reducing reliance on local groundwater supplies, properly and  safely managing chemicals used in the manufacturing process, and reviewing all  materials we bring into our manufacturing environment to identify potential risks. 
+To guide us in our efforts, Micron set goals in 2017 to increase our water and  waste recycling and decrease energy use and associated greenhouse gas  (GHG) emissions. We continue to make progress toward these goals, including  implementing energy savings projects to achieve a 10% savings by 2022, using  2016 as our baseline year. We are conducting a review of these goals in 2019 and  expect to provide updates in our 2020 reporting. Our performance is highlighted in  the section below. 
+Environment  
+Environment     19 
+2018   Performance   At-A-Glance 
+2019 Sustainability Report     20 
+Environment  
+2019 Sustainability Report     21 
+Environment  
+2019 Sustainability Report     22 
+Environment  
+EHS Approach Each of our facilities and operating  locations is unique. 
+In the early stages of planning and production, we work to identify opportunities to  reduce our operational impact on the environment and the communities where we  operate. This requires a blend of global strategy and local adaptation. We do this  in a number of ways: 
+n  Engaging our robust network of site-based Environmental, Health and Safety  
+n  Exploring and implementing opportunities to build manufacturing, infrastructure  
+n  Executing and certifying ISO 14001:2015 and OHSAS 18001:2007  
+n  Aligning critical environmental practices in our manufacturing to corporate  
+n  Inviting scrutiny of our environmental performance through corporate and  
+n  Adopting strategic corporate environmental sustainability targets implemented  
+In recent years, we have significantly strengthened our up-front integration of  EHS considerations into facility design and construction, including the adoption  of energy, water and waste efficiency  LEED criteria  and other considerations  that will improve our performance over time. We have collaborated with  engineering consultants and design firms, and conducted a charrette focused  on whole system design to evaluate opportunities to improve overall efficiency  for future operations.  
+(EHS) professionals throughout our global operations 
+and office space designed to conserve environmental resources 
+environmental and safety management systems at all manufacturing locations 
+standards (often exceeding local legal requirements) 
+third-party audits 
+throughout our global manufacturing network 
+2019 Sustainability Report     23 
+Environment  
+Water Stewardship Water is an essential resource in the  manufacture of semiconductors. 
+Each wafer used to make our products goes through a series of cleaning steps,  which are dependent on ultrapure water to ensure manufacturing process quality.  As semiconductor technologies have become more complex, demand for water  has grown. Therefore, reducing the water we use   and properly treating the  water we do use   are among Micron s top environmental priorities. 
+Micron proactively manages water consumption by identifying opportunities to  increase water efficiency and reduce raw water demand. Our manufacturing sites  generate ultrapure water from a combination of recycled water from our operations  and local, untreated water resources. Wastewater from our operations that is not  recycled or otherwise reused on site is treated to local standards and discharged. 
+2018 Performance Our total water withdrawal in CY18 was 48,311,910 cubic meters (m3) for  our front-end and back-end manufacturing sites. This figure is up from our  CY17 usage and reflects an increase in manufacturing capacity. While this  water consumption figure is large, our global water recycling initiatives at our  manufacturing sites achieved an approximate 50% recycling rate on average in  that same time period. 
+A key opportunity for us to increase water recycling is through capacity expansion  projects. Increasingly, we are incorporating water-saving measures at the design  stage of new buildings and industrial processes at the same time as we invest  resources to improve water use efficiency at existing factories.  
+Managing Our Water Use  Sustainable management of our water footprint begins with understanding where  we obtain water. Globally, the primary source for water at our manufacturing  locations is municipal supply, underscoring the importance of partnerships with  local water authorities. We consider these relationships within their local context,  seeking to understand the implications of different geographies, climates,  watersheds and infrastructure. We then apply these assessments to determine the  best approach to water management at each site. 
+2019 Sustainability Report     24 
+We recycled50 
+of water used in 2018. 
+Environment  
+invest in reclamation infrastructure across the globe. 70 
+In 2018, we conducted a water risk assessment  using the World Resources Institute (WRI)  Aqueduct tool. Through this assessment,  we learned that 35% of Micron s total water  withdrawals are sourced from water-stressed  areas, primarily our manufacturing locations in  Singapore and China. Taiwan and Japan are  additional water-stressed areas where we have  significant manufacturing capacity. We take  a blended approach to water management in  these parts of the world. In addition to water  reclamation systems at our wafer fab facilities,  we have installed rainwater capture infrastructure  at our expanded North Coast fabrication site in  Singapore, and we source 98% of our water from  reclaimed and or desalination facilities.  
+In Boise, Idaho, we are mindful of our potential  impact on the local aquifer that supplies the  majority of our water in that location. We were early  investors in technology that allows us to replenish  the aquifer and mitigate withdrawal impacts.  
+Micron is innovating water resiliency by  
+at several Asia manufacturing sites and continue to   
+adapting our water strategy to site   
+We exceeded 70% reclamation rates of water   
+risks and opportunities. 
+While our approach to water supply and  consumption mitigation reflects a local, adaptive  approach, our commitment to ensuring that  industrial wastewater discharges meet all  environmental legal requirements is universal.  Each Micron site has invested in significant water  treatment infrastructure to ensure that the quality of  any wastewater leaving the site meets or exceeds  applicable water quality standards. The sites also  employ staff responsible for the ongoing operation  and routine maintenance of wastewater systems to  ensure proper performance over time. Wastewater  treatment methods may vary by site but include  membrane filtration, ion-resin adsorption,  precipitation, bio-oxidation and neutralization.  We routinely sample wastewater discharges for  conformance to environmental standards. In  CY18, we discharged 37,968,559 m3 of treated  wastewater, with 85% of that discharge sent to  publicly operated treatment works.  
+2019 Sustainability Report     25 
+At our  Boise site,  we  help maintain aquifer  health  via regular   replenishment. 
+In Singapore, we derive 96%   of our water from rain capture,  on-site recycling and NEWater.  NEWater is a centralized  treatment of used water that is  repurposed for nonpotable use,  which helps reduce the demand   on reservoirs for  potable water. 
+Environment  
+Hazardous Substances     Waste Management The manufacturing processes that  transform a wafer into hundreds of  individual die include the use of chemicals  and materials such as acids, bases  and solvents for depositing, patterning,  selectively removing and cleaning. 
+We maintain an active program for continuous reduction of hazardous chemicals  in the manufacturing process, and our objective is to reduce landfill disposal and  identify new recycling opportunities for any waste we produce. 
+This starts with a rigorous chemical review process that ensures only approved  chemicals reach our facilities. This prevents banned or restricted chemicals  from reaching our operations and helps us ensure the proper handling, recycling  and disposal of chemicals throughout their lifecycle. It also helps us track and  understand our chemical usage profile for assessment of chemical reduction and  elimination initiatives. 
+Beyond chemical screening, we perform due diligence on all new waste vendors  to make sure their practices meet applicable legal requirements and safeguard  the surrounding environment. If a waste facility passes this evaluation, Micron  updates the assessment on a periodic basis to ensure the consistent and effective  management of waste materials over time. 
+In the past few years, we have taken several measures to reduce and manage  hazardous substances and waste at various sites:  
+n  Reusing chemicals from production on site 
+n  Recycling inorganic sludge for construction off site 
+n  Sending solvents and acids off site for reuse 
+n  Sending mixtures of solvents to an off-site distillation facility for reuse of  
+Given our dynamic industry, we keep abreast of any developments that could  present new risks or opportunities related to hazardous substances. We are  committed to exploring methods to reduce chemical consumption and waste  production, as well as identifying new opportunities to increase our waste  recycle rate. 
+Micron also engages our employees in waste reduction. Employees can earn  rewards for participating in our global wellness program, which includes tips  for saving energy and water and reducing waste at home. Employees can also  compete to win the Desirable Trash Award by taking home nonhazardous scrap  material from their workplace that would otherwise be landfilled or incinerated and  upcycling it into new and beneficial uses.  
+constituents 
+2019 Sustainability Report     26 
+Environment  
+Energy   GHG Emissions While Micron s low-power devices support  sustainability and climate change initiatives  in our customers  supply chains, our  manufacturing process remains an energy-  and emissions-intensive one. 
+We set a year-over-year energy reduction goal in 2016 and transitioned to a  multiyear goal in 2017 to achieve at least 10% energy savings (measured in  kilowatt hours [KWh] saved compared to 2016 baseline year energy use) by  2022. Consolidated savings projects implemented since 2016 have achieved  a 5% savings compared to energy use in 2016. Overall, our 2018 energy  consumption worldwide was 7,951,216 megawatt hours (MWh), including all  manufacturing sites.  
+Bringing Our Efforts Together Through LEED Micron is making progress in energy savings by focusing on the areas where our  potential for impact is greatest, such as new buildings. We consider sustainable  building attributes, such as Leadership in Energy   Environmental Design (LEED),  the world s top rating system for green buildings, as part of design. Our newest  fabrication building, back-end operation and design center have each achieved  LEED status. 
+Micron saved50,000 MWh 
+of energy through conservation  efforts in 2018. 
+2019 Sustainability Report     27 
+Environment  
+Micron s 2018 Fab 10 expansion in Singapore recently earned LEED Gold  status. The 255,000-square-foot fab earned the distinction due to its  design and construction using strategies to save energy, conserve water  and improve indoor air quality. For example, photochromatic glass on the  building s exterior automatically darkens in sunlight, reducing the energy  required for heating and cooling. Rooftop rainwater harvesting tanks and  a system for recycling process water decrease the building s water needs.  As a result, this expansion is 30% more energy- and water-efficient than  standard fabs. In addition to LEED Gold, the facility received the BCA Green  Mark Platinum Award, Singapore s highest honor for sustainable design.  
+Micron s Taiwan Backend (MTB) also recently earned LEED Gold status. The  project has a total of 804,523 gross square feet, including five stories above  ground and three stories underground. The project has reduced potable  water use by 38% by installing low-flow water fixtures and an advanced  water supply system. The facility also reduced energy costs by 19%, reused  94% of the existing structural elements, diverted 80% of construction  waste generated on site from landfills and used recycled content for 23% of  building materials.  
+Our site in Vimercate, Italy, has been certified LEED Platinum, the highest  certification level achievable. Innovations incorporated into this building  include photocatalytic precast concrete panels that abate pollutants, volatile  organic compounds and nitrogen oxides  reduced water demand with  features that increase water recharge to local aquifers  LED lighting in office  areas  and carbon dioxide sensors in meeting rooms that adjust air flow and  lighting based on usage.  
+MTB  reduced  energy  costs by19 
+Fab 10 expansion is 30 
+more energy- and water-efficient  than industry-standard fabs. 
+2019 Sustainability Report     28 
+Environment  
+In 2018, we received   scores ofB- on CDP s climate and  water security lists, an  improvement over our  scores of C in 2017   and D in 2016. 
+Greenhouse Gas (GHG) Emissions Our approach to GHG management begins with  collecting, analyzing and reporting data specific  to these emissions. We report on GHG emissions  through CDP, formerly the Carbon Disclosure  Project. CDP is the primary international  organization enabling standardized environmental  data reporting on GHG emissions and other  environmental criteria for companies, cities, states  and regions. In 2018, we continued to improve  our efforts and disclosures and received scores of  B- on CDP s climate and water security lists. Also  in 2018, Micron began climate risk assessment  and science-based target scenario work with  third-party firms to gain better insight into the  climate-related risks and opportunities we face in  our operations and supply chains and to explore  ways to reduce energy use and associated GHG  emissions. We expect to integrate findings from  these assessments into our efforts in 2019. 
+with third-party firms to gain insight into the  
+climate-related risks and opportunities we  face in our operations and supply chains. 
+and science-based target scenario work  
+Micron began climate risk assessment  
+The semiconductor industry is working to reduce  emissions of fluorinated greenhouse gases  (F-GHG), a potent source of emissions that result  from manufacturing processes. Despite years of  research into alternatives for F-GHG, no suitable  substitutes currently exist. We do, however, focus  on reduction of F-GHG emissions through point- of-use abatement and demonstrate more than a  75% reduction of F-GHG emissions to achieve  the IEEE P1680.1 Standard for Environmental and  Social Responsibility Assessment.  
+Micron also focuses on reducing our emissions  through upgrades to building controls and HVAC  systems, installation of light sensors, replacement  of aging equipment, and installation of solar  panels that will reduce grid power demand for an  administrative building in Singapore.  
+2019 Sustainability Report     29 
+Environment  
+Responsible  Sourcing 
+We are one link in an intricate technology supply chain  that spans the globe. By accelerating continuous  improvement and promoting transparency, we can  drive improvement in human rights and environmental  stewardship across our industry. 
+Locations  of Top 10  Suppliers 
+Micron manages a complex supply chain that includes a variety of materials,  equipment and services required to support our operations, from office supplies  to highly specialized design components. With 5,950 suppliers in 52 countries in  2018, managing our supply base is a critical undertaking. It requires a dedicated  team to guide our supplier evaluation and approval process to ensure new  and existing suppliers meet our expectations, including those related to social  and environmental criteria. By communicating our expectations to our Tier 1  suppliers   those we source from directly   we strive to have responsible  practices replicated throughout our supply chain. 
+We are an active member of the Responsible Business Alliance (RBA, formerly  the Electronics Industry Citizenship Coalition). The RBA is composed of leading  electronics industry companies that have joined together to promote responsible  working conditions, ethical business practices and environmental stewardship  globally throughout the electronics industry supply chain. RBA members adhere  to a common RBA code of conduct, which addresses supply chain performance  expectations for labor, health and safety, environmental practices, ethics and  management systems.  
+Japan United States Taiwan 
+Singapore Switzerland 
+China South Korea Netherlands 
+Micron Suppliers CY18 
+Responsible Sourcing 
+2019 Sustainability Report     31 
+Malaysia United Kingdom 
+Supply Chain   Risk Assessment We monitor and address myriad potential  supply chain risks, from natural disasters  to financial vulnerability to human rights  infractions.  
+Profiling and managing the relative risks of each of our strategic suppliers allow  us to ensure a resilient supply chain able to support continuous production and  product delivery to our customers, while upholding industry and Micron standards  relating to sustainability.  
+As a check on this process, we maintain a compliance hotline for the reporting of  violations in our supply chain. We also offer training: In 2018, Micron implemented  a training program that focused on responsibilities and expectations for our  suppliers, and more than 1,100 supplier representatives were trained.  
+Micron performs a supplier risk assessment that aligns with our own Code of  Business Conduct and Ethics and the RBA code of conduct. In addition, we expect  all suppliers to be able to provide evidence of compliance with the following:  
+n   An annual RBA self-assessment questionnaire (SAQ) for a company s  
+n  An RBA audit or equivalent for any facility identified as high-risk 
+n  U.S. Foreign Corrupt Practices Act 
+n  U.K. Bribery Act 
+n  California Transparency in Supply Chains Act of 2010 
+n  U.K. Modern Slavery Act of 2015 
+n  An updated conflict minerals reporting template (CMRT) in case of addition   
+n  Registration, evaluation, authorisation and restriction of chemicals (REACH),  
+n  Restriction of Hazardous Substances (RoHS), updated and provided every 12  
+n  CDP (formerly the Carbon Disclosure Project) 
+n  A sustainability corporate social responsibility or equivalent report 
+headquarters and all facilities or Micron s sourcing compliance assessment (SCA) 
+of any new smelter or change of status of existing smelters  
+updated and provided every six months or as any product change requires 
+months or as any product change requires 
+Responsible Sourcing 
+2019 Sustainability Report     32 
+Micron is also a part of many other companies  supply chains. We have deep experience interacting with supply chain partners as  both a supplier and a customer, and we are subject to many of the same auditing protocols as our own suppliers. In 2018, all 13 Micron  manufacturing facilities earned perfect scores of 200 on RBA audits, qualifying these sites for RBA Platinum recognition.  
+Micron requests that suppliers provide  transparency through supply visibility mapping  and supplier assessments. Requested  information includes:  
+n  Data points such as manufacturing locations,  
+n  Business continuity processes and programs   
+ n  Event impact notification responses  
+n  Programs and policies related to ethics,  
+emergency contacts, manufacturing recovery  time and locations of critical subtier suppliers  
+at manufacturing locations  
+associated with Micron s supply chain  
+environment, forced labor and safety 
+How We Manage Risk in Our Supply Chain  
+Micron s sourcing risk and compliance group oversees supply chain  risk management, which includes environmental, human rights  and geopolitical risks. This team continues to mature its mission of  enabling a resilient, compliant and sustainable global supply chain,  including new and incumbent supplier screening, assessments,  investigations, risk profiling, development and auditing. Each year,  members of the sourcing risk and compliance group:  
+Responsible Sourcing 
+2019 Sustainability Report     33 
+Forced Labor   Child Labor Micron and our stakeholders support the  advancement of human rights along our  value chain.  
+Our Code of Business Conduct aligns with the RBA code of conduct, which  explicitly states that child labor and forced labor are not permitted in any stage of  the business. Factories are regularly audited for conformance to these standards,  and our human rights policy requires employees to be 16 or older. Micron actively  works to uphold the highest level of labor ethics in our own operations, and we  also expect our suppliers, contractors and joint venture partners to adhere to our  Code and child labor and forced labor laws. During 2018, we worked to articulate  our perspective through a new human rights policy published in early 2019. 
+Our commitment to these concerns is made public through our Slavery and  Human Trafficking Statement. As part of our ongoing due diligence in this area,  we regularly conduct supplier risk assessments to understand how well suppliers  address the issues, with specific focus on operations in areas more at risk for  human rights violations. Beyond these important issues, Micron also monitors the  following human rights concerns as they relate to our supply chain:  
+n  Working hours 
+n  Fair wages and benefits  
+n  Worker health and safety 
+n  Nondiscrimination and antiharassment 
+n  Freedom of association 
+This oversight of human rights begins with anyone who works on a Micron site  in any capacity, from security to construction work. It extends to the employees  of our suppliers and to any person hired temporarily by suppliers, who in some  parts of the world are foreign migrant workers. Many of Micron s suppliers are  located in Asia, where human rights violations against these workers have been  documented. For example, workers may have their passports withheld or be  charged recruiting or administrative fees before being hired. These fees can  amount to more than several months  pay and may require workers to take  out loans, effectively forcing them to pay to have a job. In addition, most of  these workers send the majority of their earnings back to their home countries  to support their families, making the payment of loans and fees especially  burdensome.  
+Responsible Sourcing 
+2019 Sustainability Report     34 
+Micron actively  works to uphold  the highest level  of labor ethics  in our own  operations. 
+The RBA code of conduct requirements limiting  forced labor differ from the laws regarding fees,  levies and working hours in many countries where  we do business. While this adds complexity,  we enforce the more stringent standard if local  laws and the RBA code differ. Micron is actively  involved, along with other members of the RBA,  in eliminating forced labor issues in our supply  chain through training, dialogue with government  officials and interviews with foreign migrant  workers about their conditions.  
+Micron is currently working with the RBA and  several suppliers in Taiwan to better understand  foreign migrant workers  experiences and  address any violations that may be occurring  
+RBA Code of Conduct 
+The best outcomes happen when our industry works together. The RBA plays a critical role in  upholding a single set of expectations regarding social and environmental responsibility and a single  process for demonstrating conformance. Through RBA training materials, monitoring tools and  third-party audits, we are able to support the efforts of our key suppliers to maintain responsible  operations. We can also hold them accountable when they veer off course. To comply with the RBA  code in our own operations, we have adopted a vigorous management approach that includes  training employees on the code requirements and using third-party auditors to verify our actions. Our  global RBA oversight team includes representatives from legal, human resources, EHS and supplier  management functions. They monitor key RBA metrics across all of our manufacturing locations and  review quarterly reports on Micron s overall RBA performance. 
+in these locations. During an assessment of  two of these suppliers in 2018, we found that  they do not charge fees to these workers and  do not have issues related to working hours.  As part of the assessment, we discovered  some dorm overcrowding at one supplier site  due to an increase in workers. We expect this  supplier to make improvements promptly to its  workers  living conditions. Micron will continue  to investigate foreign worker journeys from  home country to working country among our key  suppliers and address any forced labor violations.  By undertaking efforts beyond internal training  and moving toward greater understanding of the  risk profile of each facility, Micron can stay ahead  of any issues that may arise in our supply chain.  
+Responsible Sourcing 
+2019 Sustainability Report     35 
+Responsible Minerals Micron has long been a leader in programs to  address and report on conflict minerals. Like  many technology companies, Micron relies on  the use of tin, tungsten, tantalum and gold in  the manufacture of our products.  
+These materials, known as conflict minerals, are abundant in the Democratic Republic  of the Congo (DRC) and surrounding countries, a region that has endured sustained  conflict and human rights violations. However, we recognize that there are raw materials  beyond the four conflict minerals that are subject to controversy based on social and  environmental concerns regarding how they are obtained. Emerging regulation in the  European Union will focus on all conflict-affected and high-risk areas around the world,  not just the DRC. With this in mind, Micron updated our program in 2018 to focus on  responsible minerals, encompassing a broader reach of minerals and geographies. 
+Micron is committed to ensuring that minerals used in the manufacture of our  products do not directly or indirectly fund violence or human rights abuses in the  DRC or adjoining countries. We have adopted a goal of sourcing entirely from  smelters validated as conflict-free by third-party audit. To this end, we seek to align to  international due diligence best practices set forth in the Organisation for Economic  Co-operation and Development s (OECD) Due Diligence Guidelines for Responsible  Supply Chains of Minerals from Conflict-Affected and High Risk Areas and comply  with Section 1502 of the Dodd-Frank Wall Street Reform and Consumer Protection  Act, which requires publicly traded U.S. companies to track, monitor and report  annually on conflict minerals in supply chains.  
+2019 Sustainability Report     36 
+Environment  
+Collaboration among  government, industry and  communities is key to  achieving a conflict-free  supply chain. 
+Collaboration among government, industry  and communities is key to achieving a conflict- free supply chain. Reflecting this philosophy,  Micron is a founding member of the Responsible  Minerals Initiative (RMI), a consortium that  works across the minerals industry to develop a  common approach to address conflict mineral  supply chains and develop future protocols  that may expand to include other minerals. The  RMI includes a third-party auditing process,  due diligence tools and a public database  documenting where each smelter stands in its  conflict-free journey. In 2018, Micron actively  supported the expansion of the industry s  nonbattery cobalt reporting program. We have  investigated all potential cobalt usage within  our entire supply chain and will report cobalt as  applicable when the RMI s industry program is  launched in late 2019. 
+To help Micron achieve our responsible mineral  policy objectives, we require suppliers to comply  with our responsible mineral programs. Supplier  compliance includes:  
+n  Providing a complete, updated CMRT that  
+n  Updating CMRTs within two weeks of any  
+n  Adopting a conflict mineral policy dedicated to  
+n  Participating in and facilitating audits of  
+n  Directing their own suppliers to adopt conflict  
+Put simply, Micron ensures that our existing  suppliers rely only on smelters and refiners that  are conflict-free, and we only engage with new  suppliers that can demonstrate the same. We  maintain a 13-week cycle time for suppliers to  make changes when they fall out of approved  status and often resolve issues sooner. In 2018,  our average time to have a nonconformant smelter  removed from our supply chain was 4.25 weeks,  much sooner than our 13-week target. 
+We are committed to transparency and report  publicly on our due diligence and progress toward  a conflict-free supply chain. To learn more, read  our annual Conflict Minerals Report.  
+discloses the source of conflict minerals that  may be present in products sold to Micron,  including the identification of the smelters from  which the conflict minerals originated 
+smelter or refiner changes within the entire  supply chain 
+the goal of achieving a conflict-free supply chain 
+facilities, conflict mineral policies, conflict  mineral procedures and associated records 
+mineral policies  
+Responsible Sourcing 
+2019 Sustainability Report     37 
+Supplier Environmental   Impact As an industry leader, Micron has significant  opportunity to partner across our industry  to influence the environmental profile of  suppliers. 
+A limited number of equipment manufacturers supply the technologies used in  Micron s own plants and those of our peers. We have the potential to steer the  industry toward innovations that reduce water and energy use.  
+Micron has begun actively engaging our supply chain in sustainability efforts,  including GHG emissions reduction. In 2018, we received a score of A- from  the CDP for engagement of suppliers on climate change issues, well above the  sector average score of C. All suppliers receive our supplier quality requirements  document (SQRD), which includes a requirement to comply with all GHG  regulations. In much the same way as we assess suppliers for other types of risk,  we survey high-risk and critical suppliers  programs to improve energy efficiency   reduce GHGs  and control, treat and minimize solid waste, wastewater and air  emissions. We evaluate the results to generate a risk score. Any supplier with a  high-risk score or deficiency in a program or process is engaged for development  and improvement plans. Micron also uses a software system to make it easier to  manage supplier resources and data. This continues to improve the coverage,  resources and processes used to uphold high expectations for our suppliers.  
+Micron  Supplier   Assessment  Process 
+Every year, Micron assesses  new and existing suppliers  on both compliance and  operational risk and continuously  monitors our supply chain for  unexpected events. This level  of oversight demonstrates  Micron s commitment to  improving responsible sourcing  performance.  
+Continuous Monitoring  
+Through a third party, Micron s supply base is monitored 24 7  against market and supply events and potential crises across the  globe. This allows us to act quickly if issues arise. 
+Responsible Sourcing 
+In 2018, we received   a score ofA- on CDP s engagement   of suppliers on climate  change issues. 
+2019 Sustainability Report     38 
+A thriving workplace requires  focused effort. Employees are  the backbone of our business,  and we re doing more than ever  to engage and support them  on their career journeys. 
+Micron depends on a hardworking, tenacious and highly educated workforce to  design, develop and manufacture high-quality, cutting-edge memory and storage  solutions. Our employees are located in 18 different countries. Creating a unified  culture across functions and geographies, therefore, is essential to realizing  Micron s vision and mission. 
+We pursue the highest-quality talent in our hiring and maintain a work  environment that enables our employees to thrive throughout their Micron  careers. The first of our five corporate values, People, reflects our commitment  to employees and our focus on providing an engaging work environment that is  ethical, diverse and inclusive. 
+Culture is truly  the only lasting  competitive  advantage that an   organization  possesses.  
+Sanjay Mehrotra President and CEO  
+2019 Sustainability Report     40 
+Our employees   are located in 18 
+different countries 
+2018   Performance   At-A-Glance 
+Micron Employees 34,000  
+2019 Sustainability Report     41 
+Environment  
+Engagement   Retention Retaining the best and brightest in an  extremely competitive industry environment  is a strategic imperative for our business.  
+During the past year, we have increased investment in programs to amplify  employee engagement and retention. Employees who are engaged at work tend  to thrive professionally, and our performance is better as a result.  
+For example, responses to insights gained through employee engagement  surveys were once handled at the corporate level. But this level of oversight often  meant that changes were slow to take effect. A new program, Engage!, helps  increase engagement between leaders and their teams by together reviewing,  discussing and acting on the results of a biannual survey. Engage! is more than  just a survey  it is designed to trigger regular conversations about engagement  within teams, with the survey creating accountability and helping to measure  progress. Survey questions prompt employees to indicate their level of agreement  with statements like  My supervisor provides timely and meaningful recognition   and  At work, I am respected for who I am.  Participation rate in the July 2018  Engage! survey was 93%, and favorability ratings have increased since the survey  was first conducted. We have set a goal of reaching at least 60% agreement with  the statement  I find Micron s culture to be personally engaging and motivating.     
+Employee Referral Program 
+There is no better endorsement of the  benefits of the Micron experience than  a recommendation from someone you  know. That is why Micron created an  online referral program through which  current employees can share job  openings with colleagues and friends.  Employees receive custom URLs to  share, and they earn rewards when  positions are filled. Forty-two percent  of employees have participated in the  program   and now, 22% of all external  hires originate with a referral. 
+for who I am.         
+Employee Response  
+respected   
+2019 Sustainability Report     42 
+Engage Survey  
+At work,   
+Diversity   Inclusion As a multinational company, Micron  knows that real innovation comes from  our employees  distinct experiences,  perspectives and backgrounds. 
+We work diligently to attract the broadest possible talent pool in the regions  where we operate. A growing focus on recruiting from universities and programs  that yield high rates of women and minority candidates is helping us assemble a  workplace that is rich in many forms of diversity. At the same time, we cultivate an  inclusive culture in which all employees can grow and thrive.  
+Recognizing that this work has no finish line, we challenge ourselves to further  embed diversity and inclusion into the way we operate. Micron CEO Sanjay  Mehrotra is a vocal advocate for diversity and a signatory to the CEO Action  for Diversity   Inclusion. Micron recently established a standalone diversity  and inclusion (D I) function with employees in the U.S. and Japan. Strategic  and tactical bodies bring business insight, ambassadorship and accountability  to the effort. These include the D I Executive Council, comprising key Micron  executives, and the D I Advisory Committee, with representatives spanning a  wide range of Micron functions and locations.  
+Micron makes many significant  investments in our business,  but few are more important  than those we make in  employees. We are committed  to providing equal salary to  men and women in similar  roles in all our worldwide  locations. At the start of FY19,  we invested  2.3 million in  additional compensation  to ensure less than a 1%  difference. We will continue to  prioritize salary parity across  our workforce and invest the  funds needed to address any  gaps that may exist. 
+2019 Sustainability Report     43 
+2019 Sustainability Report     43 
+Launching a  sponsorship program  to accelerate the  advancement of  high-potential  women at Micron  and build a culture  of sponsorship  companywide. 1,400 
+Download  the 2018  diversity  and  inclusion  report 
+leaders and providing self-paced online  learning for all employees. 
+Highlights from Our 2018 Diversity   Inclusion Report 
+Providing unconscious bias training to  more than 
+Announcing a  new ongoing  goal to reach 
+hiring of women and  increase hiring from  underrepresented groups. 
+Micron supports employees directly through the  funding and endorsement of employee resource  groups (ERGs). These groups provide mentorship,  networking and visibility to specific populations  within the organization. Currently, more than 3,000  Micron employees have joined an ERG, with more  than 28 chapters across the globe.  
+In 2018, we released gender and race ethnicity  statistics within Micron to ignite dialogue among  our employees, publishing the information in  our first annual diversity and inclusion report.  The report provides a baseline for tracking  the company s progress by examining a  variety of factors, including gender, race  ethnicity, compensation, job roles, flexibility and  philanthropy. It allows us to share achievements  such as reaching increased levels of diversity in  markets like Singapore, where 30% of engineers  are women, as well as creating transparency  and accountability in areas for ongoing focus,  such as increasing representation of women in  leadership roles.  
+2019 Sustainability Report     44 
+Safe, Healthy   Secure Proactive efforts to prevent occupational  illnesses and injuries allow us to maintain a  safe, healthy and secure workplace.  
+Micron has implemented a comprehensive strategy for safety that focuses  on culture, robust management systems and effective safety programs.  Close coordination between our management and safety teams globally  is accomplished as we further develop our data management tools, key  performance indicators (KPIs), audit processes and formalized feedback loops  to ensure risks are systematically removed from the business.  
+A culture of care and concern drives us to pursue excellence in safety. Our  approach to safety is multilayered and involves all employees. 
+Micron has a program to actively recognize and control occupational hazards.  When identified, Micron removes and mitigates risks in our active facilities and  from our business through design and commercial means, partnering with our  suppliers and vendors. As an example, Micron has implemented process safety  management, a risk-based approach of analyzing and controlling hazards for the  lifecycle of hazardous chemicals and gases, as a strategy to eliminate and reduce  risk directly tied to our production operations. Although this is not a regulatory  requirement for Micron in most countries, we view this as a best practice that  positions Micron as an industry leader to ensure the safety of our employees.  
+Health   Safety  Committees 
+(at every manufacturing site, comprising both management and nonmanagement  employees) 
+n  Promote overall safe operations and communications 
+n  Ensure messaging reinforces safety programs, recognizes safe behaviors  
+n  Align guidance with OHSAS 18001 certifications 
+Managers   Supervisors 
+n  Lead, implement and maintain safe, secure and compliant work areas 
+All Employees   Contractors 
+n  Help identify, eliminate and control EHS hazards and risks 
+n  Follow EHS procedures and applicable legal requirements, including those  
+ and highlights engagement activities 
+contained in our Code of Business Conduct and Ethics 
+2019 Sustainability Report     45 
+Micron s investment in developing a unified  corporate culture and common safety practices  across our global facilities includes strengthening  our safety KPIs. We are implementing a series of  KPIs that better measure management behaviors  and engagement for safety, as well as a technical  safety program. The measures are designed to  drive and track those efforts that continue us on  a path of world-class safety performance. We  continue to report a recordable injury rate of 0.32.  
+Creating an injury-free workplace is a minimum  expectation, but it is only one aspect of our  efforts to keep employees safe and healthy at  work. The Choose Well, Live Well program is an  employee wellness program that combines site- level and global programming. Employees can  earn financial wellness incentives by participating  
+A culture of care and concern drives  
+us to pursue excellence in safety. 
+in the programs and measuring their progress  using a wearable wellness tracker.  
+In addition, we encourage employees to seek  balance between their work and home lives.  We rolled out new flexible work arrangement  guidelines globally in 2018. Micron is  implementing the Responsible Business  Alliance s guidelines on working hours, which  state that employees in all functions should  work no more than 60 hours per week, with one  day off every six days. We are also expanding  offerings to support employee mental health. The  Guidance Resources Team Member Assistance  program can help with a range of life s ups and  downs, including emotional and marital issues,  financial and legal matters, and drug and alcohol  dependency problems.  
+Micron is proud to have received  the Great Place to Work award  in 2018 based on independent  research and analysis by the  Great Place to Work Institute.  Micron earned this credential  based on our people-centric  programs and feedback provided  by our employees in anonymous  surveys, including The Trust  Index  Employee Survey and  the Culture Audit  Management  Questionnaire. This certification  reflects our ongoing commitment  to provide an engaging work  environment that is ethical,  diverse and inclusive, enabling  employees to thrive throughout  their Micron careers. 
+A Great Place to Work  
+2019 Sustainability Report     46 
+Professional Development To attract and retain people with  exceptional capabilities, we invest in the  ongoing learning and development of our  employees, fostering a work environment  that inspires creativity, leadership and  collaboration.  
+Using a  learn and grow  approach, we create an environment where employees  are inspired to grow, empowered to learn and connected to resources and  opportunities that enable personal growth and performance. We encourage  employees to choose their own development priorities and take initiative in using  resources Micron provides to support their personal development.  
+Learning can take many forms. Employees have access to computer- and  web-based training, distance education, and on-site university courses and  training on cutting-edge technologies. Micron employees have direct access to  technical and business skills training through our internal learning management  system and through systems we access for cultural awareness, personal and  professional skills building, and industry-relevant research. They can also access  the Micron-TLP Technical Journal, an in-house, peer-reviewed archival journal  with articles published by members of the Technical Leadership Program (TLP),  as well as a variety of technical seminars. Micron s learning management system  allows employees to view items that have been assigned to them or search the  catalog and self-assign items. Users can also request or register for instructor- led learning or access online learning. As employees expand their capabilities  and become qualified for new roles, our internal job opportunities allow them to  grow within the company.  
+Micron resources are also available to help our employees prepare their  educational plans and select programs that best support their industry interests  and career development. Micron offers a continuing education program,  providing tuition for eligible employees pursuing higher education degrees, and  an education assistance program for those seeking additional industry-related  courses and certifications. By providing participating employees with ownership  of their learning process, we foster a productive learning mindset that empowers  them to identify development priorities, find resources to support their  development, and intentionally engage in new experiences in a meaningful way.  
+Employee Stock   Purchase Plan  
+The Employee Stock Purchase  Plan (ESPP) allows Micron  employees to have a stake  in our success. Introduced  in 2018, the program allows  participants to buy Micron  stock based on the beginning or  ending stock price in the period,  whichever is lowest, with an  additional 15% discount on that  stock price. Employees can  enroll in the ESPP twice a year  and contribute up to 10% of  their salary. When the program  was introduced, roughly half  of our workforce opted to  participate.  
+2019 Sustainability Report     47 
+37 hours average training per  full-time employee.  
+Our employees also have much to learn from and  teach one another. Across Micron, employees  have a variety of opportunities to be mentored  or serve as mentors themselves. For example,  Micron s TLP pairs experienced senior technical  leaders with newer employees. The Micron  Women s Leadership Network offers a variety of  mentoring approaches, such as group, one-on- one and skills-based mentoring with subject  matter experts. We offer a common mentoring  playbook that is used across these programs.  That handbook, accessible by all employees, is  available in English, Simplified and Traditional  Chinese, Japanese and Malay.  
+We conducted a survey in 2018 to understand  the value and impact of these various mentoring  programs. Of those who responded, 79% said  being involved in mentoring increased their job  satisfaction and engagement, and 72% said it  increased their desire to stay at Micron.  
+To support collaboration across teams,  Micron uses the Emergenetics tool, which  encourages employees to actively embrace  diversity of thought and behaviors. After  filling out a questionnaire, employees receive  an Emergenetics profile that can be used to  gain greater understanding of one s actions  at work and at home. Leaders can use their  employees  profile results to help maximize  team effectiveness. Since this program was  introduced, more than 11,000 leaders and  employees have received their customized  profiles. Teams may also participate in in-person  or e-learning sessions to learn how to apply  profile insights.  
+Leaders   of Tomorrow 
+Future Leaders Program 
+n Retain and engage  
+n Maintain talent   
+future leaders  
+pipeline Micron  Technologists 
+Senior Leaders 
+Micron Leadership in Action   (MLA) 
+n 12-week program 
+n Receive guidance from  
+Leadership Development at Every Level 
+Micron connects high-potential employees with opportunities to  develop leadership and technical skills. Leadership development  programs are designed to go beyond the classroom to challenge  current and future leaders to solve critical business cases using  newly developed skills and behaviors. 
+coaches and executive  skill champions on real- world business problems 
+Technical Leadership Program 
+n Employees nominated by  
+n Opportunity to contribute  
+n Recognition and rewards that  
+n Encourages technologists who  
+to internal technical journal,  seminars, forums  
+distinguish  TLP members within  Micron  
+do not necessarily want to  become people leaders to thrive  as individual contributors 
+2019 Sustainability Report     48 
+Mid-Level  Leaders 
+n Gain skills necessary to  
+n Contribute to projects  
+n Gain and refine leadership  
+become future senior  leaders 
+impacting Micron s   bottom line 
+and networking skills  necessary to drive the  company s evolution 
+Communities 
+We do well by doing more for others.  Micron is reimagining our giving programs  to align our giving even more closely  with the priorities of our employees and  accelerate our impact. 
+Micron has a well-established tradition of giving back to the communities  where our employees live and work. And for the past two decades, the Micron  Foundation has served as the heart of these efforts. Through the Foundation, we  support and help develop programs to promote STEM education, address basic  human needs, and align our giving practices more closely with the priorities and  values of our employees and communities. Our giving programs support our first  corporate value: People. The benefits of giving back to communities are easily  understood, but it s also important to underscore how important corporate social  responsibility is to engage our employees and recruit the next generation of talent  by being a responsible corporate citizen and creating a culture of giving back.  
+We continue to drive Micron s new corporate values and goals to all aspects of  the company   including our philanthropy and volunteerism. During 2018, we  revamped our giving strategy and organized all volunteer and matching gift efforts  under a new program called Micron Gives. The program encourages a stronger  focus on volunteerism with new programs and improved resources for giving back  to the communities and organizations that matter most to our employees. 
+To kick off the program, we set a goal of collectively volunteering 100,000  hours during the year. Employees reached the goal nearly two months ahead  of schedule, and Micron has challenged employees to exceed this goal in 2019  with a goal of 150,000 hours. To help them contribute to this goal, we have  put in place a global policy that allows full-time employees up to 16 hours of  paid leave to perform community service, and part-time employees and interns  receive eight hours.  
+our first corporate value: People.  
+Our giving programs support  
+We set a goal of collectively volunteering 100,000 
+during the year, which we reached  two months ahead of schedule. 
+2019 Sustainability Report     50 
+Communities 
+Inspire Learning 
+Deploy STEM outreach programs  and partnerships to global sites in  support of developing the STEM  pipeline for the semiconductor  industry, with a focus on  underrepresented groups. 
+Micron Foundation 
+Transforming communities  through our philanthropy  and people.  
+Mission Provide grants, programs  and volunteers that focus  on promoting science  and engineering education  and addressing basic  human needs.  
+Enrich Our Communities 
+Distribute  13.5 million via our global  grant program to support STEM  education and basic human needs in  the communities where we operate,  and continue to support employee- selected organizations through the  Charity of Choice program.  
+Opportunity 
+Impact Empathy 
+Micron also matches employees  donations   to qualified charitable organizations, up to   an annual maximum of  2,000 (USD) per  employee per year and a companywide  maximum of  2 million. With a giving campaign  launch on Giving Tuesday in November  2018, the Foundation matched  1.3 million in  donations in just three weeks.  
+Employee donations can include gifts to each  site s charity of choice. Through this program,  employees vote on the charities that matter  most to them and their communities. The site  then focuses its volunteer efforts for the year  and provides a monetary donation   to the winning organization.  
+Cultivate Giving 
+Build on Micron Gives program  by achieving 150,000 employee  volunteer hours and matching  employee donations up to  2 million. 
+2019 Sustainability Report     51 
+Communities 
+Promoting Science     Engineering Education To be a global leader in memory and storage  solutions, Micron relies on its talented  scientists and engineers, so cultivating  innovators and those who teach them aligns  naturally with how and why we give back.  
+The Foundation s STEM grants give educators the resources, training and tools they  need to spark a passion for STEM among students and to create engaging, hands-on  experiences for students themselves. Signature programs include: 
+n  Chip Camp, a free three-day summer camp for students who have completed 7th  
+n  The Girls Going Tech program, designed to expose young women to technical  
+n  Taiwan Railways of Popular Science, a program through which a train travels across  
+The Micron Foundation s university relations efforts help create the future with  student-focused funding programs that provide unique, hands-on opportunities for  undergraduate and graduate students in semiconductor-related fields. This includes  fellowships, support of student competitions and participation in research symposia. The  Foundation also works with educators to support ongoing research efforts and improve  engineering education through gifts, many of which are inspired by Micron engineers and  involve the advancement of semiconductor materials, devices and processes.  
+or 8th grade. The camp focuses on hands-on science and engineering activities  related to the semiconductor industry. Activities are led by Micron engineers and  professionals and include a visit to Micron s global headquarters in Boise, Idaho. 
+career options and advanced courses in math, science and technology. In 2018,  this program was expanded to Taiwan.  
+Taiwan to bring hands-on science experiments to kids in remote regions, helping to  bridge STEM education gaps between urban and rural areas.  
+Focus On: Virginia, USA  
+The Micron Foundation has committed  1 million to  Virginia s colleges and universities to help educate  the next generation of technicians, scientists and  engineers. The Diversity and Opportunity Fund  for Virginia Institutions of Higher Education will  support programs in the area of cleanroom and  nanotechnology labs, unmanned and autonomous  automotive systems, robotics, big data, embedded  systems and networking applications. With a focus  on women and underrepresented groups, programs  that support low-income and first-time college  student programs will receive special consideration. 
+2019 Sustainability Report     52 
+Communities 
+Addressing Basic   Human Needs Micron s citizenship efforts also include  helping to meet the basic needs of people  in our communities, from relief supplies for  those affected by natural disasters to meals  for the hungry.  
+Meeting Basic Human Needs Worldwide 
+This work reflects the contributions of   Micron employee volunteers. Noteworthy projects in 2018: 
+sorted at a local food bank 
+in Kerala, India 3,600 Meals funded and 
+Raised for flood relief 
+Bunk beds built by 300 Volunteers for families in need 
+Employees to local charities   
+2019 Sustainability Report     53 
+ 160K Raised for California 
+during giving season 
+Buses transported 1,600 
+wildfire refief 
+Communities 
+GRI Standard GRI Standards Disclosure 
+General Disclosures 
+GRI 102: General  Disclosures 2016 
+Organizational Profile 
+102-1 Name of the organization 2 2019 Sustainability Report   About Micron 
+102-2  Activities, brands, products, and services 4-6, 13 2019 Sustainability Report   About Micron  Micron Form 10-K p1-5 
+102-3 Location of headquarters 7 2019 Sustainability Report   About Micron 
+102-4 Location of operations 7 2019 Sustainability Report   About Micron 
+102-5 Ownership and legal form Micron Form 10-K 
+102-6 Markets served 7 2019 Sustainability Report   About Micron  Micron Form 10-K p1-5 
+102-7 Scale of the organization 7 2019 Sustainability Report   About Micron  Micron Form 10-K 
+102-8 Information on employees and other  workers 
+102-9 Supply chain 30-31 2019 Sustainability Report   Responsible Sourcing  Micron Form 10-K p6 
+102-10 Significant changes to the organization and  its supply chain 
+102-11 Precautionary principle or approach The Risk   Resilience program does not currently  use the term precautionary principle, but Micron  does recognize it is our responsibility to prevent any  harm from our actions. Micron s Enterprise Risk  Management system puts controls in place when  we know our actions have the potential to harm. As  Micron reviews and creates new corporate policies  in the future, the precautionary principle term may  be included. 
+102-12 External initiatives Specific charters principles are covered in the  relevant section of 2019 Sustainability Report   by topic. 
+102-13 Membership of associations 12 2019 Sustainability Report   Sustainability Strategy  and Stakeholder Engagement 
+102-14 Statement from senior decision-maker 3 2019 Sustainability Report   CEO Message 
+Ethics and Integrity 
+102-16 Values, principles, standards, and norms   of behavior 
+102-17 Mechanisms for advice and concerns  about ethics 
+Sustainability  
+11, 32-33 2019 Sustainability Report   Code of Conduct Micron Code of Business Conduct and Ethics p3 
+Report Location Explanatory Notes 
+39-48 2019 Sustainability Report   People  2018 Diversity   Inclusion Report  
+6 2019 Sustainability Report   Vision, Mission    Values  Micron Code of Business Conduct and Ethics 
+Micron Form 10-K 
+2019 Sustainability Report     55 
+GRI Standard GRI Standards Disclosure 
+GRI 102: General  Disclosures 2016 
+102-18 Governance structure 9 Micron Form 10-K p9-11  Micron Corporate Governance website:   www.micron.com about our-commitment  operating-thoughtfully governance  2019 Sustainability Report   Sustainability Strategy 
+Stakeholder Engagement 
+102-40 List of stakeholder groups 12 2019 Sustainability Report   Stakeholder  Engagement 
+102-41 Collective bargaining agreements 12% of Micron s workforce is covered by collective  bargaining agreements. 
+102-42 Identifying and selecting stakeholders 12 2019 Sustainability Report   Stakeholder  Engagement 
+102-43 Approach to stakeholder engagement 12 2019 Sustainability Report   Stakeholder  Engagement 
+102-44 Key topics and concerns raised 10 2019 Sustainability Report   Materiality  Assessment 
+Reporting Practice 
+102-45 Entities included in the consolidated  financial statements 
+102-46 Defining report content and topic  boundaries 
+102-47 List of material topics 10 2019 Sustainability Report   Materiality  Assessment 
+102-48 Restatements of information In December 2018 we updated 2017 nonhazardous  waste figures in the 2018 Sustainability Report to  reflect accurate information. 
+102-49 Changes in reporting 10 Our material topics have been updated to reflect our  2018 materiality exercise. See 2019 Sustainability  Report   Materiality Assessment. 
+102-50 Reporting period This annual report covers Micron s sustainability  performance in fiscal year 2018 unless otherwise  stated. 
+102-51 Date of most recent report Our previous sustainability report was issued in June  2018. 
+102-52 Reporting cycle Micron reports our sustainability information  annually. 
+102-53 Contact point for questions regarding   the report 
+102-54 Claims of reporting in accordance with   the GRI Standards 
+102-55 GRI content index 54 onward 2019 Sustainability Report   GRI Index 
+102-56 External assurance The 2019 Sustainability Report and GRI disclosures  were not subject to external assurance. 
+Sustainability  
+Report Location Explanatory Notes 
+10 Our report content is informed by our materiality  assessment and the GRI Standards. See 2019  Sustainability Report   Materiality Assessment. 
+2 2019 Sustainability Report   About This Report 
+Micron Form 10-K 
+Sustainability micron.com   Director of  Sustainability 
+2019 Sustainability Report     56 
+GRI Standard GRI Standards Disclosure 
+Material Topics 
+200 Series (Economic Topics) 
+GRI 103: Management  Approach 2016 
+Economic Performance 
+GRI 201: Economic  Performance 2016 
+Anticorruption 
+GRI 205:   Anticorruption 2016 
+300 Series (Environmental Topics) 
+GRI 103: Management  Approach 2016 
+103-1 Explanation of the material topic and its  boundary 
+103-2 The management approach and its  components 
+103-3 Evaluation of the management approach 3-5,14 2019 Sustainability Report   Introduction, Products 
+201-1 Direct economic value generated and  distributed 
+205-2 Communication and training about  anticorruption policies and procedures 
+205-3 Confirmed incidents of corruption and  actions taken 
+103-1 Explanation of the material topic and its  boundary 
+103-2 The management approach and its  components 
+103-3 Evaluation of the management approach 18-29 2019 Sustainability Report   Environment 
+Sustainability  
+3, 50-53 Micron Form 10-K   For Micron Foundation annual contribution,   see our 2019 Sustainability Report   Communities. 
+Report Location Explanatory Notes 
+3-5,14 2019 Sustainability Report   Introduction, Products 
+3-5,14 2019 Sustainability Report   Introduction, Products 
+18-29 2019 Sustainability Report   Environment 
+18-29 2019 Sustainability Report   Environment 
+11 2019 Sustainability Report   Code of Conduct  Micron Code of Business Conduct and Ethics  p31-32 
+Micron considers this information to be confidential  and does not publicly disclose it. However, all  reports made in good faith are investigated  thoroughly. Appropriate action is taken in cases   that are substantiated. 
+2019 Sustainability Report     57 
+GRI Standard GRI Standards Disclosure 
+GRI 302: Energy 2016 
+GRI 303: Water 2016 
+GRI 305:   Emissions 2016 
+302-1 Energy consumption within the organization 22 2019 Sustainability Report   Environment  Performance At-A-Glance   2018 Micron CDP Climate Change Disclosure  Information is collected and reported to CDP  annually. Data assumptions and calculations are  consistent with the Greenhouse Gas Protocol and  IPCC Guidelines for National Greenhouse Gas  Inventories, 2006. 
+302-4 Reduction of energy consumption 22 2019 Sustainability Report   Environment  Performance At-A-Glance   2018 Micron CDP Climate Change Disclosure 
+302-5 Reductions in energy requirements of  products and services 
+303-1 Water withdrawal by source 20 2019 Sustainability Report   Environment  Performance At-A-Glance   2018 Micron CDP Water Security Disclosure 
+305-1 Direct (Scope 1) GHG emissions 22 2019 Sustainability Report   Environment  Performance At-A-Glance   2018 Micron CDP Climate Change Disclosure 
+305-2 Energy indirect (Scope 2) GHG emissions 22 2019 Sustainability Report   Environment  Performance At-A-Glance   2018 Micron CDP Climate Change Disclosure 
+305-4 GHG emissions intensity 0.000222 MTCO2e (Scope 1 2)   revenue 2018 Micron CDP Climate Change Disclosure 
+305-5 Reduction of GHG emissions 22 2019 Sustainability Report   Environment  Performance At-A-Glance   2018 Micron CDP Climate Change Disclosure 
+Energy Consumption   Savings 
+Kwh 2015 2016 2017 2018 
+Purchased Electricity 4,340,652,461 5,114,262,681 5,224,270,265 5,612,231,416 
+Purchased Steam 94,076,410 87,585,939 84,262,883 82,521,524 
+Purchased Cooling 119,572,023 119,468,793 115,714,091 112,813,921 
+Fuel 1,961,186,165 2,077,141,689 2,007,457,781 2,143,649,294 
+Energy Saving 55,047,940 202,442,520 93,998,457 57,236,877 
+Sustainability  
+Report Location Explanatory Notes 
+15 2019 Sustainability Report   Products   Innovation    Product Efficiency   2018 Micron CDP Climate Change Disclosure 
+2019 Sustainability Report     58 
+GRI Standard GRI Standards Disclosure 
+Effluents and Waste 
+GRI 306: Effluents and  Waste 2016 
+Supplier Environmental Assessment 
+GRI 308: Supplier  Environmental  Assessment 2016 
+400 Series (Social Topics) 
+GRI 103: Management  Approach 2016 
+Employment 
+GRI 401: Employment  2016 
+306-1 Water discharge by quality and destination 20 2019 Sustainability Report   Environment  Performance At-A-Glance   2018 Micron CDP Water Security Disclosure 
+306-2 Waste by type and disposal method 21 2019 Sustainability Report   Environment  Performance At-A-Glance  
+306-4 Transport of hazardous waste 21 2019 Sustainability Report   Environment  Performance At-A-Glance  
+308-1 New suppliers that were screened using  environmental criteria 
+103-1 Explanation of the material topic and its  boundary 
+103-2 The management approach and its  components 
+103-3 Evaluation of the management approach 30-53 2019 Sustainability Report   Responsible Sourcing,  People, and Communities  2018 Diversity   Inclusion Report 
+401-1 New employee hires and employee turnover Micron considers this information to be confidential  and therefore does not publicly disclose it. 
+Wastewater Discharge 
+2017  30,278,182.95 m3 5,971,758 m3 83.5% 
+2018  32,430,555.93 m3 5,538,003 m3 85.4% 
+Year Treatment: Publicly Owned Treatment  
+Works (POTW) Water Body % Treatment   POTW 
+Sustainability  
+Report Location Explanatory Notes 
+30-33 2019 Sustainability Report   Responsible Sourcing 
+30-53 2019 Sustainability Report   Responsible Sourcing,  People, and Communities  2018 Diversity   Inclusion Report 
+30-53 2019 Sustainability Report   Responsible Sourcing,  People, and Communities  2018 Diversity   Inclusion Report 
+2019 Sustainability Report     59 
+GRI Standard GRI Standards Disclosure 
+Occupational Health and Safety 
+GRI 403: Occupational  Health and Safety  2018 
+Training and Education 
+GRI 404: Training and  Education 2016 
+Diversity and Equal Opprtunity 
+GRI 405: Diversity and  Equal Opportunity  2016 
+403-1 Occupational health and safety manage- ment system 
+403-2 Hazard identification, risk assessment, and  incident investigation 
+403-3 Occupational health services 45-46 2019 Sustainability Report   People   Safe,  Healthy   Secure  Micron Code of Business Conduct and Ethics 
+403-4 Worker participation, consultation, and  communication on occupational health and safety 
+403-5 Worker training on occupational health and  safety 
+403-6 Promotion of worker health 45-46 2019 Sustainability Report   People   Safe,  Healthy   Secure  Micron Code of Business Conduct and Ethics 
+403-7 Prevention and mitigation of occupational  health and safety impacts directly linked by  business relationships 
+404-1 Average hours of training per year per  employee 
+404-2 Programs for upgrading employee skills and  transition assistance programs 
+405-1 Diversity of governance bodies and  employees 
+405-2 Ratio of basic salary and remuneration of  women to men 
+Sustainability  
+23, 45-46 2019 Sustainability Report   Environment   EHS  Approach  2019 Sustainability Report   People   Safe,  Healthy   Secure 
+Report Location Explanatory Notes 
+45-46 2019 Sustainability Report   People   Safe,  Healthy   Secure  Micron Code of Business Conduct and Ethics 
+45-46 2019 Sustainability Report   People   Safe,  Healthy   Secure  Micron Code of Business Conduct and Ethics 
+45-46 2019 Sustainability Report   People   Safe,  Healthy   Secure  Micron Code of Business Conduct and Ethics 
+45-46 2019 Sustainability Report   People   Safe,  Healthy   Secure  Micron Code of Business Conduct and Ethics 
+47-48 2019 Sustainability Report   People   Professional  Development 
+47-48 2019 Sustainability Report   People   Professional  Development 
+43-44 2019 Sustainability Report   People   Diversity    Inclusion  2018 Diversity   Inclusion Report  As of the end of FY18, Micron s Board of Directors  consisted of six males and one female, all of whom  are over 50 years of age. Micron s Executive  leadership includes seven males and one female,  four of whom are over 50 years of age and four of  whom are between 30-50 years. Micron has ethnic  minority diversity representation on both our Board  of Directors and our Executive team. 
+43 2019 Sustainability Report   People   Focus On:  Pursuit of Pay Parity 
+2019 Sustainability Report     60 
+GRI Standard GRI Standards Disclosure 
+Nondiscrimination 
+GRI 406:  Nondiscrimination  2016 
+Freedom of Association and Collective Bargaining 
+GRI 407: Freedom of  Association and  Collective Bargaining 
+Child Labor 
+GRI 408: Child Labor  2016 
+Forced or Compulsory Labor 
+GRI 409: Forced or  Compulsory Labor  2016 
+Human Rights Assesment 
+GRI 412: Human  Rights Assessment  2016 
+Local Communities 
+GRI 413: Local  Communities 2016 
+406-1 Incidents of discrimination and corrective  actions taken 
+407-1 Operations and suppliers in which the right  to freedom of asociation and collective bargaining  may be at risk 
+408-1 Operations and suppliers at significant risk  for incidents of child labor 
+409-1 Operations and suppliers at significant risk  for incidents of forced or compulsory labor 
+412-2 Employee training on human rights policies  or procedures 
+413-1 Operations with local community engage- ment, impact assessments, and development  programs 
+Sustainability  
+Report Location Explanatory Notes 
+43-44 2018 Diversity   Inclusion Report   People    Diversity   Inclusion  Micron Code of Business Conduct and Ethics 
+30-35 2019 Sustainability Report   Responsible Sourcing  Micron Code of Business Conduct and Ethics p8  Micron Human Rights Policy 
+30-35 2019 Sustainability Report   Responsible Sourcing  Micron Code of Business Conduct and Ethics p8  Micron Human Rights Policy 
+30-35 2019 Sustainability Report   Responsible Sourcing  Micron Code of Business Conduct and Ethics p8   Micron Human Rights Policy 
+30-35 2019 Sustainability Report   Responsible Sourcing  Micron Code of Business Conduct and Ethics p8  Micron Human Rights Policy  We are strongly committed to respecting and  protecting human rights wherever we operate   (see Fair Labor Standard in our Code of  Conduct.) 100% of Micron s workforce at manufac- turing sites are educated on eliminating forced labor,  slavery and human trafficking from the Global Supply  Chain and our Slavery and Human Trafficking  Statement. 
+49-53 2019 Sustainability Report   Communities 
+2019 Sustainability Report     61 
+GRI Standard GRI Standards Disclosure 
+Supplier Social Assesment 
+GRI 414: Supplier  Social Assessment  2016 
+Customer Health and Safety 
+GRI 416: Customer  Health and Safety  2016 
+Marketing and Labeling 
+GRI 417: Marketing  and Labeling 2016 
+Customer Privacy 
+GRI 418: Customer  Privacy 2016 
+414-1 New suppliers that were screened using  social criteria 
+414-2 Negative social impacts in the supply chain  and actions taken 
+416-1 Assessment of the health and safety  impacts of product and service categories 
+417-1 Requirements for product and service  information and labeling 
+418-1 Substantiated complaints concerning  breaches of customer privacy and losses of  customer data 
+Sustainability  
+Report Location Explanatory Notes 
+30-38 2019 Sustainability Report   Responsible Sourcing 
+30-38 2019 Sustainability Report   Responsible Sourcing 
+17 2019 Sustainability Report   Products   Innovation    Hazardous Substances   Export Compliance 
+Suppliers are required to comply with Micron s  Environmental Product Compliance spec. The spec  contains a list of banned and restricted substances.  Solid-state drive product labels bear multiple safety  emissions substance marks: CE-EU EMI RoHS,  FCC   US EMI, VCCI   Japan, BSMI   EMI  RoHS, ICES   Canada EMI, RCM   AUS NZ EMI,  KC   Korea EMI, Morocco   Morocco EMI, UL    US Canada safety, TUV   Germany safety, or  China RoHS. Halogen-free text is included where  applicable. WEEE symbol is also included per  customer request  however, Micron s current  obligation is just to notify the customer of material  content. Module product labels bear the CE mark,  indicating EMI RoHS compliance. RoHS and low  halogen compliance is built into the part number. 
+Primarily operating in the business-to-business  market, Micron collects limited personal data from  customers. Micron considers the total number of  breaches confidential and therefore does not  publicly disclose it. 
+2019 Sustainability Report     62 
+  2019 Micron Technology, Inc. All rights reserved. Micron, the Micron logo, the Micron symbol and Intelligence Accelerated  are trademarks of Micron Technology, Inc. All other trademarks are the property of their respective owners. 
+Learn more at micron.com sustainability. 
