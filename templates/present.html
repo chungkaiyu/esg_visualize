@@ -13,12 +13,12 @@
     <h2 class= "text-center">Result</h2>
     <div class="row mx-4">
         <div class = "col-10">
-            <!--<p>{{data}}</p>-->
+            <!-- <p>{{data}}</p> -->
             {% set cur_flag = { 'flag': False } %}
             {% set flag =  False  %}
             <p class="text-justify">
             {% for i in text %}
-                {% set cur_str = i ~' '~ loop.nextitem %}
+                {% set cur_str = i  %}
                 {% if cur_flag.flag %}
                     {% if cur_flag.update({'flag':False}) %}{% endif %}
                 {% elif cur_str in data['Environment'] %}
@@ -45,7 +45,7 @@
                 {% set Gov =  data['Governance']|length  %}
                 {% for pillar, key_phrase in data.items()%}
                     <h3> {{pillar}} </h3>
-                    <p>{{ '%.2f' | format( 100*(key_phrase | length / (Env + Soc + Gov)) | float) }}%</p>
+                    <h4>{{ '%.2f' | format( 100*(key_phrase | length / (Env + Soc + Gov)) | float) }}%</h4>
                 {% endfor %}
             </div>
         </div>

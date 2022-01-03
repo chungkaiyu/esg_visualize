@@ -1,0 +1,654 @@
+Microsoft 2019 Corporate Social  Responsibility Report 
+Our approach 
+02 Letter from Satya Nadella 
+03 Impact at a glance 
+04 Approach to CSR and reporting 
+Trust and responsibility  
+06 Privacy and cybersecurity 
+12 Human rights 
+15 Responsible sourcing 
+18 Empowering our employees 
+Closing the opportunity gap 
+23 Broadband access 
+25 Skills and employability 
+28  Empowering nonprofits 
+30 Accessibility 
+Protecting our planet 
+33 Environmental sustainability 
+37 Reports hub 
+Satya Nadella 
+Our approach 
+Read the 2019 letter from our CEO  
+At its core, responsibility  is about earning and  sustaining the trust of the  customers and partners  we empower and the  communities in which we  live and work. Without  trust, none of our progress  is possible. 
+Impact at a glance 
+CSR and reporting 
+IMPACT AT A GLANCE 
+Closing the  opportunity gap 
+Trust and  responsibility 
+Protecting  our planet 
+People around the  world connected   with tools, best  practices and  guidance for GDPR  compliance. 
+26 million  
+ 125 million  
+Over five years committed to using  artificial intelligence to tackle some of  society s biggest challenges. 
+Nonprofit organization  partnerships in 42 countries  to reach millions of young  people with quality digital  skills and computer science  experiences. 
+ 170 million  
+(including company match)  Through our employee giving program to  support nonprofits in local communities  around the world. 
+75 percent  
+Reduction in operational emissions to be achieved by 2030,  achieving the Paris Accord targets two decades early. 
+60 percent  
+Renewable energy for powering our datacenters to be  achieved by the end of this year, with 70 percent achieved  within the next four years. 
+6.5 trillion  
+Signals analyzed each day,  plus processing of 450 billion  authentications and scanning  400 billion emails for malware  and phishing each month as we  work to protect our customers. 
+40 million  
+Unserved and underserved  people around the globe to  be connected with high speed  internet access by 2022 through  a new international track of our  Airband Initiative. 
+ 500 million  
+In loans and grants to accelerate the  construction of more affordable housing in  the Puget Sound region. 
+152 percent  
+Increase in the number of women  corporate vice presidents. 
+67 countries  
+358 companies and 139  international and civil society  organizations mobilized to join  The Paris Peace Call for Trust and  Security in Cyberspace. 
+ 15 per metric ton  
+Internal carbon fee, nearly  doubling our previous fee. 
+ 1.5 billion  
+In donated or  discounted software  and services  via Microsoft  Philanthropies. 
+Empowering every person and every organization to achieve more requires careful attention to the impact of  our business practices, policies, and community investments. 
+OUR APPROACH 
+Working  together with  stakeholders 
+Our  commitment 
+About this  report 
+Our business practices and policies reflect our commitment to making a positive  impact around the globe. We work to apply the power of technology to earn  and sustain the trust of the customers and partners we empower and the  communities in which we live and work. This focus extends to our work to build  a sustainable future where everyone has access to the benefits and opportunities  that technology can bring. It s central to our mission to empower every person and  organization to achieve more, and it s why many of our employees come to work  every day. 
+Further, it s a commitment that strongly aligns to the United Nations Sustainable  Development Goals. We demonstrate our commitment to sustainable development  through our products and solutions, our responsible business practices, our  programs, our policy and advocacy work and our philanthropic investments.  Explore the pages of this report to learn about some of the ways we re harnessing  technology to empower a sustainable future for everyone.  
+We know that the decisions we make affect our employees, customers, partners,  shareholders, suppliers, and communities and we take their voices into account.  Microsoft receives input from millions of people each year from individual  customers to policymakers and global human rights specialists. We bring outside  perspectives into the company and inform our business decisions through a variety  of feedback channels. We go beyond formal channels, proactively engaging with  key stakeholders, advocacy groups, industry experts, Corporate Social Responsibility  (CSR) rating agencies, CSR-focused investors, and many others. We also share our  learnings and practices thereby generating industry dialogue, informing public  debate, and advancing greater progress.  
+We place a premium on transparency and embrace our digital world to share  both year-end and year-round updates. We ve designed our CSR report PDF as a  resource to help guide our stakeholders to the wealth of rich information available  across the web about how we re making the world a better place. In his annual  shareholder letter, Satya Nadella, addresses our business and social impacts and  sets the stage for both the 2019 CSR and Financial annual reports. Unless otherwise  stated, the information in this report covers all of the Microsoft global operations  during the 2019 fiscal year (July 1, 2018 to June 30, 2019). 
+Visit our CSR site for more about our sustainable development commitment 
+Learn more about our CSR and reporting approach 
+Trust and responsibility 
+06 Privacy and  cybersecurity 
+12 Human rights 
+18 Empowering our  employees 
+15 Responsible sourcing 
+Our commitment   and approach 
+We recognize privacy as a fundamental human right. We work to preserve our customers  ability to  control their data, make informed choices to protect their privacy, and support critical efforts to secure  cyberspace against new and emerging threats.  
+PRIVACY AND CYBERSECURITY 
+Cybersecurity To maintain global trust in technology and secure cyberspace against new and  emerging threats public policy must continue to evolve. Microsoft supports  these critical efforts, focusing on four broad themes of concern to policymakers:  cybersecurity policy and resilience, cloud security and assurance, a Digital Geneva  Convention, and cybercrime legislation and strategy. We also work with law  enforcement and other public private partnerships via our Digital Crimes Unit to  disrupt nation-state activity. 
+Defending  democracy 
+Privacy The cloud offers us enormous potential, not only in driving innovation and  efficiencies but also in serving as a secure location for storing confidential  and sensitive information. These new technologies, however, raise challenging  questions about the rules for how related data should be treated. Businesses  and individuals have the reasonable expectation that the information they create  and store in digital form should be accorded the same privacy protections as  information they commit to paper. Microsoft product development and privacy  practices focus on six key privacy principles: 
+Threats to our democratic processes from cyber-enabled interference have become  a critical concern. Through our Defending Democracy Program, we work with  stakeholders including governments, non-government organizations, academics,  and industry all in democratic countries globally to protect campaigns from  hacking, increase political advertising transparency online, explore technological  solutions to preserve and protect electoral processes, and defend against  disinformation campaigns.  
+We commit to working collaboratively across industry, governments, educational  institutions, and NGOs in the fight to protect privacy and cybersecurity for  individuals and businesses around the globe.  
+Learn more about our principles 
+Read the program announcement 
+Highlights 
+Reporting  resources 
+Tools and Weapons:  The Promise and  the Peril of the  Digital Age 
+Protecting political  campaigns 
+Creating a safer  world for digital  transformation  
+Promoting trust  and security in  cyberspace 
+Complying with  GDPR 
+We ve partnered with the Government of France to mobilize 67 countries, 358  companies, and 139 international and civil society organizations to join the Paris  Peace Call for Trust   Security in Cyberspace. 
+Cybersecurity is one of the most critical challenges we and our customers face. We  continue to invest in innovation and partnerships around the globe to address this  challenge. We re working to protect our customers by analyzing more than   6.5 trillion signals each day, processing 450 billion authentications and scanning  400 billion emails for malware and phishing each month. 
+A new book by Microsoft President Brad Smith and Microsoft Senior Director of  External Relations and Executive Communications Carol Ann Browne, discuss the  impact of AI, the rise of cyberattacks, threats to digital privacy and more. 
+Our Defending Democracy Team is driving critical work to protect political  campaigns, candidates and the institutions of democracies. This team has  introduced ElectionGuard, Microsoft 365 for Campaigns and has deployed  AccountGuard in some 26 countries. 
+We re driving compliance across our cloud, helping users view and control their  activity, and engaging with stakeholders on the future of artificial intelligence. 
+This semi-annual report provides  information about the legal demands  for customer data we receive from  law enforcement agencies around the  world, as well as our responses to them. 
+This semi-annual report provides information about the number of requests  received and accepted to remove access to content that is available online through  one of our consumer products or services. 
+Microsoft is committed to making sure that our products and services comply with  GDPR. We also provide our commercial customers with robust tools, backed up  by contractual commitments, to help them comply. Since GDPR became enforced  on May 25, 2018, over 26 million people around the world have used Microsoft s  Privacy Dashboard to control their personal data and exercise GDPR privacy rights,  which Microsoft has extended to all of our consumer customers worldwide. 
+Learn more about our progress 
+Learn more about our measures 
+Learn more about our progress 
+Learn more about this step toward digital peace 
+Learn more about the book 
+Law Enforcement Requests Report US National Security Orders Report 
+Content Removal Requests Report 
+This semi-annual report provides the  data we re legally allowed to share about  demands for customer data we receive  from the US government pursuant to  national security laws, as well as our  responses to them. 
+Get the bigger  
+Microsoft on the Issues:  Cybersecurity 
+Microsoft on the Issues:  Defending democracy 
+Microsoft on the  Issues: Privacy 
+picture Explore these key resources to learn more about our work. 
+Microsoft Trust  Center 
+A Cloud for  Global Good 
+Privacy  statement 
+Security From individuals to enterprise businesses, we re committed to helping our  customers get secure and stay secure in a world of persistent cyberthreats. 
+The Trust Center provides enterprise and business customers information on how  Microsoft protects their data across our cloud services, including how we can help  organizations comply with GDPR. 
+Visit our Microsoft on the Issues blog for the latest on our program expansions  and updates toward protecting the integrity of our democratic processes and  institutions. 
+The Microsoft privacy statement explains what personal data we collect from users  and how we use it. 
+Visit our Microsoft on the Issues blog for the latest updates about our support for  critical efforts to secure cyberspace. 
+Our policy roadmap covers a range of policy areas and provides a comprehensive  set of recommendations and considerations mapped to a trusted, responsible,  and inclusive cloud. 
+Visit our Microsoft on the Issues blog for the latest updates about our work to  defend and protect privacy for individuals and businesses around the world. 
+Review the statement  
+Visit the Trust Center 
+Visit the cloud policy roadmap 
+Visit our Microsoft Secure site 
+Visit the blog 
+Visit the blog 
+Visit the blog 
+Our commitment   and approach 
+We build AI responsibly, taking a principled approach to guide the development and use of artificial  intelligence with people at the center of everything we do. 
+Microsoft AI  Principles Fairness  
+AI for Good AI is fueling some of the most creative people on our planet to make change once  thought impossible a reality.  
+AI for Earth  
+Placing AI technology and cloud software  in the hands of those working to solve  global climate issues. 
+Leveraging AI to support disaster  recovery, address the needs of children,  protect displaced people, and promote  human rights. 
+AI for Humanitarian Action  
+Designing AI to be trustworthy requires creating solutions that reflect ethical  principles that are deeply rooted in important and timeless values. We then apply  those principles to empower innovative solutions. 
+AI systems should treat all  people fairly.  
+Inclusiveness  
+AI systems should  empower everyone and  engage people. 
+Through our AI for Good initiative, we seek to combine Microsoft s technology and  AI expertise with the talent of groups around the world to solve humanitarian issues  and create a more accessible and sustainable world. 
+Learn more about AI for Earth 
+See our commitment in action 
+Learn more about our principles 
+Reliability   Safety  
+AI systems should perform  reliably and safely. 
+Transparency  
+AI systems should be  understandable. 
+AI for Accessibility  
+AI for Cultural Heritage  
+Leveraging the power of AI to amplify  human capability for the more than one  billion people globally with disabilities. 
+Leveraging the power of AI to empower  people and organizations dedicated  to the preservation and enrichment of  cultural heritage. 
+See how AI is empowering lives 
+Learn about our commitment 
+Privacy   Security  
+AI systems should be  secure and respect  privacy. 
+Accountability  
+AI systems should  have algorithmic  accountability. 
+Ag-Analytics helps  farmers and researchers  use AI to prepare for  climate change 
+Microsoft announces  AI for Cultural Heritage 
+Microsoft and National  Geographic Society  announce AI for Earth  Innovation grantees 
+Highlights 
+Using AI to drive  accessible innovation  around the world 
+Innovative solutions  to water security 
+Using AI to  help save lives 
+Sharing Microsoft s goal to help monitor, model, and manage earth s natural  resources with cloud and AI, Ag-Analytics brings precision agriculture to  fruition in a platform that helps farmers leverage all available data to make the  best decisions for their land. 
+We re driving compliance across our cloud, helping users view and control their  activity, and engaging with stakeholders on the future of artificial intelligence. 
+A new and fourth pillar to Microsoft s AI for Good portfolio will use artificial  intelligence to work with nonprofits, universities, and governments around the  world to help preserve the languages we speak, the places we live, and the artifacts  we treasure. 
+With the help of artificial intelligence, new grantees are actively working to uncover  new insights to better monitor, model, and ultimately manage the world s natural  resources more effectively and sustainably. 
+We see huge potential for artificial intelligence, remote sensing, data analytics  and adaptive innovation to be applied to water security challenges, especially  when paired with conservation science, and impact investment. Microsoft s AI for  Earth program and The Nature Conservancy s collaboration with the Techstars  Sustainability Accelerator offer some examples of how such innovations can drive  adaptive water solutions. 
+Last year we launched our AI for Accessibility program, a  25-million  commitment to drive innovation and amplify human capability for people  with disabilities. AI for Accessibility now has grantees across the globe  leveraging our technology to empower people with disabilities. 
+In conjunction with the 2018 United Nations General Assembly meeting, we  announced AI for Humanitarian Action committing  40 million over 5 years. 
+Read the announcement 
+See the blog post by Brad Smith 
+Learn more 
+Find out more about these changemakers 
+Learn more about our grantees 
+Find out more about these innovative solutions 
+Get the bigger  picture 
+Tools and Weapons:  The Promise and  the Peril of the  Digital Age 
+AI for Business Microsoft AI drives digital transformation across industries. 
+Microsoft AI Learn more about our approach to AI, our products and services, and how people  and organizations are working together to transform our world for the better. 
+AI for Good Providing technology, resources, and expertise to empower those working to solve  humanitarian issues and create a more sustainable and accessible world. 
+The AI blog Find cutting-edge examples of Microsoft AI in action and learn how it s bringing  people and organizations together. 
+Innovation  stories 
+Explore key resources to learn more about what AI can do in the hands of  changemakers. 
+A new book by Microsoft President Brad Smith and Microsoft Senior Director of  External Relations and Executive Communications Carol Ann Browne, discuss the  impact of AI, the rise of cyberattacks, threats to digital privacy and more. 
+At Microsoft, we strive for meaningful innovation with products and services that  both improve our lives daily and have the potential to change the world. 
+Learn more about the book 
+Visit the AI site 
+Learn about AI for Good 
+Learn about AI for Business 
+Explore the AI blog 
+Learn about Microsoft Innovation 
+Our commitment   and approach 
+We aim to respect human rights in the way we do business and to advance those rights with the power  of technology. 
+HUMAN RIGHTS 
+AI and human rights Artificial intelligence can improve life in many ways and help solve societal  problems, but AI comes with both challenges and opportunities. We need to  address the challenges together with shared responsibility. Our book, The Future  Computed, outlines the future of responsible AI technology. 
+Global human rights  standards 
+Empowering the UN We re working with the UN Human Rights Office to help them develop  technology to predict, analyze, and respond to human rights situations. We re also  collaborating on joint projects and have provided a multi-million-dollar grant to  support ongoing efforts. 
+Highlights 
+Class-leading due  diligence 
+Rights-aware  decision making 
+Proactive  engagement 
+Transparent  leadership 
+A focus on human rights helps our employees to make good decisions and  ethical choices, and builds trust with our customers and partners. As articulated  in Microsoft s Global Human Rights Statement we rely on international standards  to ensure that our business activities respect and promote human rights so that  technology plays a positive role across the globe. 
+The UN Guiding Principles on Business and Human Rights and the Global   Network Initiative Principles on Freedom of Expression and Privacy steer our human  rights work. 
+Microsoft aspires to leadership in business and human rights and to serve as a  catalyst for action by others in the technology sector and beyond. 
+We aim to conduct best-in-class human rights impact assessments on our salient  human rights actions and emerging trends in business and human rights. 
+We re deploying an integrated approach to human rights decision making across  key aspects of Microsoft. 
+We use actions and public statements to demonstrate that Microsoft is an  important voice, and we advocate for the promotion of human rights. 
+We re advancing transparency in our work and promoting human rights through  increased disclosure and engagement. 
+Learn about our global human rights efforts 
+Learn about our partnership 
+Learn about The Future Computed 
+Reporting  resources 
+Collaborating with  
+Advancing  digital safety 
+UC Berkeley 
+This bi-annual report provides the data we re legally allowed to share about  demands for customer data we receive from the US government pursuant to  national security laws, as well as our responses to them. 
+Using the United Nations Guiding Principles Reporting Framework, we provide  detailed disclosures for each of our salient human rights issues and activities  through a downloadable report. 
+Download the report to learn about the actions we ve taken to prevent modern  slavery and human trafficking in our business and supply chain. 
+Using the United Nations Guiding  Principles Reporting Framework,  we provide detailed disclosures for  each of our salient human rights  issues and activities through a  downloadable report. 
+This bi-annual report provides information about the number of requests received  and accepted to remove access to content that is available online through one of  our consumer products or services. 
+Integrating critical human rights issues directly into education can generate  innovative approaches to managing our responsibilities and may help create the  next generation of ethical leaders. We re partnering with UC Berkeley to provide  annual conferences, student consulting projects, and other collaborative efforts. 
+The Global Internet Forum to Counter Terrorism is an international coalition  to prevent terrorists and violent extremists from exploiting digital platforms.  Individually and collectively, we are taking steps to implement the Christchurch  Call to Action. 
+Law Enforcement Requests Report 
+Learn how we re working together 
+Learn about our digital safety efforts 
+Microsoft Annual Human Rights  Report (PDF) 
+Modern Slavery and Human Trafficking Statement (PDF) 
+US National Security Orders Report 
+Content Removal Requests Report 
+Download the Global Network  Initiative Public Report on the  2018 2019 Independent Company  Assessments. 
+GNI Assessments 2018 2019 
+Get the bigger  
+Freedom of expression  and privacy 
+Global Human  Rights Statement 
+Digital safety We provide tools and resources to protect the digital safety and security of all  internet users. 
+Privacy and  data security 
+Accessibility We create and deliver technology that is accessible and functional for people of  all abilities. 
+Explore key resources to learn more about our Global Human Rights Statement,  oursalient human rights issues, and our bi-annual digital trust reports. 
+We re incorporating privacy considerations into design and development processes,  offering customers meaningful privacy choices, and responsibly collecting,  managing, and using the customer data that we store. 
+We have committed to ensuring that our employees, partners, and suppliers  respect and promote human rights and that technology plays a positive role  across the globe. 
+We respect peoples  right to freedom of expression and their right to freedom from  arbitrary and unlawful interference with privacy online. 
+Learn more about our commitment 
+Learn about freedom of expression 
+Find digital safety resources 
+Discover our approach to privacy 
+Learn more about accessibility 
+Our commitment   and approach 
+At Microsoft, we work to ensure that our suppliers operate in a socially, environmentally, legally, and  ethically responsible manner and treat the people who work for them fairly and with dignity. 
+RESPONSIBLE SOURCING 
+Procurement  responsible  sourcing 
+Devices  responsible  sourcing 
+We expect all suppliers that do business with Microsoft to uphold the human  rights, labor, health and safety, environmental, and business ethics practices  prescribed in our Supplier Code of Conduct (SCoC). This code aligns with, and  exceeds, the Responsible Business Alliance (RBA) Code of Conduct. The Supplier  Code of Conduct is included in all our supplier contracts and Microsoft Social and  Environmental Accountability (SEA) requirements are also incorporated into our  hardware and packaging supplier contracts. 
+We set high standards for our suppliers and collaborate with them to positively  impact their workers, their local communities, and their business operations. 
+Microsoft has relationships with thousands of suppliers around the globe,   spanning both hardware suppliers that manufacture our devices and components,  and indirect suppliers that provide everything from advertising services to building  construction and maintenance. 
+Since 2005, Microsoft Devices has operated an industry-leading Responsible  Sourcing program (also referred to as SEA) to ensure that our hardware and  packaging suppliers conform to our Supplier Code of Conduct and additional  requirements for living conditions, safe working practices, and environmental,  health, and safety protection. We advance our responsible sourcing commitments  through: 
+Since 2013 Microsoft Procurement has also operated an industry-leading  Responsible Sourcing program to promote socially and environmentally responsible  companies in their supply chain. We engage with a broad range of stakeholders  to shape and implement our Responsible Sourcing program and to extend  our overall impact. Our approach is to converge on credible, industry leading  sustainability products and services. Through this approach, we achieve efficiencies,  facilitate participation, reduce risk, and ultimately, improve our suppliers and other  stakeholders social and environmental performance. 
+  Analysis of risks and opportunities 
+  Assurance and accountability 
+  Capability building 
+  Shared value and advancement of the Sustainable Development Goals set by  the UN to improve people s quality of life, protect the environment, and foster  equitable growth 
+Microsoft Procurement Supplier diversity 
+Highlights 
+Microsoft Devices Embedding compliance and sustainability into our business 
+Supplier awards  
+In FY19, with stakeholders including Business for Social Responsibility,  United States Environmental Protection Agency, the CDP and the Rockefeller  Foundation, we provided awards for our supplier leaders in Supplier Diversity,  Climate Change, and Impact Sourcing. 
+Microsoft continues to focus on business and human rights, and acts as a  catalyst for others who are participating in these efforts, in the technology  sector and beyond. 
+We ve built an Audit Management System (AMS) to continue to transform how  we embed compliance and sustainability into our business. Using Microsoft  Power BI, we can track performance and enable continuous supply chain  improvements throughout the SEA Stages. 
+Workers  Voice Hotline 
+Our Workers  Voice Hotline program was extended to 153 factories in FY19. We  were named one of the Top 2 Leading Companies for Workers Voice by Know  the Chain. 
+We delivered capability-building programs to 21 suppliers in Taiwan to improve  factory labor management in mitigating human trafficking and forced labor. 
+Understanding risk  
+To identify and prioritize risk, we completed our mapping of the origination  of key raw materials that are used in our complex and global upstream supply  chain. This allows us to continually improve our supplier due diligence and  capability building efforts to drive change and accountability regarding materials  used in our products. 
+Children out of mining 
+We continued our partnership with Pact to end child labor in tin and cobalt  mines located in the Democratic Republic of Congo (DRC). 
+Capacity-building 
+In FY19, Microsoft spent almost more than  3 billion with minority-, disabled-,  veteran-, LGBTQ-, and woman-owned businesses, ranking among the top 20  companies for spending with diverse-owned suppliers globally. 
+Climate performance 
+In FY19, 100 of our top suppliers reported an average of  530K invested in  emissions reduction activities, reducing their collective footprint by 5.6 million  metric tons of carbon dioxide equivalents (CO2e). 
+Learn about Pact 
+Learn more from our Devices Sustainability Report 
+Learn more about our progress 
+Get the bigger  picture Explore more responsible sourcing resources. 
+Reporting  resources 
+Supplier diversity Get an overview of our Supplier Diversity Program and access links to resources,  including a tool for diverse suppliers to register their interest in working with  Microsoft. 
+Devices  Responsible Raw  Materials Policy 
+Microsoft  Supplier Code  of Conduct 
+Responsible  sourcing 
+Microsoft  sustainable  devices 
+Download our report, which is  released each year, to learn about  the actions we re taking to prevent  modern slavery and human  trafficking in our business and  supply chains. 
+Learn more about our responsible raw materials sourcing strategy and associated  programs. 
+Access our Supplier Code of Conduct in multiple languages and explore links to  related resources including our Supplier Code of Conduct training program. 
+Get more detailed information on the policies and programs related to our  responsible sourcing commitment. 
+Explore our approach and commitment to producing environmentally sustainable  devices. 
+Download our latest annual  conflict minerals report, which  details our due diligence around  the responsible sourcing of gold,  tin, tungsten, and tantalum in the  Democratic Republic of the Congo  and adjacent countries. 
+Slavery and Human Trafficking  Statement (PDF) 
+Conflict Minerals Report (PDF) 
+Explore our supplier standards 
+Download PDF about our policy 
+Learn about supplier diversity 
+Learn about sustainable devices 
+Learn about the programs 
+Each year, Microsoft publishes  a downloadable list of our top  100 production suppliers for our  commercially available devices. 
+See the key results of our  Responsible Sourcing and Social  and Environmental Accountability  audits and assessments in the  Devices Sustainability at Microsoft  Fiscal Year 2019 report. 
+Devices sustainability report (PDF) 
+Production Supplier List (PDF) 
+Our commitment   and approach 
+At Microsoft, we re focused on bringing out the best in people, supporting their goals, and  empowering them to find deep meaning and purpose in their work. 
+EMPOWERING OUR EMPLOYEES 
+Respecting  human rights 
+Total rewards We develop dynamic, sustainable, and strategic programs that together provide a  highly differentiated portfolio to attract, reward and retain top talent and enable  our employees to do their best work. These programs reinforce our culture  and values. The result is a global performance and development approach that  fosters our culture, competitive compensation that ensures equitable pay by role  while supporting pay for performance, and distinctive benefits that delight our  employees. 
+Our culture At its core, Microsoft s strength lies in our talented people and a culture grounded  in growth mindset. This means anyone can change, learn, and grow. We believe  potential can be nurtured and is not pre-determined, and we should always be  learning and curious - trying new things without fear of failure. We identified   four attributes that allow growth mindset to flourish. Obsessing over what   matters to our customers, becoming more diverse and inclusive in everything we  do, operating as one company instead of multiple siloed businesses and lastly,  making a difference in the lives of each other, our customers and the world   around us.  
+ Those ILO principles are freedom of association and the effective recognition of the right to collective  bargaining  elimination of all forms of forced or compulsory labor  effective abolition of child labor  and  elimination of discrimination in respect of employment and occupation. 
+Our Global Human Rights Statement, and participation as a signatory to the UN  Global Compact, demonstrate our commitment to respecting the following human  rights covenants and declarations: 
+Microsoft s mission is to empower every person and every organization on the  planet to achieve more. The only way we will achieve our mission is by transforming  our culture. We are seeing results from our efforts, but we are not done. We are  constantly learning. 
+Learn more about our mission and culture 
+Universal Declaration of Human Rights International Covenant on Civil and Political Rights International Covenant on Economic, Social, and Cultural Rights 
+International Labor Organization (ILO) Declaration on Fundamental Principles and  Rights at Work  
+Learn more about our benefits 
+Diversity and  
+Wellness and  safety 
+Training and  development 
+Our growth mindset culture begins with valuing learning over knowing seeking  out new ideas, embracing challenges, learning from failure, and improving over  time. To support this culture, we offer a diverse range of learning and development  opportunities. We believe training can be more than formal instruction, and our  philosophy focuses on providing the right learning, at the right time, in the right  way. Opportunities include: 
+Microsoft is committed to supporting our employees  well-being and safety while  they are at work and in their personal lives.  
+At Microsoft we have an inherently inclusive mission   empower everyone on  the planet. We think of diversity and inclusion as core to our business model,  something which informs our actions and can impact economies and people  around the world. There are billions of people who want to achieve more, but  have a different set of circumstances, abilities, and backgrounds that often limit  access to opportunity and achievement. The better we represent that diversity  inside Microsoft, the better we re able to innovate for those we seek to empower.  
+At Microsoft we each strive to include others by holding ourselves accountable  for diversity, driving global systemic change in our workplace and workforce, and  creating an inclusive work environment. Through this commitment we can allow  everyone the chance to be their authentic selves and do their best work every day. 
+In addition to our comprehensive benefits package, our Occupational Health and  Safety program helps ensure employees can stay safe while they are working. 
+  Personalized, integrated, and relevant views of all learning opportunities on  Microsoft Learning and LinkedIn Learning 
+  In-the-classroom learning and sharing with learner boards 
+  On-the-job  stretch  opportunities for advancement 
+  Frequent promotion opportunities 
+  Coaching on career development through ongoing manager connections 
+  Customized manager training to enhance coaching and mentoring skills 
+  New employee orientation covering a range of topics including company values,  culture, and Standards of Business Conduct 
+  Professionals assess the safety risks of work activities and engage with workers  and management to implement safe work practices, hazard controls, and training  to minimize safety risks and to provide continual improvement for employee  health and safety 
+  New and existing workspaces are periodically assessed to ensure they are  constructed with sound design-for-safety principles and that controls are  implemented effectively 
+  Microsoft involves employees and managers in Health and Safety Committees  
+specific to our datacenters, retail operations, and office locations where required 
+Learn more about global diversity and inclusion at Microsoft 
+Learn more about our commitment to safe and productive workplaces 
+Committed to diversity  and inclusion 
+Highlights 
+Employee feedback  counts 
+Global family leave Microsoft offers generous paid family leave to employees worldwide. Employees  get a minimum of 20 weeks paid parental leave for birth parents and six weeks for  non- birth parents. We also offer caregiver leave, which allows employees up to four  weeks of paid leave to care for an immediate family member. 
+Reporting  resources Workforce demographics 
+Ethical business  decision making 
+Perspectives We continued to drive our new approach to feedback called Perspectives, which was  built using learnings from neuroscience and social psychology. Perspectives aims to  improve how we ask for, share, and receive high-quality feedback to enable growth  mindset and allow employees to better embrace our culture. 
+We are building a more inclusive environment through programs like expanded  caregiver leave, unconscious bias training, a global allyship program, a  commitment to ongoing dialogue and the continued support for and growth  of our eight Employee Resource Groups. Most recently, we made inclusion a   core priority  for all employees at Microsoft, which means that as part of our  performance and development approach, every employee is encouraged to  deepen their learning about diversity and make inclusion a daily and personal  part of their job.  
+The demographics of our workforce will continue to serve as a measure of our  progress toward a more diverse and inclusive Microsoft, and our contribution to the  diversity of the tech industry at large. 
+Nearly 90 percent of employees participated in our annual MS Poll engagement  survey 94 percent said they re proud to work for Microsoft, 90 percent said they d  recommend it as a great place to work, and 93% report having a positive working  relationship with their manager. Over the course of the year, we also collected  nearly 75,000 Daily Pulse responses, and we continue to leverage both listening  systems to understand employee sentiment and address areas of concern.  
+We continue to deepen our commitment to diversity and inclusion, offer  our employees valuable training, and seek better ways to support both  them and their loved ones. 
+All Microsoft employees must complete annual Standards of Business Conduct  training. The training course is available in 16 languages and in FY19 we achieved a  course completion rate greater than 99 percent. 
+Review the announcement 
+Learn more about our approach 
+Learn more about Perspectives 
+Learn about the standards 
+Get the bigger  picture 
+Global Human  Rights Statement 
+Employee stories Explore the technology and innovations Microsoft employees around the world are  creating, from working to solve cancer to tracking down cybercriminals. 
+Microsoft Life We highlight stories on how employees are empowered by the company culture to  follow their passions, make a difference in the world, and live a  MicrosoftLife. 
+Diverse  perspectives 
+Microsoft  careers 
+Inclusive  hiring 
+Our Global Human Rights Statement and participation in the UN Global  Compact, are part of our commitment to respecting human rights covenants and  declarations. 
+Infusing our commitment to diversity and inclusion into everything we do allows  us to tap into the collective power of everyone at Microsoft. As a result, we are  more agile, our ideas are better, our products are better, and our customers are  better served.  
+Microsoft is always looking for the best and brightest talent. We invite candidates  of all abilities to come as they are and do what they love. 
+To build the best products for everyone, we need to have a diverse and inclusive  workforce across all abilities. Through our inclusive hiring programs, we work  towards that goal every day. 
+We offer many key resources to help visitors gain a more comprehensive   understanding of our commitment to empowering our employees. 
+Explore Microsoft careers 
+Learn more about our approach 
+Explore the Microsoft Life site 
+Review the statement 
+Learn about inclusive hiring 
+Check out our stories 
+Closing the opportunity gap 
+23 Broadband  access 
+28 Empowering  nonprofits 
+25 Skills and  employability 
+30 Accessibility 
+Our commitment   and approach 
+As a global technology company, we believe we have a responsibility and a great opportunity to help  close the broadband gap that exists in the US and across the globe. 
+BROADBAND ACCESS 
+Closing the global  digital divide 
+Our partnerships Elimination of the broadband gap requires deployment of low-cost technology  at scale. We support businesses working to increase internet and energy access  and make it more affordable. Partnerships include co-investment and access to  resources like technology, digital skills, and reseller programs.  
+Eliminating  the US rural  broadband gap 
+Technology To deliver cost-effective broadband access to rural areas, network operators must  leverage a mix of technologies like TV white spaces, fixed wireless, and satellite  coverage. This technology model can reduce both the initial capital and the  ongoing operating costs of broadband networks. 
+We partner with equipment makers, internet and energy access providers, and  local entrepreneurs to make affordable broadband access a reality for communities  around the world. 
+In 2017 we launched a comprehensive US rural broadband strategy to help  connect at least 25 million Americans without access to broadband, of which more  than 19 million people live in rural communities. We have committed to connect  3 million of these people through Airband partnerships, invest in making specific  broadband technology more affordable, and help with digital skills training for the  communities we reach. 
+In 2019 we formalized our international work within the Airband Initiative.  Broadband adoption has slowed, and progress is especially elusive in low-income  countries and rural areas across the globe. Most of the connected population  relies on low speed, basic cellular services and only 14.1 percent of the global  population has an in-home internet subscription. Through the international  track of the Airband Initiative, our goal is to extend internet access to 40 million  unserved and underserved people within the span of three years. Our efforts will  focus on areas with significant underserved populations   initially, Latin America  and Sub-Saharan Africa.  
+Learn more about our comprehensive strategy 
+Learn more about our international track 
+Learn about the technology models 
+Download the 2018 strategy document 
+Learn about our partnerships 
+Get the bigger  
+Microsoft on the Issues:  Rural broadband 
+Connecting rural India With a mix of technologies, AirJaldi has created a series of hybrid networks   to provide affordable and reliable internet to some of India s most   underserved regions. 
+Reaffirming our  commitment to global  connectivity 
+Connecting Colombia Italian coffee company Lavazza, energy and agricultural innovator ALO Partners,  and the Colombian nonprofit MAKAIA teamed up to connect rural, coffee-growing  areas of Colombia. Internet access was delivered via TV white-space technology and  has already connected two schools and five farms. 
+Highlights Through the Microsoft Airband Initiative, we re working to bring affordable  broadband access to everyone. Here are some highlights from our progress. 
+Working together to  bring connectivity to  military veterans 
+Bringing broadband  internet to Indiana,  Ohio, and Illinois 
+Microsoft Airband  Initiative 
+Delivering safe,  affordable energy  in Africa 
+picture Explore key resources to learn more about our work to close the broadband gap. 
+Visit our Microsoft on the Issues blog for the latest updates about our work to  make affordable broadband access a reality for communities around the world. 
+Access more information on our privacy principles, the common categories  of data we collect, and additional links to product and service-specific privacy  information and controls. 
+Over 600 million Africans lack access to either electricity or internet. M-KOPA, a  Kenya-based company, uses a cloud-connected IoT device to deliver affordable  clean energy to 3 million people and 600,000 off-grid residences. 
+Through the new international track of our Airband Initiative, we ve set a  new goal to extend high-speed internet access to 40 million unserved and  underserved people around the globe by July 2022. 
+Microsoft is expanding its work with Veterans Affairs to bring broadband access,  digital skills training, and telehealth services to veterans living in rural areas. 
+In partnership with Microsoft, Watch Communications will deploy a variety of  broadband technologies to cover more than four million people in the region,  including 815,000 people in rural areas currently without access to broadband. 
+Explore the Airband site 
+Visit the blog 
+Review the announcement 
+Learn more about this plan 
+Learn more about AirJaldi 
+Learn about Lavazza and partners 
+Learn more about M-KOPA 
+Learn more from the announcement 
+Our commitment   and approach 
+Microsoft is working to help ensure every person can build the skills and access the resources needed  to succeed in a digital economy. 
+SKILLS AND EMPLOYABILITY 
+Creating  pathways to   21st-century jobs 
+Equipping youth  and future workers 
+To succeed in this modern economy, workers need access to learning resources  to gain the skills required for in-demand jobs. We re working to provide access to  those resources to help create pathways for workers and scalable solutions that can  be replicated globally. 
+Empower people 
+Equipping future workers requires access to learning courses to gain the skills  required for in-demand jobs. LinkedIn Learning enables lifelong learning while  connecting workers to jobs. 
+Advocate for change 
+With partners like Code.org, we encourage states to increase access to CS education  and count CS courses toward math and science credit requirements.  
+As the world of work is changing, we believe in a future where every person has the  skills, knowledge, and opportunity to thrive. That s why as part of our commitment  to ensure advances in technology leave no one behind, we re focused on two  critical areas:  
+Providing inclusive, equitable access to computer science (CS) education can  help ensure young people are equipped for the future. We partner with schools  and organizations to provide experiences that spark excitement for future CS  opportunities. 
+Empower organizations 
+Through cash grants, technology, and resources, we support nonprofits like   Code.org and Microsoft Philanthropies programs like Technology Education and  Literacy in Schools (TEALS) to increase the capacity of organizations to develop and  grow high-quality computer science programs. 
+Engage students 
+We partner with over 110 nonprofit organizations in 42 countries to reach millions  of young people with quality digital skills and computer science experiences that  pique interest in technology and spark excitement. 
+Watch the TEALS video 
+Access LinkedIn Learning 
+Get Microsoft role-based training 
+Check the CS policy in your state 
+Get started with CS advocacy 
+Learn more about our partners 
+In 10 years almost  75,000 students  received CS Education 
+Highlights Learn about our progress to equip future workers and create pathways to   21st-century jobs. 
+Competing in the  digital economy 
+180,000 teachers  trained 
+Bringing access  to underserved  communities 
+Providing  future-ready  skills 
+Today, 60 percent of schools don t teach coding in their schools. With support  from Microsoft, Code.org helps equip teachers at Frederick Douglass Elementary  and other schools with tools to teach computer science in their classrooms  increasing test scores and providing students with future-ready skills. 
+In addition to teaching millions of youth digital skills and computer science,  Microsoft grantees have trained more than 180,000 teachers who will go on to  teach computer science around the world. 
+Engage employers 
+Skills-based hiring and apprenticeships, like those from our partner Apprenti, help  companies find and retain qualified people by increasing employer connections to  skilled candidates and creating pathways for workers. 
+Over 50 percent of the youth served globally through Microsoft partner-funded  programs are female, and over 80 percent are from underserved communities. 
+The Skillful program helps American workers, like Bylo Farmer, develop critical  job skills. Through her own tenacity and the help of a Skillful job coach, Bylo has  started over and changed careers, becoming a machinist after years of working at  a women s shelter in Boulder, Colorado. 
+During the 2019-2020 school year, over 21,000 students in the US and British  Columbia, Canada have access to AP Computer Science courses thanks to tech  professionals who volunteer with the Microsoft Philanthropies TEALS Program.  Almost 75,000 students have had access to CS courses since the program s  inception in 2009. 
+Find out more about our grantees 
+Learn more about TEALS 
+Learn more about apprenticeships 
+Learn more about our programs 
+Play the video of Bylo s story 
+Play the video 
+Get the bigger  picture 
+Skills and  employability 
+TechSpark Rapid advancement in technology is creating new opportunities in a digital  economy. But these opportunities remain out of reach for many in rural and  remote communities, who often lack the broadband access, resources, or digital  skills required to succeed. We are working to ensure that all people not just  those in the biggest cities can benefit from the opportunities the digital  economy provides. 
+Explore key resources to learn how we re equipping individuals for success in  an increasingly digital world. 
+We re working to help ensure that every person can build the skills and access the  resources needed to succeed in a digital economy. 
+Learn more about our progress 
+Learn more about TechSpark 
+Our commitment   and approach 
+Microsoft is committed to ensuring nonprofits can advance their missions through digital  transformation, enabled by secure and trusted technology. 
+EMPOWERING NONPROFITS 
+Employee giving Microsoft employees give generously to empower those most in need in our local  communities and our world. Employee giving is part of our culture and how we live  our mission. 
+Tech for Social  Impact 
+Humanitarian  action 
+Community  engagement 
+We support first responder organizations through technology donations and  financial support during response and recovery efforts. We also work to help  organizations increase preparedness and get ahead of the response curve while  improving their ability to respond to future disasters. 
+Nonprofits are working to solve the world s most challenging issues. They must  have access to relevant and affordable technology to help them accelerate impact  around the world. Microsoft Tech for Social Impact brings together the best of our  commercial solutions with account teams, philanthropy, and engineering resources  dedicated to nonprofit digital transformation.  
+As one of Washington state s largest employers, Microsoft works to enhance  economic growth and create opportunities that protect and improve the quality of  life for Washington state residents. 
+We provide innovative and sector specific solutions for nonprofits around the  world. Donations and discounts are available for cloud solutions including Microsoft  365, Power BI, Azure, and Dynamics 365. We deliver guidance and training like the  Microsoft Digital Skills Center for Nonprofits to help nonprofits navigate digital  transformation. 
+Partnerships 
+We believe technology can be a powerful force for social good, but we know  technology alone won t solve the world s challenges. That s why we partner closely  with governments, nonprofit consortiums, and the private sector to foster collective  action for sustainable development, disaster response and capacity building. 
+We partner with Microsoft s global ecosystem of partners who deliver services and  solutions to help nonprofits get the most out of technology. 
+Learn more about our commitment to WA state 
+Learn more about nonprofit technology 
+Learn more about employee giving 
+Learn more about humanitarian action 
+Artificial intelligence  to support refugees  and displaced  people 
+Get the bigger  picture 
+Making an impact  across Washington  State 
+Tech for Social Impact Learn more about our commitment to nonprofits. 
+Highlights 
+Reporting  resources 2019 Donations and Volunteerism Factsheet 
+2019 Donations    Volunteerism Data  Factsheet 
+Donations and  employee giving 
+Microsoft  Philanthropies 
+We ve expanded our support for the nonprofit sector over the last year. We  work closely with nonprofit organizations around the world to help them  accelerate their organizational transformation with technology. 
+Last year at the UN General Assembly, Microsoft built on its longstanding support  to humanitarian organizations with AI for Humanitarian Action, a  40 million, five- year program. Through AI for Humanitarian Action, we are harnessing the power of  artificial intelligence and machine learning to improve the lives of over 70 million  displaced people in the world, nearly 26 million of whom are refugees. 
+Access to affordable housing is a major barrier to equitable growth and this year we  launched a major initiative to expand the housing options for people who work in  the Puget Sound region where we are headquartered. We re putting  500 million to  work in loans and grants to accelerate the construction of more affordable housing  in the region. 
+See a snapshot of Microsoft donations and volunteerism figures over the  past three years. 
+We believe in a future where every person has the skills, knowledge, and  opportunity to achieve more. 
+Microsoft matches employee donations of time and money to nonprofit  organizations of their choice. In fiscal 2019, Microsoft has donated or provided  discounted software and services worth more  1.5 billion via Microsoft  Philanthropies. Our employees generously donated an additional  170 million  (including company match) through our employee giving program to support  nonprofits in local communities. 
+Explore key resources to learn more about our work to empower nonprofits in  their work to make a difference in our communities around the world.  
+Learn more about the program 
+Visit the Nonprofit site 
+Learn more about commitment to nonprofits 
+Learn more about our employee engagement 
+Learn more about our commitment 
+Learn more about our philanthropic work 
+Our commitment   and approach 
+At Microsoft, we believe there is no limit to what people can achieve. Especially when technology  reflects the diversity of its users and is accessible to all. 
+ACCESSIBILITY 
+Highlights We re building a diverse workforce through inclusive hiring programs and creating  products that work for everyone. 
+Inclusive hiring  programs 
+Expanding  accessibility  features 
+Driving  innovation 
+Microsoft is committed to designing products and services that can be used by  everyone. 
+Over one billion people in the world have a disability and we re passionate about  ensuring that our products and services work for everyone. We understand the  power of technology, and that s why we continue to innovate, create, and design  in a way that gives everyone the ability to achieve more. 
+We ve found that many of our accessibility-focused innovations and features  allow us to deliver richer, more flexible experiences for a wider range of users  not just those with disabilities. We re committed to transparency, accountability,  and inclusion in our products and our culture, and we re deeply inspired by the  opportunity to work with people across the globe to explore what s possible. 
+We are committed to delivering technologies that empower everyone to   achieve more and have released significant accessibility enhancements in our  latest products. 
+We continue to push the limits of what s possible with AI to empower people with  disabilities through new innovations such as Seeing AI, Eye Control on Windows 10,  Xbox Adaptive Controller, and Translator. 
+To build the best products for everyone, we need to have a diverse and inclusive  workforce. Our inclusive hiring programs work to make that happen. 
+Discover the new features 
+Explore AI for Accessibility 
+Learn about our hiring programs 
+Get the bigger  picture 
+Microsoft  accessibility 
+Microsoft  accessibility  feedback 
+Inclusive  design 
+Developer  resources 
+See how we re evolving our design system to operate in a complex world. 
+Find information on our accessibility programs, product features, guides, and  additional resources. 
+Explore tools and information you can use to create the next generation of  accessible technology. 
+Share your ideas on what products, features, and tools would delight you, or vote  for ideas you see posted by others. 
+Learn more about our commitment to designing products and services  that work for everyone. 
+Provide accessibility feedback 
+Visit the accessibility site 
+Discover developer resources 
+Learn about inclusive design 
+Protecting our planet 
+33 Environmental  sustainability 
+Our commitment   and approach 
+Microsoft is committed to leveraging technology to solve some of the world s most urgent  environmental issues focusing on areas where we can have the greatest impact, including carbon,  energy, water, and waste. 
+ENVIRONMENTAL SUSTAINABILITY 
+Customers and  partners 
+Products,  services, and  devices 
+Focus areas We focus on the areas where we can have the greatest impact, which include  carbon, energy, water, and waste, across all the work we do. 
+Operations We ve operated carbon neutral since 2012 and continue to reduce our emissions.  We re one of the largest purchasers of renewable energy in the United States. We  use our campus as a living lab of innovation, always testing new ways to minimize  our impact and maximize a positive return for the planet. 
+Policy We advocate for a wide range of policies that drive emissions down, advance  zero-carbon energy, and enhance economic opportunities. We are active in  Washington, D.C.  in state capitals  and internationally to push for greater action. 
+The investments we make in sustainability carry through to our products, services  and devices. We design our devices, from Surface to Xbox, with emphasis on  eco-friendly materials. Our cloud and AI services help businesses cut energy  consumption, reduce physical footprints, and design sustainable products  themselves. 
+Microsoft is committed to accelerating global progress towards a   sustainable future. 
+We re committed to making our technology accessible and available to everyone.  We ve invested  50 million in AI for Earth, a program focused on putting AI in the  hands of those working on the front lines to address sustainability challenges. 
+Learn more about our approach to sustainability 
+Learn more about our operations 
+Learn about AI for Earth 
+Increasing efficiency  and renewable energy  in our datacenters 
+Highlights 
+Operational carbon  emissions 
+Product packaging  sustainability 
+Energy efficiency  improvements in  Surface Pro 
+Building  sustainable  campuses 
+In FY19, we continued to reduce the environmental impact of our packaging by  applying a science-based approach and collaborating closely with our suppliers  and industry partners. We improved the sustainability of our packaging by using  less packaging material, selecting more sustainable materials, and optimizing  manufacturing processes. 
+We re on target to achieve our goal of powering our datacenters with 60 percent  renewable energy by the end of this year and aim to reach 70 percent renewable  energy within the next four years. 
+At our headquarters in Redmond, Washington, we have started work to construct 17  new buildings totaling 2.5 million square feet. This new addition and the rest of our  campus will run on 100 percent carbon-free electricity. We also set a goal to reduce  the amount of carbon associated with the construction materials by 30 percent  through a new online tool. 
+We ve committed to a 75 percent reduction in carbon emissions by 2030 planned  through continued carbon neutrality and energy commitments. In addition, we  nearly doubled our internal carbon fee by raising it to  15 per metric ton on carbon  emissions. 
+In 2019 we doubled down on sustainability with even stronger commitments to  increase our use of renewable energy, advance research and development, and  heighten product carbon efficiency goals. 
+Microsoft works with its partners to develop hardware and software that  increase computing power while reducing energy consumption. Illustrating these  improvements, the Surface Pro, using Windows, has become so energy efficient to  operate that the customer-use phase of each device now accounts for a smaller  portion of its overall GHG emissions than the manufacturing phase (assuming three  years of use). 
+Learn more from our Devices Sustainability Report 
+Learn more from our Devices Sustainability Report 
+See how we re driving efficiencies 
+Learn about our sustainable campus plans 
+Learn more about our new online tool 
+Learn more about our commitment 
+Learn about our renewable energy measures 
+Get the bigger  picture 
+Reporting  resources 
+Responsible  sourcing policy 
+Environmental  compliance  specifications 
+Microsoft on  the Issues:  Sustainability 
+Environment Learn more about how Microsoft is enabling a sustainable future through our  environmental sustainability work. 
+Find more information on key environmental indicators including greenhouse gas  emissions, energy consumption, water consumption and discharge, and waste  through our downloadable report. 
+Visit our Microsoft on the Issues blog for the latest updates on our environmental  sustainability efforts. 
+Learn more about environmental compliance specifications for Microsoft hardware,  packaging, and supplier conformance in our online hub. 
+Download the report to learn how we embed sustainability requirements directly  into the business practices of our device organization and partners. 
+Explore key resources to learn more about our environmental  sustainability efforts. 
+Get details on our strategy for the sourcing of raw materials for use in Microsoft our  hardware products. 
+Download our response to the annual CDP water questionnaire, covering the FY17  reporting period. 
+Download our response to the annual CDP climate change questionnaire, covering  the FY17 reporting period. 
+2018 CDP Climate Change Response (PDF) 
+Environmental Sustainability Data Factsheet (PDF) 
+Devices Sustainability at Microsoft (PDF) 
+Explore our environment site 
+Get details about our efforts 
+Download PDF of our policy 
+2018 CDP Water Response (PDF) 
+Visit the blog 
+37 Reports hub 
+REPORTS HUB 
+Report content  and supplemental  resources 
+Human rights 
+Placing a premium on transparency and easy-to-find content, our reports hub  provides a single, consolidated view of key reports and resources related to  our CSR programs and progress. 
+Letter from our CEO 
+Facts about Microsoft 
+CSR governance and reporting 
+Microsoft Investor Relations Reports 
+Trust and responsibility 
+Digital trust reports 
+Letter to Shareholders, CEO Satya Nadella 
+Subsidiaries 
+Operation centers 
+Microsoft Proxy Statement 
+Microsoft Annual Reports 
+CSR governance and reporting  online summary 
+Stakeholder Engagement (PDF) 
+Law Enforcement Requests  Report 
+U.S. National Security  Orders Report 
+Microsoft Annual Human  Rights Report (PDF)  
+GNI 2018 2019 Company  Assessments 
+UN Global Compact  Communication on Progress 
+Microsoft SEC Filings 
+Financial data 
+Employment information 
+GNI Annual Report  
+Microsoft Response: Business and  Human Rights Resource Center 
+Content Removal  Requests Report 
+Empowering our employees 
+Responsible sourcing 
+Closing the opportunity gap 
+Empowering nonprofits 
+Public policy engagement 
+Accessibility  
+Data factsheet: Donations and volunteerism 2019 (PDF) 
+Advocacy and Trade  Memberships (PDF) 
+MSPAC State Candidate  Contributions H1 2019 (PDF) 
+MSPAC Federal Candidate  Contributions H1 2019 (PDF) 
+MSPAC Non-Candidate  Committee Contributions H1  2019 (PDF) 
+Responsible Sourcing of Raw  Materials Policy (PDF) 
+Top 100 Production Suppliers  (PDF) 
+Devices sustainability report  (PDF) 
+EEO-1 Report (PDF) 
+Affirmative action plan 
+Microsoft Accessibility Conformance Reports 
+Workforce demographics 
+Conflict Minerals Report (PDF) 
+Modern Slavery and Human  Trafficking Statement (PDF) 
+Microsoft Corporate Political  Contributions H1 2019 (PDF) 
+Public policy advocacy spending  (PDF) 
+Microsoft Cloud policy roadmap 
+Protecting our planet 
+To find out more about the work we ve accomplished in previous years, visit our  online CSR reports hub. 
+Archived reports 
+Data factsheet: Environmental  sustainability 2018 (PDF) 
+Devices sustainability report (PDF) 
+CDP Climate Change Response (PDF) 
+CDP Water Response (PDF) 
+CDP Climate Reports   CDP.net 
+CDP Water Reports   CDP.net 
