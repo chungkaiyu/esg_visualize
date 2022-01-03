@@ -10,6 +10,7 @@ from werkzeug.utils import secure_filename
 import os
 import re
 import json
+import time
 import bubble_plot
 
 download_path = (Path.cwd() / 'static/input')
@@ -20,7 +21,6 @@ app.config['UPLOADED_DEF_DEST'] = download_path
 
 usr_doc = UploadSet(name='def', extensions=TEXT + DOCUMENTS + tuple(['pdf']))
 configure_uploads(app, usr_doc)
-
 
 class CustomForm(FlaskForm):
     text = TextAreaField('Text we could visualize the extracted key issues and provide explanation issues.', validators=[DataRequired()])
@@ -82,9 +82,15 @@ def submit():
                 file_url = usr_doc.url(filename)
                 print(file_url)
                 # return "Oh no, we didn't finish this route."
-                return '<script>alert("Upload done!");window.location.href ="./form";</script>'
+                # return '<script>alert("Upload done!");window.location.href ="./form";</script>'
+                redirect(url_for('alert', success='True'))
+                time.sleep(5)
+                return '<script>window.location.href ="./form";</script>'
             except:
-                return '<script>alert("We only accept the file type with document or .txt");window.location.href ="./form";</script>'
+                # return '<script>alert("We only accept the file type with document or .txt");window.location.href ="./form";</script>'
+                time.sleep(5)
+                redirect(url_for('alert', success='False'))
+                return '<script>window.location.href ="./form";</script>'
         text = request.form['text']
         text = re.sub(u"\\<.*?\\>", "", text)
         text = json.dumps(text.split(' '))
@@ -97,6 +103,20 @@ def present(text, action):
     file = open('./key_phrase.txt', 'r', encoding='utf-8')
     data = file.read()
     return render_template('present.html', text=json.loads(text), action=action, data=json.loads(data))
+
+@app.route('/showReports')
+def showReports():
+    path = './static/input/'
+    files = os.listdir(path)
+    res = {'files':files}
+    return res
+
+@app.route('/alert/<success>')
+def alert(success):
+    if success=='True':
+        return "Upload done！"
+    else:
+        return "We only accept the file type with document or txt."
 
 #氣泡圖繪製相關(plot.html)
 @app.route('/check', methods=['POST','GET'])
