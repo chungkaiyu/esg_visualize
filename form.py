@@ -28,15 +28,14 @@ class CustomForm(FlaskForm):
     annualReport = SelectField('Annual report', choices=[('Material2020','Applied Material 2020'),('Material2019','Applied Material 2019'),('Material2018','Applied Material 2018')])
     submit = SubmitField("Submit")
 
-
-class MyForm(FlaskForm):
-    name = StringField('你的名字', validators=[DataRequired()])
-    agreed = BooleanField('同意加入這個組織？')
-    gender = RadioField('請輸入性別', choices=[('M', '男生'), ('F', '女生')])
-    hobby = SelectField(
-        '你的興趣', choices=[('sports', '運動'), ('travel', '旅遊'), ('movie', '電影')])
-    others = TextAreaField()
-    submit = SubmitField("確認")
+# class MyForm(FlaskForm):
+#     name = StringField('你的名字', validators=[DataRequired()])
+#     agreed = BooleanField('同意加入這個組織？')
+#     gender = RadioField('請輸入性別', choices=[('M', '男生'), ('F', '女生')])
+#     hobby = SelectField(
+#         '你的興趣', choices=[('sports', '運動'), ('travel', '旅遊'), ('movie', '電影')])
+#     others = TextAreaField()
+#     submit = SubmitField("確認")
 
 
 @app.errorhandler(413)
@@ -45,7 +44,7 @@ def request_entity_too_large(error):
 
 
 @app.route('/form', methods=['GET', 'POST'])
-def formPage():
+def form():
     print('Entering')
     # form = MyForm()
     # if form.validate_on_submit():
@@ -63,7 +62,8 @@ def formPage():
         session['annualReport'] = form.annualReport.data
         print('In')
         return redirect(url_for('test'))
-    return render_template('form.html', form=form)
+    # return render_template('form.html', form=form)
+    return render_template('form.html')
 
 
 @app.route('/test')
@@ -83,18 +83,37 @@ def submit():
                 print(file_url)
                 # return "Oh no, we didn't finish this route."
                 # return '<script>alert("Upload done!");window.location.href ="./form";</script>'
-                redirect(url_for('alert', success='True'))
+                session['data'] = True
+                redirect(url_for('alert'))
                 time.sleep(5)
-                return '<script>window.location.href ="./form";</script>'
+                # return '<script>window.location.href ="./form";</script>'
+                return redirect(url_for('form'))
             except:
                 # return '<script>alert("We only accept the file type with document or .txt");window.location.href ="./form";</script>'
+                session['data'] = False
+                redirect(url_for('alert'))
                 time.sleep(5)
-                redirect(url_for('alert', success='False'))
-                return '<script>window.location.href ="./form";</script>'
-        text = request.form['text']
-        text = re.sub(u"\\<.*?\\>", "", text)
-        text = json.dumps(text.split(' '))
-        return redirect(url_for('present', text=text, action="post"))
+                # return '<script>window.location.href ="./form";</script>'
+                return redirect(url_for('form'))
+        option = request.form['plotRadio']
+        if option =="text":
+            text = request.form['text']
+            text = re.sub(u"\\<.*?\\>", "", text)
+            text = json.dumps(text.split(' '))
+            return redirect(url_for('present', text=text, action="post"))
+        else: # "bubblePlot"
+            report = request.form['report-selector']
+            res = {'E':[[]], 'S':[[]], 'G':[[]]}
+            if report != None:
+                BUBBLE=bubble_plot.bubble_plot()
+                E, S, G = BUBBLE.bubble_weight(report)
+                res['E'] = E
+                res['S'] = S
+                res['G'] = G
+            data = json.dumps(res)
+            session['data'] = data
+            redirect(url_for('updateESG'))
+            return redirect(url_for('plot'))
     return '<script>alert("We didn\'t design Get request.");window.location.href ="./form";</script>'
 
 
@@ -104,6 +123,7 @@ def present(text, action):
     data = file.read()
     return render_template('present.html', text=json.loads(text), action=action, data=json.loads(data))
 
+
 @app.route('/showReports')
 def showReports():
     path = './static/input/'
@@ -111,67 +131,23 @@ def showReports():
     res = {'files':files}
     return res
 
-@app.route('/alert/<success>')
-def alert(success):
-    if success=='True':
+@app.route('/alert')
+def alert():
+    success = session['data']
+    if success:
         return "Upload done！"
     else:
         return "We only accept the file type with document or txt."
 
-#氣泡圖繪製相關(plot.html)
-@app.route('/check', methods=['POST','GET'])
-def check():
-    filename=request.args.get("company")
-    OUT=open('templates/plot.html','r',encoding='utf-8').read()
-    op='<select name="company">'
-    for i in list(sorted(os.listdir('static\input'))):
-        if(filename == i):
-            op+='<option value="'+i+'"selected>'+i+'</option>'
-        else:
-            op+='<option value="'+i+'">'+i+'</option>'
-    op+='</select>'
-    OUT=OUT.replace('<!--replace-->', op)
-    if filename != None:
-        BUBBLE=bubble_plot.bubble_plot()
-        E, S, G = BUBBLE.bubble_weight(filename)
-        OUT=OUT.replace('const E=[[]];', 'const E='+str(E)+';')
-        OUT=OUT.replace('const S=[[]];', 'const S='+str(S)+';')
-        OUT=OUT.replace('const G=[[]];', 'const G='+str(G)+';')
-    return OUT
+# 氣泡圖繪製相關 (plot.html)
+@app.route('/plot')
+def plot():
+    return render_template('plot.html')
 
-@app.route('/submit_in_plot_html', methods=['POST', 'GET'])
-def submit_in_plot_html():
-    if request.method == 'POST':
-        if 'in_usr_doc' in request.files:
-            try:
-                filename = usr_doc.save(request.files['in_usr_doc'])
-                print(filename)
-                file_url = usr_doc.url(filename)
-                print(file_url)
-                return '<script>alert("Upload done!");window.location.href ="./";</script>'
-            except:
-                return '<script>alert("We only accept the file type with document or .txt");window.location.href ="./";</script>'
-        text = request.form['text']
-        text = re.sub(u"\\<.*?\\>", "", text)
-        text = json.dumps(text.split(' '))
-        return redirect(url_for('present', text=text, action="post"))
-    return '<script>alert("We didn\'t design Get request.");window.location.href ="./";</script>'
-
-@app.route('/echarts.min.js', methods=['POST','GET'])
-def upload():
-    return render_template('/echarts.min.js')
-
-@app.route('/')
-def into_plot_html():
-    OUT=open('templates/plot.html','r',encoding='utf-8').read()
-    op='<select name="company">'
-    for i in list(sorted(os.listdir('static\input'))):
-        if('.DS_' in i):
-            op+='<option>'+'請選擇公司名稱'+'</option>'
-        else:
-            op+='<option value="'+i+'">'+i+'</option>'
-    op+='</select>'
-    return OUT.replace('<!--replace-->', op)
+@app.route('/updateESG')
+def updateESG():
+    data = session['data']
+    return data
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000,debug=True)

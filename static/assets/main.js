@@ -1,7 +1,6 @@
 // Disabling form submissions if there are invalid fields
 (function () {
     'use strict'
-  
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
     var forms = document.querySelectorAll('.needs-validation')
   
@@ -19,11 +18,27 @@
       })
   })()
 
+$(document).ready(function(){
+  changeTextareaValid();
+  $("input[name='plotRadio']").change(changeTextareaValid);
+});
 
-function changeOptions(data) {
-    
-    var select = document.getElementById('report-selector');
-    // Add options
+function changeTextareaValid(){
+  var textarea_valid = document.getElementById("text")
+  var e = document.querySelector('input[name="plotRadio"]:checked').value;
+  if( e=="text" ){
+    textarea_valid.setAttribute('required','required');
+  }
+  else{
+    textarea_valid.removeAttribute('required');
+  }
+}
+
+
+function changeOptions(data) { 
+  var select = document.getElementById('report-selector');
+
+  // Add options
 	for (var i in data) {
         select.options[select.options.length] = new Option(data[i]);   
 	}
@@ -31,8 +46,8 @@ function changeOptions(data) {
 }
 
 function alertBox(info){
-    $("#upload-alert p").val(info);
-    console.log("???")
+    // console.log(info)
+    document.getElementById("upload-alert").innerHTML = info;
     $("#uploadModal").attr("aria-hidden", false);
 }
 
