@@ -1,7 +1,7 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, BooleanField, DateTimeField,RadioField, SelectField,TextAreaField, SubmitField
 from wtforms.validators import DataRequired
-
+from esg_evaluator import *
 
 from flask import Flask, request, session, render_template, redirect, url_for
 from flask_uploads import UploadSet, TEXT, DOCUMENTS, configure_uploads
@@ -14,6 +14,7 @@ import time
 import bubble_plot
 
 download_path = (Path.cwd() / 'static/input')
+print(download_path)
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'development'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB
@@ -56,14 +57,14 @@ def formPage():
     #         session['others'] = form.others.data
     #         print('In')
     #         return redirect(url_for('test'))
-    form = CustomForm()
-    if form.validate_on_submit():
-        session['text'] = form.text.data
-        session['analytics'] = form.analytics.data
-        session['annualReport'] = form.annualReport.data
-        print('In')
-        return redirect(url_for('test'))
-    return render_template('form.html', form=form)
+    # form = CustomForm()
+    # if form.validate_on_submit():
+    #     session['text'] = form.text.data
+    #     session['analytics'] = form.analytics.data
+    #     session['annualReport'] = form.annualReport.data
+    #     print('In')
+    #     return redirect(url_for('test'))
+    return render_template('form.html')
 
 
 @app.route('/test')
@@ -100,9 +101,13 @@ def submit():
 
 @app.route('/present/<action>/<text>')
 def present(text, action):
+    file_path = os.getcwd() + '/static/input'
+    #print(file_path)
+    dp = DocProcessor()
+    text = dp.get_file_text(str(file_path + '/Test9-2019-IntelCSR-Report.pdf'))
     file = open('./key_phrase.txt', 'r', encoding='utf-8')
     data = file.read()
-    return render_template('present.html', text=json.loads(text), action=action, data=json.loads(data))
+    return render_template('present.html', text=text, action=action, data=json.loads(data))
 
 @app.route('/showReports')
 def showReports():
