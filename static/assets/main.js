@@ -34,21 +34,13 @@ function changeTextareaValid(){
   }
 }
 
-
 function changeOptions(data) { 
   var select = document.getElementById('report-selector');
-
   // Add options
 	for (var i in data) {
         select.options[select.options.length] = new Option(data[i]);   
 	}
     $("#report-selector").selectpicker("refresh"); //用select變數不行
-}
-
-function alertBox(info){
-    // console.log(info)
-    document.getElementById("upload-alert").innerHTML = info;
-    $("#uploadModal").attr("aria-hidden", false);
 }
 
 // Let selectPicker can be dynamically changed
@@ -59,10 +51,10 @@ $.ajax({
     }
 });
 
-// Alert funciton
-$.ajax({
-    url: "/alert",
-    success: function(info){ 
-        alertBox(info);
-    }
-});
+// Alert after uploading file
+// $.ajax({
+//     url: "/upload",
+//     success: function(){ 
+//       $('#uploadModal').modal('show');
+//     }
+// });

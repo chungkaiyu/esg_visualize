@@ -45,7 +45,10 @@ def form():
     #     print('In')
     #     return redirect(url_for('test'))
     # return render_template('form.html', form=form)
-    return render_template('form.html')
+    if session.get('msg') == True:
+        return render_template('form.html', msg = session['msg'])
+    else:
+        return render_template('form.html', msg = "Please choose a qualified file.")
 
 
 @app.route('/test')
@@ -57,30 +60,19 @@ def test():
 @app.route('/submit', methods=['POST', 'GET'])
 def submit():
     if request.method == 'POST':
-        if 'in_usr_doc' in request.files:
-            try:
-                filename = usr_doc.save(request.files['in_usr_doc'])
-                print(filename)
-                file_url = usr_doc.url(filename)
-                print(file_url)
-                # return "Oh no, we didn't finish this route."
-                # return '<script>alert("Upload done!");window.location.href ="./form";</script>'
-                session['data'] = True
-                redirect(url_for('alert'))
-                time.sleep(5)
-                # return '<script>window.location.href ="./form";</script>'
-                return redirect(url_for('form'))
-            except:
-                # return '<script>alert("We only accept the file type with document or .txt");window.location.href ="./form";</script>'
-                session['data'] = False
-                redirect(url_for('alert'))
-                time.sleep(5)
-                # return '<script>window.location.href ="./form";</script>'
-                return redirect(url_for('form'))
         option = request.form['plotRadio']
-        if option =="text":
+        session['option'] = option
+        if option =="report":
             session['kernel_option'] = request.form['flexRadioDefault']
             session['report_selector'] = request.form['report-selector']
+            return redirect(url_for('present2'))
+        elif option =="text":
+            session['kernel_option'] = request.form['flexRadioDefault']
+            session['report_selector'] = request.form['report-selector']
+            text = request.form['text']
+            text = re.sub(u"\\<.*?\\>", "", text)
+            text = json.dumps(text.split(' '))
+            session['text'] = text
             return redirect(url_for('present2'))
         else: # "bubblePlot"
             report = request.form['report-selector']
@@ -97,13 +89,29 @@ def submit():
             return redirect(url_for('plot'))
     return '<script>alert("We didn\'t design Get request.");window.location.href ="./form";</script>'
 
-
+@app.route('/upload', methods=['POST', 'GET'])
+def upload():
+    if 'in_usr_doc' in request.files:
+        try:
+            filename = usr_doc.save(request.files['in_usr_doc'])
+            file_url = usr_doc.url(filename)
+            session['msg'] = "Upload Done"
+            return redirect(url_for('form'))
+        except:
+            session['msg'] = "We only accept the file type with document or txt."
+            return redirect(url_for('form'))
+    session['msg'] = "Please choose a qualified file."
+    return redirect(url_for('form'))
 
 @app.route('/present2')
 def present2():    
     report = session['report_selector'].split('.')[0]
     report_path = './static/tmp/' + report + '.txt'
-    text = open(report_path, 'r', encoding='utf-8').read().split()
+    if session['option']=="report":
+        text = open(report_path, 'r', encoding='utf-8').read().split()
+    else: # "text"
+        text = session['text']
+        text = json.loads(text)
     report_kp_path = './static/tmp/' + report + '_key_phrase.txt'
     data = open(report_kp_path, 'r', encoding='utf-8').read()
     report_csv_path = './static/tmp/' + report + '.csv'
@@ -111,6 +119,7 @@ def present2():
     esg_count = {'Environment':0, 'Social': 0, 'Governance': 0}
     for key in esg_count.keys():
         esg_count[key] = int(report_csv.loc[key].Count)
+    print(text)
     return render_template('present.html', text = text, data=json.loads(data), esg_count = esg_count)
 
 @app.route('/present/<action>/<text>')
@@ -130,14 +139,6 @@ def showReports():
             files.append(i[:-4])
     res = {'files':files}
     return res
-
-@app.route('/alert')
-def alert():
-    success = session['data']
-    if success:
-        return "Upload done！"
-    else:
-        return "We only accept the file type with document or txt."
 
 # 氣泡圖繪製相關 (plot.html)
 @app.route('/plot')

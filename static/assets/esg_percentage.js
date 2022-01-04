@@ -44,7 +44,7 @@ var option = {
         show: true,
         position: 'inner',
         formatter: function (p) {
-        //指示线对应文字，说明文字
+        //指示線對應文字，說明文字
                       return p.percent.toFixed(0) + "%\n"+ p.data.name;
                     }
       },

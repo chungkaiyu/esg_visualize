@@ -50,14 +50,20 @@
                 <div class="plot-option">
                     <label for="plot-option">Please choose one presentation which you want</label>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="plotRadio" id="plotRadio1" value="text" checked>
+                        <input class="form-check-input" type="radio" name="plotRadio" id="plotRadio1" value="report" checked>
                         <label class="form-check-label" for="plotRadio1">
-                            Text Marker
+                            Text Marker(by uploaded report)
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="plotRadio" id="plotRadio2" value="bubblePlot">
+                        <input class="form-check-input" type="radio" name="plotRadio" id="plotRadio2" value="text">
                         <label class="form-check-label" for="plotRadio2">
+                            Text Marker(by text area)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="plotRadio" id="plotRadio3" value="bubblePlot">
+                        <label class="form-check-label" for="plotRadio3">
                             Bubble Plot
                         </label>
                     </div>
@@ -70,7 +76,7 @@
         
         <!-- 上傳報告區塊 -->
         <div class="file-section section">
-            <form class="needs-validation" action="/submit" method="post" enctype="multipart/form-data" novalidate>
+            <form class="needs-validation" action="/upload" method="post" enctype="multipart/form-data" novalidate>
                 <h3> Upload Annual Report</h3>    
                 <label for="formFile" class="form-label col-12">Qualified file type：doc, pdf, txt<br>Maximum size：16MB<br>You can also upload any files you would like to generate a key phrase!</label>
                 <div class="col-6">
@@ -80,7 +86,7 @@
                 <br>
                 <div class="col-12">
                     <!-- 上傳按鈕 & Alert -->
-                    <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#uploadModal">Upload</button>
+                    <button id="upload-btn" class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#uploadModal">Upload</button>
                     <!-- Modal -->
                     <div class="modal fade alert" id="uploadModal" tabindex="-1" aria-labelledby="uploadModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
@@ -90,7 +96,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <p id="upload-alert">Alert還沒做好</p>
+                                    <p id="upload-alert">{{ msg }}</p>
                                 </div>
                             </div>
                         </div>
