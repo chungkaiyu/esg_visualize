@@ -12,6 +12,7 @@ import re
 import json
 import time
 import bubble_plot
+import pandas as pd
 
 download_path = (Path.cwd() / 'static/input')
 app = Flask(__name__)
@@ -105,10 +106,12 @@ def present2():
     text = open(report_path, 'r', encoding='utf-8').read().split()
     report_kp_path = './static/tmp/' + report + '_key_phrase.txt'
     data = open(report_kp_path, 'r', encoding='utf-8').read()
-    #file = open('./key_phrase.txt', 'r', encoding='utf-8')
-    #data = file.read()
-    # return render_template('present.html', text = text, radio = session['kernel_option'], data=json.loads(data))
-    return render_template('present.html', text = text, data=json.loads(data))
+    report_csv_path = './static/tmp/' + report + '.csv'
+    report_csv = pd.read_csv(report_csv_path).groupby('Pillar').sum()
+    esg_count = {'Environment':0, 'Social': 0, 'Governance': 0}
+    for key in esg_count.keys():
+        esg_count[key] = int(report_csv.loc[key].Count)
+    return render_template('present.html', text = text, data=json.loads(data), esg_count = esg_count)
 
 @app.route('/present/<action>/<text>')
 def present(text, action):

@@ -14,6 +14,7 @@
     <div class="row mx-4">
         <div class = "col-10">
             <!-- <p>{{data}}</p> -->
+            <!-- <p>{{esg_count}}</p> -->
             {% set cur_flag = { 'flag': False } %}
             {% set flag =  False  %}
             <p class="text-justify">
@@ -41,9 +42,9 @@
             <div><h2>Overall Score</h2></div>
             <div>
                 <h2>Pillars</h2>
-                {% set Env =  data['Environment']|length  %}
-                {% set Soc =  data['Social']|length  %}
-                {% set Gov =  data['Governance']|length  %}
+                {% set Env =  esg_count['Environment']  %}
+                {% set Soc =  esg_count['Social']  %}
+                {% set Gov =  esg_count['Governance']  %}
                 <h3 style = "color: rgb(33, 155, 33);"> Environment </h3>
                 <h4>{{ '%.2f' | format( 100*(Env / (Env + Soc + Gov)) | float) }}%</h4>
                 <h3 style = "color: #4677d8;"> Social </h3>
