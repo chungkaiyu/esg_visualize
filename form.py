@@ -108,7 +108,6 @@ def upload():
 
 @app.route('/present2')
 def present2():
-    print(session['option'])
     report = session['report_selector'].split('.')[0]
     report_path = './static/tmp/' + report + '.txt'
     report_kp_path = './static/tmp/' + report + '_key_phrase.txt'
@@ -121,6 +120,7 @@ def present2():
         report_csv = pd.read_csv(report_csv_path).groupby('Pillar').sum()
         for key in esg_count.keys():
             esg_count[key] = int(report_csv.loc[key].Count)
+        esg_count = util.cal_esg_ratio(esg_count)
     else:  # "text"
         text = session['text']
         text = json.loads(text)

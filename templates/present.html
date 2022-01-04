@@ -42,15 +42,12 @@
             <div><h2>Overall Score</h2></div>
             <div>
                 <h2>Pillars</h2>
-                {% set Env =  esg_count['Environment']  %}
-                {% set Soc =  esg_count['Social']  %}
-                {% set Gov =  esg_count['Governance']  %}
                 <h3 style = "color: rgb(33, 155, 33);"> Environment </h3>
-                <h4>{{ '%.2f' | format( 100*(Env / (Env + Soc + Gov)) | float) }}%</h4>
+                <h4>{{ '%.2f' | format( 100*esg_count['Environment'] | float) }}%</h4>
                 <h3 style = "color: #4677d8;"> Social </h3>
-                <h4>{{ '%.2f' | format( 100*(Soc / (Env + Soc + Gov)) | float) }}%</h4>
+                <h4>{{ '%.2f' | format( 100*esg_count['Social'] | float) }}%</h4>
                 <h3 style = "color: #eb8079;"> Governance </h3>
-                <h4>{{ '%.2f' | format( 100*(Gov / (Env + Soc + Gov)) | float) }}%</h4>
+                <h4>{{ '%.2f' | format( 100*esg_count['Governance'] | float) }}%</h4>
             </div>
         </div>
     </div>
