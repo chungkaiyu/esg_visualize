@@ -36,13 +36,13 @@ def request_entity_too_large(error):
 @app.route('/form', methods=['GET', 'POST'])
 def form():
     print('Entering')
-    form = CustomForm()
-    if form.validate_on_submit():
-        session['text'] = form.text.data
-        session['analytics'] = form.analytics.data
-        session['annualReport'] = form.annualReport.data
-        print('In')
-        return redirect(url_for('test'))
+    # form = CustomForm()
+    # if form.validate_on_submit():
+    #     session['text'] = form.text.data
+    #     session['analytics'] = form.analytics.data
+    #     session['annualReport'] = form.annualReport.data
+    #     print('In')
+    #     return redirect(url_for('test'))
     # return render_template('form.html', form=form)
     return render_template('form.html')
 
@@ -56,37 +56,50 @@ def test():
 @app.route('/submit', methods=['POST', 'GET'])
 def submit():
     if request.method == 'POST':
-        # if 'in_usr_doc' in request.files:
-        #     try:
-        #         filename = usr_doc.save(request.files['in_usr_doc'])
-        #         print(filename)
-        #         file_url = usr_doc.url(filename)
-        #         print(file_url)
-        #         # return "Oh no, we didn't finish this route."
-        #         # return '<script>alert("Upload done!");window.location.href ="./form";</script>'
-        #         redirect(url_for('alert', success='True'))
-        #         time.sleep(5)
-        #         return '<script>window.location.href ="./form";</script>'
-        #     except:
-        #         # return '<script>alert("We only accept the file type with document or .txt");window.location.href ="./form";</script>'
-        #         time.sleep(5)
-        #         redirect(url_for('alert', success='False'))
-        #         return '<script>window.location.href ="./form";</script>'
-        # text = request.form['text']
-        # text = re.sub(u"\\<.*?\\>", "", text)
-        # text = json.dumps(text.split(' '))
-        session['kernel_option'] = request.form['flexRadioDefault']
-        session['report_selector'] = request.form['report-selector']
-        dp = DocProcessor()
-        file_path = os.getcwd() + '/static/input'
-        text = dp.get_file_text(str(file_path + '/Test9-2019-IntelCSR-Report.pdf'))
-        #session['text'] = text
-        return redirect(url_for('present2'))
+        if 'in_usr_doc' in request.files:
+            try:
+                filename = usr_doc.save(request.files['in_usr_doc'])
+                print(filename)
+                file_url = usr_doc.url(filename)
+                print(file_url)
+                # return "Oh no, we didn't finish this route."
+                # return '<script>alert("Upload done!");window.location.href ="./form";</script>'
+                session['data'] = True
+                redirect(url_for('alert'))
+                time.sleep(5)
+                # return '<script>window.location.href ="./form";</script>'
+                return redirect(url_for('form'))
+            except:
+                # return '<script>alert("We only accept the file type with document or .txt");window.location.href ="./form";</script>'
+                session['data'] = False
+                redirect(url_for('alert'))
+                time.sleep(5)
+                # return '<script>window.location.href ="./form";</script>'
+                return redirect(url_for('form'))
+        option = request.form['plotRadio']
+        if option =="text":
+            session['kernel_option'] = request.form['flexRadioDefault']
+            session['report_selector'] = request.form['report-selector']
+            return redirect(url_for('present2'))
+        else: # "bubblePlot"
+            report = request.form['report-selector']
+            res = {'E':[[]], 'S':[[]], 'G':[[]]}
+            if report != None:
+                BUBBLE=bubble_plot.bubble_plot()
+                E, S, G = BUBBLE.bubble_weight(report)
+                res['E'] = E
+                res['S'] = S
+                res['G'] = G
+            data = json.dumps(res)
+            session['data'] = data
+            redirect(url_for('updateESG'))
+            return redirect(url_for('plot'))
     return '<script>alert("We didn\'t design Get request.");window.location.href ="./form";</script>'
 
+
+
 @app.route('/present2')
-def present2():
-    
+def present2():    
     report = session['report_selector'].split('.')[0]
     report_path = './static/tmp/' + report + '.txt'
     text = open(report_path, 'r', encoding='utf-8').read().split()
@@ -94,7 +107,8 @@ def present2():
     data = open(report_kp_path, 'r', encoding='utf-8').read()
     #file = open('./key_phrase.txt', 'r', encoding='utf-8')
     #data = file.read()
-    return render_template('present.html', text = text, radio = session['kernel_option'], data=json.loads(data))
+    # return render_template('present.html', text = text, radio = session['kernel_option'], data=json.loads(data))
+    return render_template('present.html', text = text, data=json.loads(data))
 
 @app.route('/present/<action>/<text>')
 def present(text, action):
