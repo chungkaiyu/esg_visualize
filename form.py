@@ -50,13 +50,6 @@ def form():
     else:
         return render_template('form.html', msg = "Please choose a qualified file.")
 
-
-@app.route('/test')
-def test():
-    print('Hello')
-    return render_template('test.html')
-
-
 @app.route('/submit', methods=['POST', 'GET'])
 def submit():
     if request.method == 'POST':
@@ -107,19 +100,20 @@ def upload():
 def present2():    
     report = session['report_selector'].split('.')[0]
     report_path = './static/tmp/' + report + '.txt'
+    esg_count = {'Environment':0, 'Social': 0, 'Governance': 0}
     if session['option']=="report":
         text = open(report_path, 'r', encoding='utf-8').read().split()
+        report_csv_path = './static/tmp/' + report + '.csv'
+        report_csv = pd.read_csv(report_csv_path).groupby('Pillar').sum()
+        for key in esg_count.keys():
+            esg_count[key] = int(report_csv.loc[key].Count)
     else: # "text"
         text = session['text']
         text = json.loads(text)
+        # do something
     report_kp_path = './static/tmp/' + report + '_key_phrase.txt'
     data = open(report_kp_path, 'r', encoding='utf-8').read()
-    report_csv_path = './static/tmp/' + report + '.csv'
-    report_csv = pd.read_csv(report_csv_path).groupby('Pillar').sum()
-    esg_count = {'Environment':0, 'Social': 0, 'Governance': 0}
-    for key in esg_count.keys():
-        esg_count[key] = int(report_csv.loc[key].Count)
-    print(text)
+    
     return render_template('present.html', text = text, data=json.loads(data), esg_count = esg_count)
 
 @app.route('/present/<action>/<text>')
