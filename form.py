@@ -43,7 +43,7 @@ def request_entity_too_large(error):
 
 @app.route('/form', methods=['GET', 'POST'])
 def form():
-    print('Entering')
+    # print('Entering')
     # form = CustomForm()
     # if form.validate_on_submit():
     #     session['text'] = form.text.data
@@ -53,9 +53,12 @@ def form():
     #     return redirect(url_for('test'))
     # return render_template('form.html', form=form)
     if session.get('msg'):
-        return render_template('form.html', msg=session['msg'])
+        if session.get('modal'):
+            return render_template('form.html', msg=session['msg'], s=session['modal'])
+        else:
+            return render_template('form.html', msg=session['msg'], s="hide")
     else:
-        return render_template('form.html', msg="Please choose a qualified file.")
+        return render_template('form.html', msg="Please choose a qualified file.", s="hide")
 
 
 @app.route('/submit', methods=['POST', 'GET'])
@@ -99,6 +102,7 @@ def submit():
 @app.route('/upload', methods=['POST', 'GET'])
 def upload():
     if 'in_usr_doc' in request.files:
+        session['modal'] = "show"
         try:
             filename = usr_doc.save(request.files['in_usr_doc'])
             file_url = usr_doc.url(filename)
@@ -151,6 +155,7 @@ def showReports():
         if i[:-4] not in files and 'key_phrase' not in i:
             files.append(i[:-4])
     res = {'files': files}
+    session['modal'] = "hide"
     return res
 
 # 氣泡圖繪製相關 (plot.html)

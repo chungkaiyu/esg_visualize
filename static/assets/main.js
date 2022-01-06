@@ -18,11 +18,6 @@
       })
   })()
 
-$(document).ready(function(){
-  changeTextareaValid();
-  $("input[name='plotRadio']").change(changeTextareaValid);
-});
-
 function changeTextareaValid(){
   var textarea_valid = document.getElementById("text")
   var e = document.querySelector('input[name="plotRadio"]:checked').value;
@@ -43,24 +38,45 @@ function changeOptions(data) {
     $("#report-selector").selectpicker("refresh"); //用select變數不行
 }
 
-// Let selectPicker can be dynamically changed
-$.ajax({
-    url: "/showReports",
-    success: function(data){ 
-        changeOptions(data.files);
-        // upload();
-    }
-});
-
-// Alert after uploading file
-function upload(){
-  console.log("???")
-  $.ajax({
-    url: "/upload",
-    success: function(){ 
-      myModal.show();
-    }
-  });
+function showModal(){
+  //$('#uploadModal').modal('show');
+  var modal = new bootstrap.Modal(document.getElementById('uploadModal'));
+  modal.show();
 }
 
-var myModal = new bootstrap.Modal(document.getElementById('uploadModal'));
+function hideModal(){
+  //$('#uploadModal').modal('hide');
+  var modal = new bootstrap.Modal(document.getElementById('uploadModal'));
+  modal.hide();
+}
+
+function initModal(){
+  document.getElementById('upload-alert').innerHTML = "Please choose a qualified file.";
+}
+
+// Let selectPicker can be dynamically changed
+$.ajax({
+  url: "/showReports",
+  success: function(data){ 
+      changeOptions(data.files);
+  }
+})
+// .done(function(){
+//   initModal();
+// });
+
+// Alert after uploading file
+// $("#upload-btn").on('click', function(){
+//   $.ajax({
+//     url: "/upload",
+//     success: showModal(),
+//     // async: false,
+//   })
+// })
+
+$(document).ready(function(){
+  changeTextareaValid();
+  $("input[name='plotRadio']").change(changeTextareaValid);
+  //document.getElementById("upload-alert").innerHTML = "Please choose a qualified file.";
+});
+
