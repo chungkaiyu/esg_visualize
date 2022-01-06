@@ -42,11 +42,19 @@ h2 {
 }
 
 .talbe-group {
-	display: inline;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 }
 
 .table-title {
 	text-align: center;
+}
+
+.talbe-group table {
+	display: inline;
+}
+
+.table {
+	width:100%;
 }
