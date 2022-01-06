@@ -52,7 +52,7 @@ def form():
     #     print('In')
     #     return redirect(url_for('test'))
     # return render_template('form.html', form=form)
-    if session.get('msg') == True:
+    if session.get('msg'):
         return render_template('form.html', msg=session['msg'])
     else:
         return render_template('form.html', msg="Please choose a qualified file.")
@@ -63,7 +63,12 @@ def submit():
     if request.method == 'POST':
         option = request.form['plotRadio']
         session['option'] = option
-        if option == "report":
+        if option == "table":
+            session['kernel_option'] = request.form['flexRadioDefault']
+            session['report_selector'] = request.form['report-selector']
+            redirect(url_for('getPercentage'))
+            return redirect(url_for('keyissue'))
+        elif option == "report":
             session['kernel_option'] = request.form['flexRadioDefault']
             session['report_selector'] = request.form['report-selector']
             return redirect(url_for('present2'))
@@ -102,8 +107,9 @@ def upload():
         except:
             session['msg'] = "We only accept the file type with document or txt."
             return redirect(url_for('form'))
-    session['msg'] = "Please choose a qualified file."
-    return redirect(url_for('form'))
+    else:
+        session['msg'] = "Please choose a qualified file."
+        return redirect(url_for('form'))
 
 
 @app.route('/present2')
@@ -148,17 +154,31 @@ def showReports():
     return res
 
 # 氣泡圖繪製相關 (plot.html)
-
-
 @app.route('/plot')
 def plot():
     return render_template('plot.html')
-
 
 @app.route('/updateESG')
 def updateESG():
     data = session['data']
     return data
+
+# Key issue table (key_issue.html)
+@app.route('/keyissue')
+def keyissue():
+    return render_template('key_issue.html')
+
+@app.route('/getPercentage')
+def getPercentage():
+    report = session['report_selector'].split('.')[0]
+    report_csv_path = './static/tmp/' + report + '.csv'
+    data = pd.read_csv(report_csv_path)
+    res = {'E': {}, 'S': {}, 'G': {}}
+    for _ in set(list(data['Pillar'])):
+        rows = data.loc[data['Pillar'] == _]
+        row_dict = dict(zip(rows.Key_issue, rows.Percentage))
+        res[_[0]] = row_dict
+    return res
 
 
 if __name__ == '__main__':

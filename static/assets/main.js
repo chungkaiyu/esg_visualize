@@ -47,14 +47,20 @@ function changeOptions(data) {
 $.ajax({
     url: "/showReports",
     success: function(data){ 
-        changeOptions(data.files); 
+        changeOptions(data.files);
+        // upload();
     }
 });
 
 // Alert after uploading file
-// $.ajax({
-//     url: "/upload",
-//     success: function(){ 
-//       $('#uploadModal').modal('show');
-//     }
-// });
+function upload(){
+  console.log("???")
+  $.ajax({
+    url: "/upload",
+    success: function(){ 
+      myModal.show();
+    }
+  });
+}
+
+var myModal = new bootstrap.Modal(document.getElementById('uploadModal'));

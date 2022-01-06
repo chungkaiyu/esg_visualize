@@ -36,3 +36,17 @@ h2 {
 .btn_homepage {
 	margin-left: 50px;
 }
+
+.percentage {
+	text-align: center;
+}
+
+.talbe-group {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.table-title {
+	text-align: center;
+}
