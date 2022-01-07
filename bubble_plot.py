@@ -58,11 +58,11 @@ class bubble_plot:
         return files
     def get_year(self,name):
         for i in range(len(name)-3):
-            if name[i,i+4].isdigit() and int(name[i,i+4]) > 2000:
-                return name[i,i+4]
+            if name[i:i+4].isdigit() and int(name[i:i+4]) > 2000:
+                return name[i:i+4]
         return ''
     def bubble_weight_multi(self,comapny_name,num=3):
-        comapny_name='Applied'#正式接好就把這一行刪了
+        comapny_name='TSMC'#正式接好就把這一行刪了
         files=self.getcompanyfiles(comapny_name)
         E, S, G = list(),list(),list()
         for filename in files:
