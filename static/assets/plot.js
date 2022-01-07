@@ -120,7 +120,14 @@ var option = {
         itemStyle: itemStyle,
         data: G
         }
-    ]
+    ],label:{
+        show:true,
+        position: 'top',
+        color:'black',
+        formatter:function(params){
+          return params.data[3]
+        }
+      }
 };
 myChart.setOption(option);
 
@@ -138,3 +145,15 @@ $.ajax({
         changeESG(data);
     }
 });
+$(document).ready(function () {
+    $("#KeyIssue_viewed").click(function () {
+        if($("#KeyIssue_viewed:checked").length==1){
+            option.label.show=true;
+            myChart.setOption(option);
+        }
+        else{
+            option.label.show=false;
+            myChart.setOption(option);
+        }
+    });
+  });
