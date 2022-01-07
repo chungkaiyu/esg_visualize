@@ -88,7 +88,7 @@ def submit():
             res = {'E': [[]], 'S': [[]], 'G': [[]]}
             if report != None:
                 BUBBLE = bubble_plot.bubble_plot()
-                E, S, G = BUBBLE.bubble_weight(report)
+                E, S, G = BUBBLE.bubble_weight_multi(report)
                 res['E'] = E
                 res['S'] = S
                 res['G'] = G

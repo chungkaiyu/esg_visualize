@@ -21,10 +21,10 @@ shadowOffsetY: 0,
 shadowColor: 'rgba(0,0,0,0.3)'
 };
 var option = {
-    color: ['#dd4444', '#1e90ff', '#006400'],
+    color: ['#99EEC1', '#99B5EE', '#EE9F99'],
     legend: {
         top: 10,
-        data: ['Social', 'Governance', 'Environment'],
+        data: ['Environment','Social', 'Governance'],
         textStyle: {
         fontSize: 16
         }
@@ -49,7 +49,7 @@ var option = {
         }
     },
     xAxis: {
-        data:2018,
+        type:'category',
         name: 'Year',
         nameGap: 16,
         nameTextStyle: {
@@ -103,22 +103,22 @@ var option = {
     ],
     series: [
         {
+            name: 'Environment',
+            type: 'scatter',
+            itemStyle: itemStyle,
+            data: E
+        },
+        {
+            name: 'Social',
+            type: 'scatter',
+            itemStyle: itemStyle,
+            data: S
+            },
+        {
         name: 'Governance',
         type: 'scatter',
         itemStyle: itemStyle,
         data: G
-        },
-        {
-        name: 'Social',
-        type: 'scatter',
-        itemStyle: itemStyle,
-        data: S
-        },
-        {
-        name: 'Environment',
-        type: 'scatter',
-        itemStyle: itemStyle,
-        data: E
         }
     ]
 };
