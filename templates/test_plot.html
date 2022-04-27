@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <div>
+        <div id="graph-1"></div>
+    </div>
+    <!-- Latest compiled and minified plotly.js JavaScript -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script type="text/javascript">
+        var graphs = {{ graphJSON|safe }};
+
+        console.log(graphs)
+
+        Plotly.plot("graph-1",
+            graphs.data,
+            graphs.layout || {});
+    </script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</body>
+</html>

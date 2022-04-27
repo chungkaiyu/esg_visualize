@@ -83,3 +83,48 @@ class DocProcessor:
             print("Unknow Filename Extension")
         print("Read Successfully")
         return text
+
+    ### extension
+
+    # get text with page number, e.g. { 1:"page_1_content", ... }
+    def read_pdf_text_with_pageNo(self, pdf, page_no=-1 ):
+        page_content=[]
+        no = 0
+        for i in pdf:
+            page_content.append(" ")
+
+        for page in pdf:
+            # use get_text('blocks') instead of get_text('text')
+            # each blocks entry is [x0, y0, x1, y1, word, block_id, line_id]
+            blocks = page.get_text('blocks')
+            blocks = sorted(blocks, key = lambda b: (b[0], b[1]))
+            #print('page_num:'+str(no)+' blocks:'+str(len(blocks)))
+            for block_word in blocks:
+                if block_word[4].startswith( '<image:'):
+                    continue
+                elif len( block_word[4].replace('\n','') ) < 10:
+                    continue
+
+                page_content[no] += (block_word[4]+" | ")
+            no+=1
+
+        res = {}
+        for page_num in range(len(page_content)):
+            page_content[page_num] = page_content[page_num].replace("\n", " ")
+            res[int(page_num)+1] = page_content[page_num].split()
+        print(res[1])
+        return res
+            
+
+    # get text with page, e.g. { 1:"page_1_content", ... }
+    def get_file_text_with_pageNo( self, filename ):
+        f_extension = filename.split('.')[-1]
+        if f_extension in ["docx","doc"]:
+            text = self.raed_doc_text(filename)
+        elif f_extension in ["pdf","PDF"]:
+            pdf = fitz.open(filename)
+            text = self.read_pdf_text_with_pageNo(pdf=pdf)
+        else:
+            print("Unknow Filename Extension")
+        print("Read Successfully")
+        return text

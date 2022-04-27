@@ -1,5 +1,0 @@
-# 檔案名稱 .gitignore
-
-/__pycache__/*.*
-
-/esg_evaluator/__pycache__/*.*

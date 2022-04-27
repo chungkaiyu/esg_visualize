@@ -2,12 +2,11 @@ import pandas as pd
 import numpy as np
 import os
 from esg_evaluator import *
-
 class bubble_plot:
     def __init__(self) -> None:
         pass
     def is_csv_exist(self,filename):
-        tmp_dir='static/tmp/'
+        tmp_dir='static/tmp/weight/'
         if os.path.isfile(tmp_dir+filename.split('.')[0]+'.csv'):
             return True
         return False
@@ -62,7 +61,6 @@ class bubble_plot:
                 return name[i:i+4]
         return ''
     def bubble_weight_multi(self,comapny_name,num=3):
-        comapny_name='TSMC'#正式接好就把這一行刪了
         files=self.getcompanyfiles(comapny_name)
         E, S, G = list(),list(),list()
         for filename in files:
@@ -73,4 +71,66 @@ class bubble_plot:
             S+=tmp_S
             G+=tmp_G
         return E,S,G
-    
+    def bubble_compare_with_applied(self,file_name,num=3):
+        year='2020'
+        files=[tmp_dict[file_name]+'.csv']
+        tmp_dir='static/tmp/'
+        for f in os.listdir(tmp_dir):
+            if 'Applied' in f and '.csv' in f and year in f:
+                files.append(f)
+        print(files)
+        E, S, G = list(),list(),list()
+        for filename in files:
+            # company_name=filename.split('-')[2].split('(')[0]
+            company_name=filename
+            tmp_E,tmp_S,tmp_G = self.bubble_weight_single(filename,label=company_name+'-'+year)
+            E+=tmp_E
+            S+=tmp_S
+            G+=tmp_G
+        return E,S,G
+    #這個上面的都是舊算法，但是先不刪，確定不會用到再拿掉
+    def produce_plot_weight_for_wieght3(self,filename,num=3,label=''):
+        sort_name='Weight'
+        file_name=f'static/tmp/weight/{filename}.csv'
+        df = pd.DataFrame()
+        tmp = pd.read_csv(file_name)
+        tmp = tmp.sort_values(sort_name,ascending=False)
+        df = pd.concat([df,tmp],axis=0,ignore_index=True)
+        Count=df['Count'].to_list()
+        Weight=df['Weight'].to_list()
+        Pillar=df['Pillar'].to_list()
+        Similarity=df['Similarity'].to_list()
+        Key_issue=df['Key_issue'].to_list()
+        Doc_word=df['Doc_word'].to_list()
+        E, S, G = list(), list(), list()
+        for i in range(len(Weight)):
+            tmp=[Weight[i],Similarity[i],Count[i],Key_issue[i],Pillar[i],Doc_word[i]]
+            if Pillar[i]=='Environment':
+                E.append(tmp)
+            elif Pillar[i]=='Social':
+                S.append(tmp)
+            else:
+                G.append(tmp)
+        return E,S,G
+    def produce_plot_weight_compare_with_applied_w3(self,filename,num=3,label=''):
+        sort_name='Weight'
+        year, _, report_type = filename.split('-')
+        applied_type = report_type if report_type in ['Annual', 'Sustainability', '10K'] else 'Sustainability'
+        files=[f'static/tmp/weight/{filename}.csv',f'static/tmp/weight/{year}-Applied-{applied_type}.csv']
+        company_weight = [[],[]]
+        for j in range(len(files)):
+            df = pd.DataFrame()
+            file_name=files[j]     
+            tmp = pd.read_csv(file_name)
+            tmp = tmp.sort_values(sort_name,ascending=False).head(num*3)
+            df = pd.concat([df,tmp],axis=0,ignore_index=True)
+            Count=df['Count'].to_list()
+            Weight=df['Weight'].to_list()
+            Pillar=df['Pillar'].to_list()
+            Similarity=df['Similarity'].to_list()
+            Key_issue=df['Key_issue'].to_list()
+            Doc_word=df['Doc_word'].to_list()
+            for i in range(len(Weight)):
+                tmp=[Weight[i],Similarity[i],Count[i],Key_issue[i],Pillar[i],Doc_word[i]]
+                company_weight[j].append(tmp)
+        return company_weight[0],company_weight[1],filename

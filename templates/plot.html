@@ -14,19 +14,23 @@
 <body>
     <div class="container key_issue_trend">
         <!-- 標題 -->
-        <h2>Bubble Plot</h2><p style="margin: 45px;">顯示key issue: <input id="KeyIssue_viewed" type="checkbox" value="1" checked=true></p>
-
+        <h2 class="text-center">Bubble Plot－{{ plot_title }}</h2>
         <!-- 泡泡圖區塊 -->
-        <div id="main"></div>
-        
-        <div class="btn_homepage">
-            <form action="./form">
-                <div class="col-12">
-                    <button class="btn btn-primary" type="submit">Goto Homepage</button>
+        <div class="row">
+            <div id="main" class="col-8"></div>
+            <div class="col-2">
+                <h4>Option</h4>
+                <hr>
+                <div class="form-check switch">
+                    <input class="form-check-input" type="checkbox" value="" id="SwitchCheck">
+                    <label class="form-check-label" for="SwitchCheck">
+                        顯示 Key Issue
+                    </label>
+
+
                 </div>
-            </form>
+            </div>
         </div>
-        
     </div>
 
 </body>

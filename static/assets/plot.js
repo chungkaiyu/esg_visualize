@@ -43,14 +43,16 @@ var option = {
         return '<div style="border-bottom: 1px solid rgba(255,255,255,.3); font-size: 18px;padding-bottom: 7px;margin-bottom: 7px">'
                     + value[3] 
                     + '</div>'
-                    /*+ 'Year' + '：' + value[0] + '<br>'*/
-                    + 'MinMaxScaler' + '：' + value[1] + '<br>'
-                    + 'Weight' + '：' + value[2] + '<br>';
+                    + 'Relevance Level' + '：' + value[0] + '<br>'
+                    + 'Similarity' + '：' + value[1] + '<br>'
+                    +'Count: '+value[2]+'<br>'
+                    +'Doc_word: '+value[5]+'<br>'
+                    +'Pillar: ' +value[4];
         }
     },
     xAxis: {
-        type:'category',
-        name: 'Year',
+        type:'value',
+        name: 'Relevance Level',
         nameGap: 16,
         nameTextStyle: {
         fontSize: 16
@@ -61,14 +63,10 @@ var option = {
     },
     yAxis: {
         type: 'value',
-        name: 'MinMaxScalar',
-        nameLocation: 'end',
-        nameGap: 20,
+        name: 'Average Similarity of Word Use in Key Issue',
+        min:0.5,
         nameTextStyle: {
         fontSize: 16
-        },
-        splitLine: {
-        show: false
         }
     },
     visualMap: [
@@ -76,24 +74,20 @@ var option = {
         left: 'right',
         top: '10%',
         dimension: 2,
-        min: 0,
-        max: 1200,
-        itemWidth: 30,
-        itemHeight: 350,
         calculable: true,
-        precision: 0.1,
-        text: ['圓形大小：Weight'],
+        precision: 0.000000001,
+        text: ['圓形大小：(Count)'],
         textGap: 30,
         inRange: {
             symbolSize: [10, 70]
         },
         outOfRange: {
             symbolSize: [10, 70],
-            color: ['rgba(255,255,255,0.4)']
+            color: ['rgba(255,255,255,0.4)'],
         },
         controller: {
             inRange: {
-            color: ['#87ceeb']
+            color: ['#BEBEBE']
             },
             outOfRange: {
             color: ['#999']
@@ -107,34 +101,61 @@ var option = {
             type: 'scatter',
             itemStyle: itemStyle,
             data: E
+      
         },
         {
             name: 'Social',
             type: 'scatter',
             itemStyle: itemStyle,
-            data: S
+            data: S,
             },
         {
         name: 'Governance',
         type: 'scatter',
         itemStyle: itemStyle,
-        data: G
-        }
+        data: G,
+    }
     ],label:{
-        show:true,
-        position: 'top',
+        show:false,
+        position: 'inside',
         color:'black',
         formatter:function(params){
-          return params.data[3]
+            return params.data[3]
         }
       }
 };
 myChart.setOption(option);
 
-function changeESG(data) { 
-    option['series'][0]['data'] = data.G;
+function changeESG(data) {
+    option['series'][0]['data'] = data.E;
     option['series'][1]['data'] = data.S;
-    option['series'][2]['data'] = data.E;
+    if(typeof data.G == typeof data.E){
+        option['series'][2]['data'] = data.G;
+        max=0
+        for(var v in data.E){
+            if(data.E[v][2]>max)max=data.E[v][2]
+        }
+        for(var v in data.S){
+            if(data.S[v][2]>max)max=data.S[v][2]
+        }
+        for(var v in data.G){
+            if(data.G[v][2]>max)max=data.G[v][2]
+        }
+    }
+    else{
+        max=0
+        for(var v in data.E){
+            if(data.E[v][2]>max)max=data.E[v][2]
+        }
+        for(var v in data.S){
+            if(data.S[v][2]>max)max=data.S[v][2]
+        }
+        option.series[0].name=data.G
+        option.series[1].name='Applied'
+        option.color=['#ADD8E6', '#FFB6C1']
+        option.legend.data=[data.G,'Applied']
+    }
+    option.visualMap[0].max=max
     myChart.setOption(option);
 }
 
@@ -145,15 +166,14 @@ $.ajax({
         changeESG(data);
     }
 });
-$(document).ready(function () {
-    $("#KeyIssue_viewed").click(function () {
-        if($("#KeyIssue_viewed:checked").length==1){
-            option.label.show=true;
-            myChart.setOption(option);
-        }
-        else{
-            option.label.show=false;
-            myChart.setOption(option);
-        }
-    });
-  });
+
+$("#SwitchCheck").click( function () {
+    if($("#SwitchCheck:checked").length==1){
+        option.label.show=true;
+        myChart.setOption(option);
+    }
+    else{
+        option.label.show=false;
+        myChart.setOption(option);
+    }
+});

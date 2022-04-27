@@ -1,0 +1,282 @@
+{
+    "2021-TEL-Sustainability": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2021-TEL-Annual": [
+        "A",
+        "AA",
+        "AA"
+    ],
+    "2021-MICROSOFT-Annual": [
+        "A",
+        "AAA",
+        "AAA"
+    ],
+    "2021-MICROSOFT-10K": [
+        "A",
+        "AAA",
+        "AAA"
+    ],
+    "2021-Micron-Sustainability": [
+        "A",
+        "AAA",
+        "BBB"
+    ],
+    "2021-Micron-10K": [
+        "A",
+        "AAA",
+        "BBB"
+    ],
+    "2021-LAM-Annual": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2021-LAM-10K": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2021-KLA-Annual": [
+        "A",
+        "AAA",
+        "BBB"
+    ],
+    "2021-KLA-10K": [
+        "A",
+        "AAA",
+        "BBB"
+    ],
+    "2021-Intel-CSR": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2021-Intel-10K": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2021-HP-Annual": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2021-HP-10K": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2021-HEWLETT PACKARD ENTERPRISE-10K": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2021-CISCO SYSTEMS-Annual": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2021-CISCO SYSTEMS-10K": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2021-ASML-Annual": [
+        "A",
+        "AAA",
+        "AAA"
+    ],
+    "2021-Applied-Annual": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2021-Applied-10K": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2021-ALPHABET-Sustainability": [
+        "A",
+        "AAA",
+        "BBB"
+    ],
+    "2021-ALPHABET-10K": [
+        "A",
+        "AAA",
+        "BBB"
+    ],
+    "2020-TSMC-CSR": [
+        "AA",
+        "AAA",
+        "AAA"
+    ],
+    "2020-TSMC-Annual": [
+        "A",
+        "AAA",
+        "AAA"
+    ],
+    "2020-TEL-Sustainability": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-TEL-Annual": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-SAMSUNG ELECTRONICS-Sustainability": [
+        "A",
+        "AAA",
+        "A"
+    ],
+    "2020-SAMSUNG ELECTRONICS-Annual": [
+        "BBB",
+        "AA",
+        "A"
+    ],
+    "2020-MICROSOFT-CSR": [
+        "A",
+        "AAA",
+        "AAA"
+    ],
+    "2020-MICROSOFT-Annual": [
+        "A",
+        "AAA",
+        "AAA"
+    ],
+    "2020-MICROSOFT-10K": [
+        "A",
+        "AAA",
+        "AAA"
+    ],
+    "2020-Micron-Sustainability": [
+        "BB",
+        "A",
+        "BBB"
+    ],
+    "2020-Micron-10K": [
+        "A",
+        "AAA",
+        "BBB"
+    ],
+    "2020-LAM-ESG": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-LAM-Annual": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-LAM-10K": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-KLA-ESG": [
+        "B",
+        "BBB",
+        "BB"
+    ],
+    "2020-KLA-Annual": [
+        "A",
+        "AAA",
+        "BB"
+    ],
+    "2020-KLA-10K": [
+        "A",
+        "AAA",
+        "BB"
+    ],
+    "2020-Intel-CSR": [
+        "BBB",
+        "AA",
+        "A"
+    ],
+    "2020-Intel-10K": [
+        "BBB",
+        "AA",
+        "A"
+    ],
+    "2020-HP-Sustainability": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-HP-Annual": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-HP-10K": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-HEWLETT PACKARD ENTERPRISE-ESG": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-HEWLETT PACKARD ENTERPRISE-CSR": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-HEWLETT PACKARD ENTERPRISE-10K": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-CISCO SYSTEMS-CSR": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-CISCO SYSTEMS-Annual": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-CISCO SYSTEMS-10K": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-ASML-Annual": [
+        "AA",
+        "AAA",
+        "AAA"
+    ],
+    "2020-Applied-Sustainability": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-Applied-Annual": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-Applied-10K": [
+        "A",
+        "AAA",
+        "AA"
+    ],
+    "2020-ALPHABET-Sustainability": [
+        "A",
+        "AAA",
+        "BBB"
+    ],
+    "2020-ALPHABET-10K": [
+        "A",
+        "AAA",
+        "BBB"
+    ]
+}
